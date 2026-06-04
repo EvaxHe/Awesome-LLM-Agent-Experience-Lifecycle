@@ -41,16 +41,35 @@ def from_bib(text: str) -> dict[str, str]:
         url = field("url")
         if not url:
             eprint = field("eprint")
-            archive = (field("archseprefix") or field("archivePrefix") or "").lower()
-            if eprint and (("arxiv" in archive) or re.fullmatch(r"\d{4}\.\d{4,5}", eprint)):
-                url = f"https://arxiv.org/abs/{eprint}"
+            if eprint and re.search(r"\d{4}\.\d{4,5}", eprint):
+                url = f"https://arxiv.org/abs/{re.search(r'(\\d{4}\\.\\d{4,5})', eprint).group(1)}"
         if not url:
             doi = field("doi")
             if doi:
                 url = f"https://doi.org/{doi}"
+        if not url:
+            # many entries put the id in journal=, e.g. 'arXiv preprint arXiv:2504.19413'
+            bm = re.search(r"arxiv(?:\.org/abs)?[:/\s]*?(\d{4}\.\d{4,5})", body, re.I)
+            if bm:
+                url = f"https://arxiv.org/abs/{bm.group(1)}"
         if url:
             out[key] = url
     return out
+
+
+def normalize_link(v: str) -> str:
+    """Turn a raw cell ('https://…', 'arXiv:2504.19413', 'NeurIPS 2024', …) into
+    a URL, or '' if it carries no resolvable link."""
+    v = v.strip()
+    if v.lower().startswith("http"):
+        return v
+    m = re.search(r"(\d{4}\.\d{4,5})", v)
+    if m and re.search(r"arxiv", v, re.I):
+        return f"https://arxiv.org/abs/{m.group(1)}"
+    m = re.search(r"10\.\d{4,9}/\S+", v)  # bare DOI
+    if m:
+        return f"https://doi.org/{m.group(0)}"
+    return ""
 
 
 def from_csv(path: Path) -> dict[str, str]:
@@ -60,10 +79,20 @@ def from_csv(path: Path) -> dict[str, str]:
         return {}
     cols = {c.lower(): c for c in rows[0].keys()}
     key_col = next((cols[c] for c in ("bibkey", "key", "cite", "citekey") if c in cols), None)
-    url_col = next((cols[c] for c in cols if c in ("url", "link", "arxiv", "arxiv_url", "paper")), None)
-    if not key_col or not url_col:
+    # prefer explicit url/link, then an arxiv/venue/doi column (in that order).
+    # ('paper' is intentionally excluded — it matches audit columns like real_paper)
+    link_col = (next((cols[c] for c in ("url", "link", "arxiv_url") if c in cols), None)
+                or next((cols[c] for c in cols if "arxiv" in c), None)
+                or next((cols[c] for c in cols if "venue" in c), None)
+                or next((cols[c] for c in cols if "doi" in c), None))
+    if not key_col or not link_col:
         sys.exit(f"Could not find bibkey/url columns in {path.name}; headers: {list(cols.values())}")
-    return {r[key_col].strip(): r[url_col].strip() for r in rows if r.get(url_col, "").strip()}
+    out = {}
+    for r in rows:
+        link = normalize_link(r.get(link_col, ""))
+        if link:
+            out[r[key_col].strip()] = link
+    return out
 
 
 def main() -> None:

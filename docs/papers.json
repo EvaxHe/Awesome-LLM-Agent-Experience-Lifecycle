@@ -267,8 +267,8 @@
   {
    "bibkey": "single_multi_loop_2026",
    "title": "The Single-Multi Evolution Loop",
-   "link": "https://scholar.google.com/scholar?q=The+Single-Multi+Evolution+Loop",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2602.05182",
+   "direct": true,
    "year": 2026,
    "venue": "arXiv",
    "stages": [
@@ -509,8 +509,8 @@
   {
    "bibkey": "foundationagents2025",
    "title": "Advances in Foundation Agents",
-   "link": "https://scholar.google.com/scholar?q=Advances+in+Foundation+Agents",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2504.01990",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [],
@@ -558,8 +558,8 @@
   {
    "bibkey": "agentrxiv_2025",
    "title": "AgentRxiv: Parallel AI Research Labs",
-   "link": "https://scholar.google.com/scholar?q=AgentRxiv%3A+Parallel+AI+Research+Labs",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2503.18102",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -574,8 +574,8 @@
   {
    "bibkey": "alita2025",
    "title": "Alita: Autonomous MCP Construction",
-   "link": "https://scholar.google.com/scholar?q=Alita%3A+Autonomous+MCP+Construction",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2505.20286",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -815,8 +815,8 @@
   {
    "bibkey": "forecasting_rare_behavior_2025",
    "title": "Forecasting Rare LLM Behaviors",
-   "link": "https://scholar.google.com/scholar?q=Forecasting+Rare+LLM+Behaviors",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2502.16797",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [],
@@ -960,8 +960,8 @@
   {
    "bibkey": "leaky_thoughts_2025",
    "title": "Leaky Thoughts: Reasoning Traces Leak Private Data",
-   "link": "https://scholar.google.com/scholar?q=Leaky+Thoughts%3A+Reasoning+Traces+Leak+Private+Data",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2506.15674",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [],
@@ -1049,8 +1049,8 @@
   {
    "bibkey": "maas_2025",
    "title": "MaAS: Agentic Supernet",
-   "link": "https://scholar.google.com/scholar?q=MaAS%3A+Agentic+Supernet",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2502.04180",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1098,8 +1098,8 @@
   {
    "bibkey": "mem1_2025",
    "title": "MEM1: RL-Trained Memory Consolidation",
-   "link": "https://scholar.google.com/scholar?q=MEM1%3A+RL-Trained+Memory+Consolidation",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2506.15841",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1114,8 +1114,8 @@
   {
    "bibkey": "meminsight2025",
    "title": "MemInsight: Structured Memory Augmentation for Agents",
-   "link": "https://scholar.google.com/scholar?q=MemInsight%3A+Structured+Memory+Augmentation+for+Agents",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2503.21760",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1145,8 +1145,8 @@
   {
    "bibkey": "memos2025",
    "title": "MemOS: An Operating System for Memory",
-   "link": "https://scholar.google.com/scholar?q=MemOS%3A+An+Operating+System+for+Memory",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2505.22101",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1206,8 +1206,8 @@
   {
    "bibkey": "mae_2025",
    "title": "Multi-Agent Evolve (MAE)",
-   "link": "https://scholar.google.com/scholar?q=Multi-Agent+Evolve+%28MAE%29",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2510.23595",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1288,8 +1288,8 @@
   {
    "bibkey": "optima_2025",
    "title": "Optima: Multi-Agent RL for Communication Efficiency",
-   "link": "https://scholar.google.com/scholar?q=Optima%3A+Multi-Agent+RL+for+Communication+Efficiency",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2410.08115",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1630,8 +1630,8 @@
   {
    "bibkey": "toolgen_2025",
    "title": "ToolGen: Tools as Tokens",
-   "link": "https://scholar.google.com/scholar?q=ToolGen%3A+Tools+as+Tokens",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2410.03439",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1781,8 +1781,8 @@
   {
    "bibkey": "babilong_2024",
    "title": "BABILong",
-   "link": "https://scholar.google.com/scholar?q=BABILong",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2406.10149",
+   "direct": true,
    "year": 2024,
    "venue": "arXiv",
    "stages": [],
@@ -1845,8 +1845,8 @@
   {
    "bibkey": "locomo_2024",
    "title": "LOCOMO: Long Conversational Memory Benchmark",
-   "link": "https://scholar.google.com/scholar?q=LOCOMO%3A+Long+Conversational+Memory+Benchmark",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2402.17753",
+   "direct": true,
    "year": 2024,
    "venue": "arXiv",
    "stages": [],
@@ -1928,8 +1928,8 @@
   {
    "bibkey": "yao2023react",
    "title": "ReAct: Synergizing Reasoning and Acting",
-   "link": "https://scholar.google.com/scholar?q=ReAct%3A+Synergizing+Reasoning+and+Acting",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2210.03629",
+   "direct": true,
    "year": 2023,
    "venue": "ICLR",
    "stages": [],
@@ -1961,8 +1961,8 @@
   {
    "bibkey": "schick2023toolformer",
    "title": "Toolformer",
-   "link": "https://scholar.google.com/scholar?q=Toolformer",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2302.04761",
+   "direct": true,
    "year": 2023,
    "venue": "NeurIPS",
    "stages": [],
@@ -1995,8 +1995,8 @@
   {
    "bibkey": "hu2022lora",
    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
-   "link": "https://scholar.google.com/scholar?q=LoRA%3A+Low-Rank+Adaptation+of+Large+Language+Models",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2106.09685",
+   "direct": true,
    "year": 2022,
    "venue": "ICLR",
    "stages": [],
@@ -2009,8 +2009,8 @@
   {
    "bibkey": "ouyang2022rlhf",
    "title": "RLHF: Training Language Models to Follow Instructions with Human Feedback",
-   "link": "https://scholar.google.com/scholar?q=RLHF%3A+Training+Language+Models+to+Follow+Instructions+with+Human+Feedback",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2203.02155",
+   "direct": true,
    "year": 2022,
    "venue": "NeurIPS",
    "stages": [],
@@ -2023,8 +2023,8 @@
   {
    "bibkey": "brown2020fewshot",
    "title": "Language Models Are Few-Shot Learners",
-   "link": "https://scholar.google.com/scholar?q=Language+Models+Are+Few-Shot+Learners",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2005.14165",
+   "direct": true,
    "year": 2020,
    "venue": "NeurIPS",
    "stages": [],
@@ -2037,8 +2037,8 @@
   {
    "bibkey": "lewis2020rag",
    "title": "Retrieval-Augmented Generation",
-   "link": "https://scholar.google.com/scholar?q=Retrieval-Augmented+Generation",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2005.11401",
+   "direct": true,
    "year": 2020,
    "venue": "NeurIPS",
    "stages": [],
@@ -2051,8 +2051,8 @@
   {
    "bibkey": "clune2019aiga",
    "title": "AI-Generating Algorithms",
-   "link": "https://scholar.google.com/scholar?q=AI-Generating+Algorithms",
-   "direct": false,
+   "link": "https://arxiv.org/abs/1905.10985",
+   "direct": true,
    "year": 2019,
    "venue": "arXiv",
    "stages": [],
@@ -2093,8 +2093,8 @@
   {
    "bibkey": "finn2017maml",
    "title": "Model-Agnostic Meta-Learning",
-   "link": "https://scholar.google.com/scholar?q=Model-Agnostic+Meta-Learning",
-   "direct": false,
+   "link": "https://arxiv.org/abs/1703.03400",
+   "direct": true,
    "year": 2017,
    "venue": "ICML",
    "stages": [],
