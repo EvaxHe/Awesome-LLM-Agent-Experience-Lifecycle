@@ -69,6 +69,12 @@ cross-cutting **Governance / threat** layer that the others omit.
 
 ## The eight stages
 
+<p align="center">
+  <img src="assets/lifecycle_cycle.png" width="430"
+       alt="The eight Experience Lifecycle stages arranged as a closed loop: Acquisition → Representation → Retrieval → Consolidation → Abstraction → Internalization → Revision → Distribution, then back to Acquisition. Wrapped by a Governance overlay (provenance, attestation, revocation, quarantine, audit).">
+</p>
+<p align="center"><sub>The same eight stages as the closed loop they form — a revised, distributed agent generates new experience that re-enters at Acquisition.</sub></p>
+
 > Each paper appears under **every stage it touches** (so the same system can show up in more than
 > one table — exactly how the survey reads it). Systems spanning ≥5 stages are gathered under
 > [Cross-cutting frameworks](#cross-cutting-frameworks). Tables are generated from
