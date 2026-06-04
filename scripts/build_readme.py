@@ -16,6 +16,7 @@ import csv
 import datetime
 import json
 import re
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -98,10 +99,25 @@ def md_escape(text: str) -> str:
     return text.replace("|", "\\|").strip()
 
 
+def scholar_link(row: dict) -> str:
+    """Fallback when no canonical URL exists: a Google Scholar title search.
+    Keeps every entry clickable without risking a wrong direct link."""
+    q = urllib.parse.quote_plus(row.get("title", "").strip())
+    return f"https://scholar.google.com/scholar?q={q}"
+
+
+def best_link(row: dict) -> tuple[str, bool]:
+    """(url, is_direct). Direct paper link if known, else a Scholar search."""
+    link = arxiv_link(row)
+    return (link, True) if link else (scholar_link(row), False)
+
+
 def title_cell(row: dict) -> str:
     title = md_escape(row.get("title", "").strip())
-    link = arxiv_link(row)
-    return f"[{title}]({link})" if link else title
+    link, direct = best_link(row)
+    # a small magnifier marks search-fallback links so they're honest, not broken
+    suffix = "" if direct else " 🔎"
+    return f"[{title}]({link}){suffix}"
 
 
 def _paper_key(r: dict) -> str:
@@ -162,12 +178,23 @@ def main() -> None:
     crosscut: list[dict] = []
     comparison: list[dict] = []
     framing: list[dict] = []
+    benchmarks: list[dict] = []
+    governance: list[dict] = []
 
     for r in rows:
         raw = r.get("lifecycle_stage", "").strip()
+        label = raw.lower()
+        atype = r.get("agent_type", "").strip().lower()
         stages = parse_stages(raw)
         if not stages:
-            (comparison if raw.lower() in COMPARISON_LABELS else framing).append(r)
+            if label == "benchmark":
+                benchmarks.append(r)
+            elif label == "governance":
+                governance.append(r)
+            elif atype == "survey" or label in COMPARISON_LABELS:
+                comparison.append(r)
+            else:
+                framing.append(r)
         elif len(stages) >= CROSSCUT_MIN_STAGES:
             r["_stages"] = stages
             crosscut.append(r)
@@ -219,9 +246,39 @@ def main() -> None:
         )
     framing_md = "\n".join(fr_lines) if fr_lines else "_None yet._"
 
+    # ---- BENCHMARKS block (evaluation, survey §10) ----
+    bm_lines = [
+        "| Year | Benchmark | Venue | What it measures |",
+        "| :---: | --- | --- | --- |",
+    ]
+    for r in _dedup(sorted(benchmarks, key=lambda r: (-_year(r), r.get("title", "").lower()))):
+        bm_lines.append(
+            "| {y} | {t} | {v} | {c} |".format(
+                y=r.get("year", "").strip(), t=title_cell(r),
+                v=md_escape(r.get("venue", "")),
+                c=md_escape(r.get("key_contribution", "")),
+            )
+        )
+    benchmarks_md = "\n".join(bm_lines)
+
+    # ---- GOVERNANCE block (threats + defenses, survey §9) ----
+    gov_lines = [
+        "| Year | Paper | Venue | Threat / defense |",
+        "| :---: | --- | --- | --- |",
+    ]
+    for r in _dedup(sorted(governance, key=lambda r: (-_year(r), r.get("title", "").lower()))):
+        gov_lines.append(
+            "| {y} | {t} | {v} | {c} |".format(
+                y=r.get("year", "").strip(), t=title_cell(r),
+                v=md_escape(r.get("venue", "")),
+                c=md_escape(r.get("key_contribution", "")),
+            )
+        )
+    governance_md = "\n".join(gov_lines)
+
     # ---- STATS ----
     total = len(rows)
-    n_systems = total - len(comparison) - len(framing)
+    n_systems = total - len(comparison) - len(framing) - len(benchmarks) - len(governance)
     today = datetime.date.today().isoformat()
     counts = " · ".join(
         f"S{n} {len(stage_buckets[n])}" for n in STAGE_NAMES
@@ -229,6 +286,8 @@ def main() -> None:
     stats_md = (
         f"**{n_systems} systems** across the 8 stages "
         f"({len(crosscut)} cross-cutting) · "
+        f"**{len(benchmarks)} benchmarks** · "
+        f"**{len(governance)} governance/threat papers** · "
         f"**{len(comparison)} related surveys** · "
         f"last verified **{today}**\n\n"
         f"<sub>Per-stage counts (systems may appear under more than one stage): "
@@ -243,6 +302,8 @@ def main() -> None:
         "CROSSCUT": crosscut_md,
         "RELATED": related_md,
         "FRAMING": framing_md,
+        "BENCHMARKS": benchmarks_md,
+        "GOVERNANCE": governance_md,
     }
     for key, val in blocks.items():
         pat = re.compile(
@@ -257,23 +318,33 @@ def main() -> None:
     OUT.write_text(text, encoding="utf-8")
 
     # ---- emit docs/papers.json for the interactive site ----
-    def kind_of(raw: str, stages: list[int]) -> str:
+    def kind_of(r: dict, stages: list[int]) -> str:
+        label = r.get("lifecycle_stage", "").strip().lower()
+        atype = r.get("agent_type", "").strip().lower()
         if not stages:
-            return "survey" if raw.lower() in COMPARISON_LABELS else "framing"
+            if label == "benchmark":
+                return "benchmark"
+            if label == "governance":
+                return "governance"
+            if atype == "survey" or label in COMPARISON_LABELS:
+                return "survey"
+            return "framing"
         return "crosscut" if len(stages) >= CROSSCUT_MIN_STAGES else "system"
 
     papers = []
     for r in rows:
         raw = r.get("lifecycle_stage", "").strip()
         stages = parse_stages(raw)
+        link, direct = best_link(r)
         papers.append({
             "bibkey": r.get("bibkey", "").strip(),
             "title": r.get("title", "").strip(),
-            "link": arxiv_link(r),
+            "link": link,
+            "direct": direct,
             "year": _year(r),
             "venue": r.get("venue", "").strip(),
             "stages": stages,
-            "kind": kind_of(raw, stages),
+            "kind": kind_of(r, stages),
             "updated": r.get("what_is_updated", "").strip(),
             "experience": r.get("experience_type", "").strip(),
             "contribution": r.get("key_contribution", "").strip(),

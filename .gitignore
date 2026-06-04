@@ -11,3 +11,6 @@ venv/
 # Editor
 .vscode/
 .idea/
+
+# resolver scratch output
+scripts/_link_candidates.tsv

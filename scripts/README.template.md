@@ -109,7 +109,14 @@ governance primitive that defends it.
 | Model weights | S6 | Narrow fine-tuning on harmful / low-quality experience | Internalized parameters | Replay + monitoring |
 | Agent population | S8 | Saboteur peer injects poisoned experience into a shared pool | Distributed / federated experience | Population quarantine + trust defense |
 
-📄 Threat & defense papers are listed in the [S7](#s7) / [S8](#s8) tables and the [related surveys](#-related-surveys).
+### Threat & defense papers
+
+> Located by the stage they attack (per the EPTM above), grouped here as the cross-cutting
+> Governance overlay rather than under a single stage.
+
+<!-- BEGIN:GOVERNANCE -->
+_generated_
+<!-- END:GOVERNANCE -->
 
 ---
 
@@ -141,8 +148,13 @@ snapshot, and distinct from classical train-set contamination).
 `forward transfer` · `backward transfer` · `plasticity–stability` · `memory & retrieval cost over time` ·
 `skill-reuse rate` · `hidden-shortcutting (PIPE-style)` · `adversarial robustness of accumulated experience`.
 
-Lifelong-agent benchmarks are tagged in the [related surveys](#-related-surveys) and the CSV
-(`benchmark` column). A `rollback-and-rerun` delta is the recommended default BEC probe.
+A `rollback-and-rerun` delta is the recommended default BEC probe.
+
+### Lifelong-agent benchmarks
+
+<!-- BEGIN:BENCHMARKS -->
+_generated_
+<!-- END:BENCHMARKS -->
 
 ---
 
