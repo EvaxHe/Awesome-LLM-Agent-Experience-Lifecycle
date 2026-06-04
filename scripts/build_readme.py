@@ -180,6 +180,7 @@ def main() -> None:
     framing: list[dict] = []
     benchmarks: list[dict] = []
     governance: list[dict] = []
+    foundations: list[dict] = []
 
     for r in rows:
         raw = r.get("lifecycle_stage", "").strip()
@@ -191,6 +192,8 @@ def main() -> None:
                 benchmarks.append(r)
             elif label == "governance":
                 governance.append(r)
+            elif label == "foundation":
+                foundations.append(r)
             elif atype == "survey" or label in COMPARISON_LABELS:
                 comparison.append(r)
             else:
@@ -276,9 +279,25 @@ def main() -> None:
         )
     governance_md = "\n".join(gov_lines)
 
+    # ---- FOUNDATIONS block (classic background; survey §2.7 etc.) ----
+    fo_lines = [
+        "| Year | Paper | Venue | Why it's here |",
+        "| :---: | --- | --- | --- |",
+    ]
+    for r in _dedup(sorted(foundations, key=lambda r: (-_year(r), r.get("title", "").lower()))):
+        fo_lines.append(
+            "| {y} | {t} | {v} | {c} |".format(
+                y=r.get("year", "").strip(), t=title_cell(r),
+                v=md_escape(r.get("venue", "")),
+                c=md_escape(r.get("key_contribution", "")),
+            )
+        )
+    foundations_md = "\n".join(fo_lines)
+
     # ---- STATS ----
     total = len(rows)
-    n_systems = total - len(comparison) - len(framing) - len(benchmarks) - len(governance)
+    n_systems = (total - len(comparison) - len(framing) - len(benchmarks)
+                 - len(governance) - len(foundations))
     today = datetime.date.today().isoformat()
     counts = " · ".join(
         f"S{n} {len(stage_buckets[n])}" for n in STAGE_NAMES
@@ -304,6 +323,7 @@ def main() -> None:
         "FRAMING": framing_md,
         "BENCHMARKS": benchmarks_md,
         "GOVERNANCE": governance_md,
+        "FOUNDATIONS": foundations_md,
     }
     for key, val in blocks.items():
         pat = re.compile(
@@ -326,6 +346,8 @@ def main() -> None:
                 return "benchmark"
             if label == "governance":
                 return "governance"
+            if label == "foundation":
+                return "foundation"
             if atype == "survey" or label in COMPARISON_LABELS:
                 return "survey"
             return "framing"

@@ -14,9 +14,9 @@ from raw interaction to persistent memory, abstracted skills, internalized weigh
 [![License](https://img.shields.io/github/license/EvaxHe/Awesome-LLM-Agent-Experience-Lifecycle)](LICENSE)
 
 <!-- BEGIN:STATS -->
-**93 systems** across the 8 stages (6 cross-cutting) · **12 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-04**
+**84 systems** across the 8 stages (6 cross-cutting) · **12 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-04**
 
-<sub>Per-stage counts (systems may appear under more than one stage): S1 23 · S2 14 · S3 14 · S4 18 · S5 24 · S6 43 · S7 3 · S8 12</sub>
+<sub>Per-stage counts (systems may appear under more than one stage): S1 19 · S2 14 · S3 12 · S4 18 · S5 24 · S6 39 · S7 1 · S8 11</sub>
 <!-- END:STATS -->
 
 </div>
@@ -64,6 +64,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 - [Routing: where should an experience signal live?](#-routing-where-should-an-experience-signal-live)
 - [Evaluating change over time](#-evaluating-change-over-time)
 - [Related surveys](#-related-surveys)
+- [Foundations & background](#foundations--background)
 - [Framing & position pieces](#framing--position-pieces)
 - [Open problems](#-open-problems)
 - [Citation](#-citation) · [Contributing](#-contributing) · [Star history](#-star-history)
@@ -78,7 +79,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 > [`data/literature_matrix.csv`](data/literature_matrix.csv); **edit the CSV, not this file.**
 
 <!-- BEGIN:STAGES -->
-### <a id="s1"></a>S1 — Acquisition  ·  `23 systems`
+### <a id="s1"></a>S1 — Acquisition  ·  `19 systems`
 
 > What experience is collected — trajectories, outcomes, reflections, self-generated tasks, peer feedback, pseudo-labels.
 
@@ -102,11 +103,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | arXiv | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
 | 2024 | [ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting](https://arxiv.org/html/2510.10304v1) | arXiv 2510.10304 | External demonstration store + ICL | HER-for-LM-agents formulation |  |
 | 2023 | [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) | arXiv 2308.10144 | External insight library | Insight extraction across tasks | [![stars](https://img.shields.io/github/stars/LeapLabTHU/ExpeL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/LeapLabTHU/ExpeL) |
-| 2023 | [ReAct: Synergizing Reasoning and Acting](https://scholar.google.com/scholar?q=ReAct%3A+Synergizing+Reasoning+and+Acting) 🔎 | ICLR | Prompt | ReAct paradigm |  |
 | 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | NeurIPS 2023 | External episodic notes | Verbal RL substitute for parameter updates |  |
-| 2023 | [Toolformer](https://scholar.google.com/scholar?q=Toolformer) 🔎 | NeurIPS | Weights | Self-supervised tool learning |  |
-| 2019 | [Experience Replay for Continual Learning](https://scholar.google.com/scholar?q=Experience+Replay+for+Continual+Learning) 🔎 | NeurIPS | Weights | Replay for continual learning |  |
-| 2017 | [Mastering the Game of Go without Human Knowledge](https://scholar.google.com/scholar?q=Mastering+the+Game+of+Go+without+Human+Knowledge) 🔎 | Nature | Weights | Self-play to superhuman |  |
 
 ### <a id="s2"></a>S2 — Representation  ·  `14 systems`
 
@@ -129,7 +126,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://dl.acm.org/doi/10.1145/3586183.3606763) | UIST 2023 | External memory stream | Architecture: memory stream + reflection + planning |  |
 | 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | NeurIPS 2023 | External episodic notes | Verbal RL substitute for parameter updates |  |
 
-### <a id="s3"></a>S3 — Retrieval & Use  ·  `14 systems`
+### <a id="s3"></a>S3 — Retrieval & Use  ·  `12 systems`
 
 > How stored experience is surfaced for the current task — similarity, attribute, learned, hierarchical, and hindsight-conditioned retrieval.
 
@@ -146,9 +143,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2024 | [RAHL: Retrieval-Augmented Hierarchical In-Context RL](https://arxiv.org/abs/2408.06520) | arXiv 2408.06520 | ICL + retrieval | 9-42% improvement via retrieval |  |
 | 2024 | [REGENT: A Retrieval-Augmented Generalist Agent That Can Act In-Context](https://arxiv.org/abs/2412.04759) | arXiv 2412.04759 | External + ICL | 3x fewer parameters via retrieval |  |
 | 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://dl.acm.org/doi/10.1145/3586183.3606763) | UIST 2023 | External memory stream | Architecture: memory stream + reflection + planning |  |
-| 2023 | [ReAct: Synergizing Reasoning and Acting](https://scholar.google.com/scholar?q=ReAct%3A+Synergizing+Reasoning+and+Acting) 🔎 | ICLR | Prompt | ReAct paradigm |  |
 | 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | NeurIPS 2023 | External episodic notes | Verbal RL substitute for parameter updates |  |
-| 2020 | [Retrieval-Augmented Generation](https://scholar.google.com/scholar?q=Retrieval-Augmented+Generation) 🔎 | NeurIPS | External + ICL | Foundational RAG |  |
 
 ### <a id="s4"></a>S4 — Consolidation  ·  `18 systems`
 
@@ -206,7 +201,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2024 | [Continual Learning of Multimodal Agents by Transforming Trajectories into Actionable Insights](https://arxiv.org/abs/2406.14596v1) | arXiv 2406.14596 | External insights | Trajectory-to-insight pipeline |  |
 | 2023 | [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) | arXiv 2308.10144 | External insight library | Insight extraction across tasks | [![stars](https://img.shields.io/github/stars/LeapLabTHU/ExpeL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/LeapLabTHU/ExpeL) |
 
-### <a id="s6"></a>S6 — Internalization  ·  `43 systems`
+### <a id="s6"></a>S6 — Internalization  ·  `39 systems`
 
 > How experience becomes parameters — trajectory-SFT, RL with verifiable rewards, self-edits, test-time training, adapter selection, distillation.
 
@@ -251,22 +246,16 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | arXiv | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
 | 2025 | [ZeroSearch](https://scholar.google.com/scholar?q=ZeroSearch) 🔎 | arXiv | Weights | RL without real search |  |
 | 2024 | [ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting](https://arxiv.org/html/2510.10304v1) | arXiv 2510.10304 | External demonstration store + ICL | HER-for-LM-agents formulation |  |
-| 2023 | [Toolformer](https://scholar.google.com/scholar?q=Toolformer) 🔎 | NeurIPS | Weights | Self-supervised tool learning |  |
-| 2022 | [LoRA: Low-Rank Adaptation of Large Language Models](https://scholar.google.com/scholar?q=LoRA%3A+Low-Rank+Adaptation+of+Large+Language+Models) 🔎 | ICLR | Weights | Foundational PEFT |  |
-| 2022 | [RLHF: Training Language Models to Follow Instructions with Human Feedback](https://scholar.google.com/scholar?q=RLHF%3A+Training+Language+Models+to+Follow+Instructions+with+Human+Feedback) 🔎 | NeurIPS | Weights | Foundational RLHF |  |
-| 2017 | [Mastering the Game of Go without Human Knowledge](https://scholar.google.com/scholar?q=Mastering+the+Game+of+Go+without+Human+Knowledge) 🔎 | Nature | Weights | Self-play to superhuman |  |
 
-### <a id="s7"></a>S7 — Revision & Forgetting  ·  `3 systems`
+### <a id="s7"></a>S7 — Revision & Forgetting  ·  `1 systems`
 
 > How stale, wrong, or harmful experience is removed — memory editing, unlearning, drift correction.
 
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
 | 2025 | [MemOS: An Operating System for Memory](https://scholar.google.com/scholar?q=MemOS%3A+An+Operating+System+for+Memory) 🔎 | arXiv | External memory | Memory OS abstraction |  |
-| 2019 | [Experience Replay for Continual Learning](https://scholar.google.com/scholar?q=Experience+Replay+for+Continual+Learning) 🔎 | NeurIPS | Weights | Replay for continual learning |  |
-| 1989 | [Catastrophic Interference in Connectionist Networks](https://scholar.google.com/scholar?q=Catastrophic+Interference+in+Connectionist+Networks) 🔎 | Psychology of Learning | Weights | Foundational forgetting |  |
 
-### <a id="s8"></a>S8 — Distribution  ·  `12 systems`
+### <a id="s8"></a>S8 — Distribution  ·  `11 systems`
 
 > How experience moves across agents, users, teams, and repositories — multi-agent sharing, federated pools, protocols, skill registries.
 
@@ -283,7 +272,6 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [Multi-Agent Evolve (MAE)](https://scholar.google.com/scholar?q=Multi-Agent+Evolve+%28MAE%29) 🔎 | arXiv | Weights | Co-evolution dynamics |  |
 | 2025 | [Optima: Multi-Agent RL for Communication Efficiency](https://scholar.google.com/scholar?q=Optima%3A+Multi-Agent+RL+for+Communication+Efficiency) 🔎 | arXiv | Weights | 2.8x performance with <10% tokens |  |
 | 2025 | [Self-Taught Evaluators](https://scholar.google.com/scholar?q=Self-Taught+Evaluators) 🔎 | arXiv | Weights | Match GPT-4 as judge |  |
-| 2016 | [Emergent Communication in Multi-Agent RL](https://scholar.google.com/scholar?q=Emergent+Communication+in+Multi-Agent+RL) 🔎 | NeurIPS | Weights | Emergent communication |  |
 
 <!-- END:STAGES -->
 
@@ -416,14 +404,34 @@ How the prior surveys map onto the lifecycle (this is the companion to the surve
 | 2024 | [A Survey on the Memory Mechanism of LLM-based Agents](https://scholar.google.com/scholar?q=A+Survey+on+the+Memory+Mechanism+of+LLM-based+Agents) 🔎 | arXiv | Foundational; cited heavily for stage 2 vocabulary |
 <!-- END:RELATED -->
 
+## Foundations & background
+
+> Classic, pre-agent work that the lifecycle builds on (continual learning, RL, adaptation,
+> retrieval, tool use). Not experience-driven lifelong-agent systems themselves — included as
+> grounding (cf. survey §2.7).
+
+<!-- BEGIN:FOUNDATIONS -->
+| Year | Paper | Venue | Why it's here |
+| :---: | --- | --- | --- |
+| 2023 | [ReAct: Synergizing Reasoning and Acting](https://scholar.google.com/scholar?q=ReAct%3A+Synergizing+Reasoning+and+Acting) 🔎 | ICLR | ReAct paradigm |
+| 2023 | [Toolformer](https://scholar.google.com/scholar?q=Toolformer) 🔎 | NeurIPS | Self-supervised tool learning |
+| 2022 | [LoRA: Low-Rank Adaptation of Large Language Models](https://scholar.google.com/scholar?q=LoRA%3A+Low-Rank+Adaptation+of+Large+Language+Models) 🔎 | ICLR | Foundational PEFT |
+| 2022 | [RLHF: Training Language Models to Follow Instructions with Human Feedback](https://scholar.google.com/scholar?q=RLHF%3A+Training+Language+Models+to+Follow+Instructions+with+Human+Feedback) 🔎 | NeurIPS | Foundational RLHF |
+| 2020 | [Language Models Are Few-Shot Learners](https://scholar.google.com/scholar?q=Language+Models+Are+Few-Shot+Learners) 🔎 | NeurIPS | Emergent ICL |
+| 2020 | [Retrieval-Augmented Generation](https://scholar.google.com/scholar?q=Retrieval-Augmented+Generation) 🔎 | NeurIPS | Foundational RAG |
+| 2019 | [Experience Replay for Continual Learning](https://scholar.google.com/scholar?q=Experience+Replay+for+Continual+Learning) 🔎 | NeurIPS | Replay for continual learning |
+| 2017 | [Mastering the Game of Go without Human Knowledge](https://scholar.google.com/scholar?q=Mastering+the+Game+of+Go+without+Human+Knowledge) 🔎 | Nature | Self-play to superhuman |
+| 2017 | [Model-Agnostic Meta-Learning](https://scholar.google.com/scholar?q=Model-Agnostic+Meta-Learning) 🔎 | ICML | Foundational meta-learning |
+| 2016 | [Emergent Communication in Multi-Agent RL](https://scholar.google.com/scholar?q=Emergent+Communication+in+Multi-Agent+RL) 🔎 | NeurIPS | Emergent communication |
+| 1989 | [Catastrophic Interference in Connectionist Networks](https://scholar.google.com/scholar?q=Catastrophic+Interference+in+Connectionist+Networks) 🔎 | Psychology of Learning | Foundational forgetting |
+<!-- END:FOUNDATIONS -->
+
 ## Framing & position pieces
 
 <!-- BEGIN:FRAMING -->
 - [Active Inference in the Era of Experience](https://arxiv.org/abs/2508.05619) — *Theoretical complement to era of experience*
 - [Welcome to the Era of Experience](https://theaiinnovator.com/welcome-to-the-era-of-experience/) — *Names the paradigm we survey*
-- [Language Models Are Few-Shot Learners](https://scholar.google.com/scholar?q=Language+Models+Are+Few-Shot+Learners) 🔎 — *Emergent ICL*
 - [AI-Generating Algorithms](https://scholar.google.com/scholar?q=AI-Generating+Algorithms) 🔎 — *Foundational AI-GA framework*
-- [Model-Agnostic Meta-Learning](https://scholar.google.com/scholar?q=Model-Agnostic+Meta-Learning) 🔎 — *Foundational meta-learning*
 - [Why Greatness Cannot Be Planned](https://scholar.google.com/scholar?q=Why+Greatness+Cannot+Be+Planned) 🔎 — *Foundational open-ended evolution*
 - [Gödel Machines](https://scholar.google.com/scholar?q=G%C3%B6del+Machines) 🔎 — *Theoretical foundation*
 <!-- END:FRAMING -->

@@ -1932,11 +1932,8 @@
    "direct": false,
    "year": 2023,
    "venue": "ICLR",
-   "stages": [
-    1,
-    3
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Prompt",
    "experience": "Outcomes",
    "contribution": "ReAct paradigm",
@@ -1968,11 +1965,8 @@
    "direct": false,
    "year": 2023,
    "venue": "NeurIPS",
-   "stages": [
-    1,
-    6
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Self-generated",
    "contribution": "Self-supervised tool learning",
@@ -2005,10 +1999,8 @@
    "direct": false,
    "year": 2022,
    "venue": "ICLR",
-   "stages": [
-    6
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Mixed",
    "contribution": "Foundational PEFT",
@@ -2021,10 +2013,8 @@
    "direct": false,
    "year": 2022,
    "venue": "NeurIPS",
-   "stages": [
-    6
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Human feedback",
    "contribution": "Foundational RLHF",
@@ -2038,7 +2028,7 @@
    "year": 2020,
    "venue": "NeurIPS",
    "stages": [],
-   "kind": "framing",
+   "kind": "foundation",
    "updated": "N/A",
    "experience": "N/A",
    "contribution": "Emergent ICL",
@@ -2051,10 +2041,8 @@
    "direct": false,
    "year": 2020,
    "venue": "NeurIPS",
-   "stages": [
-    3
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "External + ICL",
    "experience": "Mixed",
    "contribution": "Foundational RAG",
@@ -2081,11 +2069,8 @@
    "direct": false,
    "year": 2019,
    "venue": "NeurIPS",
-   "stages": [
-    1,
-    7
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Trajectories",
    "contribution": "Replay for continual learning",
@@ -2098,11 +2083,8 @@
    "direct": false,
    "year": 2017,
    "venue": "Nature",
-   "stages": [
-    1,
-    6
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Self-play",
    "contribution": "Self-play to superhuman",
@@ -2116,7 +2098,7 @@
    "year": 2017,
    "venue": "ICML",
    "stages": [],
-   "kind": "framing",
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Conceptual",
    "contribution": "Foundational meta-learning",
@@ -2129,10 +2111,8 @@
    "direct": false,
    "year": 2016,
    "venue": "NeurIPS",
-   "stages": [
-    8
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Inter-agent",
    "contribution": "Emergent communication",
@@ -2173,10 +2153,8 @@
    "direct": false,
    "year": 1989,
    "venue": "Psychology of Learning",
-   "stages": [
-    7
-   ],
-   "kind": "system",
+   "stages": [],
+   "kind": "foundation",
    "updated": "Weights",
    "experience": "Conceptual",
    "contribution": "Foundational forgetting",

@@ -62,6 +62,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 - [Routing: where should an experience signal live?](#-routing-where-should-an-experience-signal-live)
 - [Evaluating change over time](#-evaluating-change-over-time)
 - [Related surveys](#-related-surveys)
+- [Foundations & background](#foundations--background)
 - [Framing & position pieces](#framing--position-pieces)
 - [Open problems](#-open-problems)
 - [Citation](#-citation) · [Contributing](#-contributing) · [Star history](#-star-history)
@@ -165,6 +166,16 @@ How the prior surveys map onto the lifecycle (this is the companion to the surve
 <!-- BEGIN:RELATED -->
 _generated_
 <!-- END:RELATED -->
+
+## Foundations & background
+
+> Classic, pre-agent work that the lifecycle builds on (continual learning, RL, adaptation,
+> retrieval, tool use). Not experience-driven lifelong-agent systems themselves — included as
+> grounding (cf. survey §2.7).
+
+<!-- BEGIN:FOUNDATIONS -->
+_generated_
+<!-- END:FOUNDATIONS -->
 
 ## Framing & position pieces
 

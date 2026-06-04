@@ -53,6 +53,14 @@ GOVERNANCE = {
 # Related surveys whose lifecycle_stage held a descriptive label instead of 'Comparison'.
 SURVEY_RELABEL = {"zhang2025agenticrl", "beyond2025modelnative", "jiang2025adaptation"}
 
+# Classic pre-agent background (continual learning, RL, adaptation, retrieval, tool use) —
+# move out of the 2025-era stage tables into a 'Foundations & background' section.
+FOUNDATION = {
+    "mccloskey1989forgetting", "foerster2016emergent", "silver2017alphagozero",
+    "finn2017maml", "rolnick2019replay", "lewis2020rag", "brown2020fewshot",
+    "hu2022lora", "ouyang2022rlhf", "yao2023react", "schick2023toolformer",
+}
+
 
 def main() -> None:
     rows = list(csv.DictReader(CSV.open(encoding="utf-8")))
@@ -82,6 +90,9 @@ def main() -> None:
         elif bk in SURVEY_RELABEL and r["lifecycle_stage"].strip() != "Comparison":
             changes.append(f"CAT    {bk}: {r['lifecycle_stage']!r} -> 'Comparison'")
             r["lifecycle_stage"] = "Comparison"
+        elif bk in FOUNDATION and r["lifecycle_stage"].strip() != "Foundation":
+            changes.append(f"CAT    {bk}: {r['lifecycle_stage']!r} -> 'Foundation'")
+            r["lifecycle_stage"] = "Foundation"
         out.append(r)
 
     # Atomic write: temp file then replace, so a crash never truncates the CSV.
