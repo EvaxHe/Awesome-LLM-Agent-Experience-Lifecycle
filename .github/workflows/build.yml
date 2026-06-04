@@ -1,0 +1,58 @@
+name: Build README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/**"
+  schedule:
+    - cron: "17 6 * * 1" # weekly, Monday 06:17 UTC — keeps "last verified" fresh
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate README + papers.json from the CSV
+        run: python scripts/build_readme.py
+
+      # On PRs: fail if the contributor edited the CSV but didn't rebuild.
+      - name: Validate README is in sync (PRs)
+        if: github.event_name == 'pull_request'
+        run: |
+          if ! git diff --quiet -- README.md docs/papers.json; then
+            echo "::error::README.md / docs/papers.json are out of date."
+            echo "Run 'python scripts/build_readme.py' and commit the result."
+            git --no-pager diff -- README.md docs/papers.json
+            exit 1
+          fi
+          echo "Generated files are in sync."
+
+      # On main / schedule / manual: commit the refresh (e.g. the date bump).
+      - name: Commit refreshed files
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet -- README.md docs/papers.json; then
+            echo "Nothing to refresh."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md docs/papers.json
+          git commit -m 'chore: refresh generated list (last-verified date / tables)'
+          git push

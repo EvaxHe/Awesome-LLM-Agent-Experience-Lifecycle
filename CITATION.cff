@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite the survey below."
+title: "Learning From Experience: A Lifecycle Survey of Memory, Skills, and Self-Evolution in Lifelong LLM Agents"
+abstract: >-
+  A survey that organizes the lifelong / self-evolving LLM-agent literature by
+  the lifecycle of experience: an eight-stage pipeline (Acquisition,
+  Representation, Retrieval, Consolidation, Abstraction, Internalization,
+  Revision, Distribution) plus a cross-cutting Governance overlay.
+authors:
+  - family-names: He
+    given-names: Eva
+    # TODO: add co-authors before arXiv submission
+type: article
+year: 2026
+# TODO: fill these once the paper is on arXiv
+# url: "https://arxiv.org/abs/XXXX.XXXXX"
+# doi: "10.48550/arXiv.XXXX.XXXXX"
+repository-code: "https://github.com/EvaxHe/Awesome-LLM-Agent-Experience-Lifecycle"
+keywords:
+  - lifelong agents
+  - LLM agents
+  - self-evolving agents
+  - agent memory
+  - skill libraries
+  - experience-driven learning
+  - continual learning
+  - agent safety

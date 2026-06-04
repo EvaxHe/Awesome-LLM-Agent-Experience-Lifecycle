@@ -1,0 +1,2122 @@
+{
+ "generated": "2026-06-03",
+ "stage_names": {
+  "1": "Acquisition",
+  "2": "Representation",
+  "3": "Retrieval & Use",
+  "4": "Consolidation",
+  "5": "Abstraction",
+  "6": "Internalization",
+  "7": "Revision & Forgetting",
+  "8": "Distribution"
+ },
+ "papers": [
+  {
+   "bibkey": "adaptive_compute_test_time_2026",
+   "title": "Adaptive Compute Allocation for Code Generation via Test-Time Training",
+   "link": "https://arxiv.org/html/2601.00894",
+   "year": 2026,
+   "venue": "arXiv 2601.00894",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Test stream",
+   "contribution": "Training-free gating for TTT",
+   "code": ""
+  },
+  {
+   "bibkey": "evolving_open_ended_2026",
+   "title": "Agent Evolving Learning for Open-Ended Environments",
+   "link": "https://arxiv.org/html/2604.21725v1",
+   "year": 2026,
+   "venue": "arXiv 2604.21725",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "kind": "crosscut",
+   "updated": "Memory + tools",
+   "experience": "Trajectories + tools",
+   "contribution": "Open-ended evolutionary learning",
+   "code": ""
+  },
+  {
+   "bibkey": "loca_bench_2026",
+   "title": "Benchmarking Language Agents Under Controllable and Extreme Context Growth",
+   "link": "https://arxiv.org/html/2602.07962",
+   "year": 2026,
+   "venue": "arXiv 2602.07962",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Mixed",
+   "contribution": "Tests context-management",
+   "code": ""
+  },
+  {
+   "bibkey": "benchmark_self_evolving_memory_2026",
+   "title": "Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory",
+   "link": "https://arxiv.org/abs/2511.20857",
+   "year": 2026,
+   "venue": "arXiv 2511.20857",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Trajectories",
+   "contribution": "Test-time learning + memory benchmark",
+   "code": ""
+  },
+  {
+   "bibkey": "characterizing_emergent_2026",
+   "title": "Characterizing an Emergent Learning Community at Scale",
+   "link": "https://arxiv.org/html/2602.18832v1",
+   "year": 2026,
+   "venue": "arXiv 2602.18832",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Mixed",
+   "experience": "Trajectories",
+   "contribution": "2.8M agents in 3 weeks",
+   "code": ""
+  },
+  {
+   "bibkey": "cowork_x_2026",
+   "title": "CoWork-X: Experience-Optimized Multi-Agent Co-Evolution",
+   "link": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "stages": [
+    4,
+    6,
+    8
+   ],
+   "kind": "system",
+   "updated": "Memory + weights",
+   "experience": "Trajectories",
+   "contribution": "Fast-slow co-evolution",
+   "code": ""
+  },
+  {
+   "bibkey": "evotool_2026",
+   "title": "EvoTool",
+   "link": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "stages": [
+    5,
+    8
+   ],
+   "kind": "system",
+   "updated": "Tool registry",
+   "experience": "Trajectories",
+   "contribution": "Tools-from-experience",
+   "code": ""
+  },
+  {
+   "bibkey": "factorminer_2026",
+   "title": "FactorMiner",
+   "link": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "stages": [
+    5
+   ],
+   "kind": "system",
+   "updated": "External factor library",
+   "experience": "Trajectories",
+   "contribution": "Reusable factor abstraction",
+   "code": ""
+  },
+  {
+   "bibkey": "yue2026workflow",
+   "title": "From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents",
+   "link": "https://arxiv.org/html/2603.22386",
+   "year": 2026,
+   "venue": "arXiv 2603.22386",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Workflow",
+   "experience": "Workflow",
+   "contribution": "Workflow-centric survey",
+   "code": ""
+  },
+  {
+   "bibkey": "luo2026storage",
+   "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+   "link": "https://arxiv.org/html/2605.06716v1",
+   "year": 2026,
+   "venue": "arXiv 2605.06716 / ICLR 2026",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Memory",
+   "experience": "Memory",
+   "contribution": "Closest naming framing",
+   "code": "https://github.com/FeishuLuo/Evolving-LLM-Agent-Memory-Survey"
+  },
+  {
+   "bibkey": "geoevolver_2026",
+   "title": "GeoEvolver: Experience-Driven Multi-Agent Earth Observation",
+   "link": "https://arxiv.org/html/2602.02559",
+   "year": 2026,
+   "venue": "arXiv 2602.02559",
+   "stages": [
+    1,
+    5
+   ],
+   "kind": "system",
+   "updated": "Memory + tools",
+   "experience": "Trajectories",
+   "contribution": "Domain-specific multi-agent experience",
+   "code": ""
+  },
+  {
+   "bibkey": "learn_to_retrieve_2026",
+   "title": "Learning to Retrieve from Agent Trajectories",
+   "link": "https://arxiv.org/html/2604.04949v1",
+   "year": 2026,
+   "venue": "arXiv 2604.04949",
+   "stages": [
+    3
+   ],
+   "kind": "system",
+   "updated": "Retriever weights",
+   "experience": "Trajectories",
+   "contribution": "Trajectory-aware retrieval",
+   "code": ""
+  },
+  {
+   "bibkey": "shi2026memorymech",
+   "title": "Mechanisms Evaluation and Emerging Frontiers (Agent Memory)",
+   "link": "https://arxiv.org/abs/2603.07670",
+   "year": 2026,
+   "venue": "arXiv 2603.07670",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Memory",
+   "experience": "Memory",
+   "contribution": "Detailed memory survey",
+   "code": ""
+  },
+  {
+   "bibkey": "privacy_multi_agent_2026",
+   "title": "Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense",
+   "link": "https://arxiv.org/html/2603.02240v1",
+   "year": 2026,
+   "venue": "arXiv 2603.02240",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Adversarial",
+   "contribution": "Privacy-preserving multi-agent memory",
+   "code": ""
+  },
+  {
+   "bibkey": "self_calibrating_test_time_2026",
+   "title": "SECL: Self-Calibrating LMs via Test-Time Discriminative Distillation",
+   "link": "https://arxiv.org/abs/2604.09624",
+   "year": 2026,
+   "venue": "arXiv 2604.09624",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Test stream",
+   "contribution": "Selective test-time adaptation",
+   "code": ""
+  },
+  {
+   "bibkey": "deep_research_2026",
+   "title": "Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification",
+   "link": "https://arxiv.org/abs/2601.15808",
+   "year": 2026,
+   "venue": "arXiv 2601.15808",
+   "stages": [
+    4,
+    6
+   ],
+   "kind": "system",
+   "updated": "Memory + prompts",
+   "experience": "Rubric feedback",
+   "contribution": "Plug-and-play test-time self-evolution",
+   "code": ""
+  },
+  {
+   "bibkey": "single_multi_loop_2026",
+   "title": "The Single-Multi Evolution Loop",
+   "link": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "stages": [
+    5,
+    6,
+    8
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Trajectories",
+   "contribution": "Single-multi loop",
+   "code": ""
+  },
+  {
+   "bibkey": "fang2026trajectory",
+   "title": "Trajectory-Informed Memory Generation for Self-Improving Agent Systems",
+   "link": "https://arxiv.org/html/2603.10600",
+   "year": 2026,
+   "venue": "arXiv 2603.10600",
+   "stages": [
+    3,
+    4,
+    5
+   ],
+   "kind": "system",
+   "updated": "External tip memory",
+   "experience": "Trajectories",
+   "contribution": "Sub-task vs task-level memory comparison",
+   "code": ""
+  },
+  {
+   "bibkey": "unified_evolution_skill_rl_2026",
+   "title": "Unified Evolution of Skill-Augmented Agents via RL",
+   "link": "https://arxiv.org/html/2605.06130v3",
+   "year": 2026,
+   "venue": "arXiv 2605.06130",
+   "stages": [
+    5,
+    6
+   ],
+   "kind": "system",
+   "updated": "Skills + weights",
+   "experience": "Trajectories",
+   "contribution": "Skill+RL unified",
+   "code": ""
+  },
+  {
+   "bibkey": "piperesearch2026",
+   "title": "What Do Agents Learn from Trajectory-SFT (PIPE)",
+   "link": "https://arxiv.org/html/2602.01611v1",
+   "year": 2026,
+   "venue": "arXiv 2602.01611",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Trajectories",
+   "contribution": "Trajectory-SFT amplifies interface shortcutting",
+   "code": ""
+  },
+  {
+   "bibkey": "fang2025selfevolving",
+   "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+   "link": "https://arxiv.org/abs/2508.07407",
+   "year": 2025,
+   "venue": "arXiv 2508.07407",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Mixed",
+   "experience": "Mixed",
+   "contribution": "Strong loop framework",
+   "code": ""
+  },
+  {
+   "bibkey": "selfevol_gui_2025",
+   "title": "A Self-Evolving GUI Agent Learning via Failed Experience",
+   "link": "https://arxiv.org/html/2603.24533",
+   "year": 2025,
+   "venue": "arXiv 2603.24533",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Failed trajectories",
+   "contribution": "Learning from failure",
+   "code": ""
+  },
+  {
+   "bibkey": "self_optim_dynamic_workflow_2025",
+   "title": "A Self-Optimizing Agent with Dynamic Hierarchical Workflow",
+   "link": "https://arxiv.org/html/2508.02959",
+   "year": 2025,
+   "venue": "arXiv 2508.02959",
+   "stages": [
+    4,
+    5
+   ],
+   "kind": "system",
+   "updated": "Workflow",
+   "experience": "Reflections",
+   "contribution": "Workflow self-optimization",
+   "code": ""
+  },
+  {
+   "bibkey": "gao2025selfevolving",
+   "title": "A Survey of Self-Evolving Agents: On the Path to Artificial Super Intelligence",
+   "link": "https://arxiv.org/abs/2507.21046v2",
+   "year": 2025,
+   "venue": "arXiv 2507.21046",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Mixed",
+   "experience": "Mixed",
+   "contribution": "Closest taxonomy competitor",
+   "code": ""
+  },
+  {
+   "bibkey": "unified2025memorycog",
+   "title": "A Unified Survey on Memory Systems from Cognitive Neuroscience to Autonomous Agents",
+   "link": "https://arxiv.org/html/2512.23343v1",
+   "year": 2025,
+   "venue": "arXiv 2512.23343",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Memory",
+   "experience": "Memory",
+   "contribution": "Connection to cognitive science",
+   "code": ""
+  },
+  {
+   "bibkey": "amem2025",
+   "title": "A-MEM: Zettelkasten-Inspired Self-Organizing Memory for LLM Agents",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    2,
+    4,
+    5
+   ],
+   "kind": "system",
+   "updated": "External memory",
+   "experience": "Conversation memory",
+   "contribution": "Self-organizing memory",
+   "code": ""
+  },
+  {
+   "bibkey": "abductive_rag_2025",
+   "title": "Abductive Reasoning Path Synthesis for Training RAG Agents",
+   "link": "https://arxiv.org/html/2509.23071v1",
+   "year": 2025,
+   "venue": "arXiv 2509.23071",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Synthesized trajectories",
+   "contribution": "Process-level supervision",
+   "code": ""
+  },
+  {
+   "bibkey": "absolutezero2025",
+   "title": "Absolute Zero: Reasoner with Zero Data",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Self-generated tasks",
+   "contribution": "Zero-human-data RL training",
+   "code": ""
+  },
+  {
+   "bibkey": "reasoning_active_inference_2025",
+   "title": "Active Inference in the Era of Experience",
+   "link": "https://arxiv.org/abs/2508.05619",
+   "year": 2025,
+   "venue": "arXiv 2508.05619",
+   "stages": [],
+   "kind": "framing",
+   "updated": "N/A",
+   "experience": "Conceptual",
+   "contribution": "Theoretical complement to era of experience",
+   "code": ""
+  },
+  {
+   "bibkey": "jiang2025adaptation",
+   "title": "Adaptation of Agentic AI: A Survey of Post-Training Memory and Skills",
+   "link": "https://arxiv.org/abs/2512.16301",
+   "year": 2025,
+   "venue": "arXiv 2512.16301",
+   "stages": [],
+   "kind": "framing",
+   "updated": "Mixed",
+   "experience": "Mixed",
+   "contribution": "N/A",
+   "code": ""
+  },
+  {
+   "bibkey": "adaptflow_2025",
+   "title": "AdaptFlow: Adaptive Workflow Optimization via Meta-Learning",
+   "link": "https://arxiv.org/html/2508.08053",
+   "year": 2025,
+   "venue": "arXiv 2508.08053",
+   "stages": [
+    5,
+    6
+   ],
+   "kind": "system",
+   "updated": "Workflow",
+   "experience": "Trajectories",
+   "contribution": "Generalizable workflow init",
+   "code": ""
+  },
+  {
+   "bibkey": "foundationagents2025",
+   "title": "Advances in Foundation Agents",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Mixed",
+   "experience": "Mixed",
+   "contribution": "Broad agent survey",
+   "code": ""
+  },
+  {
+   "bibkey": "aflow_2025",
+   "title": "AFlow: MCTS over Code-Represented Workflows",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    5,
+    6
+   ],
+   "kind": "system",
+   "updated": "Workflow graph",
+   "experience": "Trajectories",
+   "contribution": "5.7% over manual workflows",
+   "code": ""
+  },
+  {
+   "bibkey": "agentevolver2025",
+   "title": "AgentEvolver: Towards Efficient Self-Evolving Agent System",
+   "link": "https://github.com/modelscope/AgentEvolver",
+   "year": 2025,
+   "venue": "GitHub",
+   "stages": [
+    1,
+    5,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Self-generated tasks + trajectories",
+   "contribution": "Self-evolution framework",
+   "code": "https://github.com/modelscope/AgentEvolver"
+  },
+  {
+   "bibkey": "agentrxiv_2025",
+   "title": "AgentRxiv: Parallel AI Research Labs",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Memory + skills",
+   "experience": "Cross-agent shared findings",
+   "contribution": "+13.7% via shared research",
+   "code": ""
+  },
+  {
+   "bibkey": "alita2025",
+   "title": "Alita: Autonomous MCP Construction",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    5,
+    8
+   ],
+   "kind": "system",
+   "updated": "Tool registry",
+   "experience": "Web + execution feedback",
+   "contribution": "Autonomous tool creation",
+   "code": ""
+  },
+  {
+   "bibkey": "agentdebate_workflow_2025",
+   "title": "Automating Agent Creation via Agent Debate",
+   "link": "https://arxiv.org/html/2503.23781v1",
+   "year": 2025,
+   "venue": "arXiv 2503.23781",
+   "stages": [
+    1,
+    5
+   ],
+   "kind": "system",
+   "updated": "Workflow",
+   "experience": "Debate trajectories",
+   "contribution": "Debate-driven workflow generation",
+   "code": ""
+  },
+  {
+   "bibkey": "beyond_one_shot_med_2025",
+   "title": "Beyond One-Shot Diagnosis with Agents That Remember Reflect and Improve",
+   "link": "https://arxiv.org/html/2604.14475v1",
+   "year": 2025,
+   "venue": "arXiv 2604.14475",
+   "stages": [
+    2,
+    4,
+    5
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Trajectories",
+   "contribution": "Memory-reflective med agent",
+   "code": ""
+  },
+  {
+   "bibkey": "beyond2025modelnative",
+   "title": "Beyond Pipelines: A Survey of the Paradigm Shift toward Model-Native Agentic AI",
+   "link": "http://huggingface.co/papers/2510.16720",
+   "year": 2025,
+   "venue": "arXiv 2510.16720",
+   "stages": [],
+   "kind": "framing",
+   "updated": "Weights",
+   "experience": "Mixed",
+   "contribution": "N/A",
+   "code": ""
+  },
+  {
+   "bibkey": "chain_of_tools_2025",
+   "title": "Chain-of-Tools: Frozen LLM with Tool Retrieval",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    3
+   ],
+   "kind": "system",
+   "updated": "External tool retriever",
+   "experience": "Tool docs",
+   "contribution": "Frozen LM with retrieval",
+   "code": ""
+  },
+  {
+   "bibkey": "continual_coding_2025",
+   "title": "Continual Learning for Coding Agents",
+   "link": "https://arxiv.org/html/2507.00014",
+   "year": 2025,
+   "venue": "arXiv 2507.00014",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "kind": "crosscut",
+   "updated": "Memory + weights",
+   "experience": "Trajectories",
+   "contribution": "Continual coding",
+   "code": ""
+  },
+  {
+   "bibkey": "benchmarking_continuous_2025",
+   "title": "Continuous Benchmark Generation for Enterprise LLM Agents",
+   "link": "https://arxiv.org/html/2511.10049v1",
+   "year": 2025,
+   "venue": "arXiv 2511.10049",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "N/A",
+   "contribution": "Continuous benchmark generation",
+   "code": ""
+  },
+  {
+   "bibkey": "deepseekr1_2025",
+   "title": "DeepSeek-R1",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Verifiable rewards",
+   "contribution": "Pure RL produces strong reasoning",
+   "code": ""
+  },
+  {
+   "bibkey": "e2e_self_evolve_2025",
+   "title": "End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents",
+   "link": "https://arxiv.org/abs/2605.10663",
+   "year": 2025,
+   "venue": "arXiv 2605.10663",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "kind": "crosscut",
+   "updated": "Memory + weights",
+   "experience": "Trajectories",
+   "contribution": "End-to-end self-evolution",
+   "code": ""
+  },
+  {
+   "bibkey": "engram2025",
+   "title": "ENGRAM: Lightweight Memory Orchestration for Conversational Agents",
+   "link": "https://arxiv.org/html/2511.12960v1",
+   "year": 2025,
+   "venue": "arXiv 2511.12960",
+   "stages": [
+    2,
+    3
+   ],
+   "kind": "system",
+   "updated": "External memory",
+   "experience": "Conversation",
+   "contribution": "Lightweight typed memory router",
+   "code": ""
+  },
+  {
+   "bibkey": "episode_semantic_2025",
+   "title": "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents",
+   "link": "https://arxiv.org/html/2605.17625v1",
+   "year": 2025,
+   "venue": "arXiv 2605.17625",
+   "stages": [
+    2,
+    4
+   ],
+   "kind": "system",
+   "updated": "External memory",
+   "experience": "Trajectories",
+   "contribution": "Episodic+semantic split for science",
+   "code": ""
+  },
+  {
+   "bibkey": "office_long_horizon_2025",
+   "title": "Evaluating LLM Agents on Long-Horizon Office Workflows",
+   "link": "https://arxiv.org/abs/2508.09124",
+   "year": 2025,
+   "venue": "arXiv 2508.09124",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Trajectories",
+   "contribution": "Long-horizon office benchmark",
+   "code": ""
+  },
+  {
+   "bibkey": "evolver2025",
+   "title": "EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle",
+   "link": "https://arxiv.org/abs/2510.16079",
+   "year": 2025,
+   "venue": "arXiv 2510.16079",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "kind": "crosscut",
+   "updated": "Memory + weights",
+   "experience": "Trajectories",
+   "contribution": "Explicit experience-driven lifecycle",
+   "code": "https://huggingface.co/Edaizi/EvolveR"
+  },
+  {
+   "bibkey": "sun2025erl",
+   "title": "Experiential Reflective Learning for Self-Improving LLM Agents (ERL)",
+   "link": "https://arxiv.org/html/2603.24639",
+   "year": 2025,
+   "venue": "arXiv 2603.24639",
+   "stages": [
+    4,
+    5
+   ],
+   "kind": "system",
+   "updated": "External heuristic store",
+   "experience": "Trajectories + outcomes",
+   "contribution": "Lightweight task adaptation via heuristics",
+   "code": ""
+  },
+  {
+   "bibkey": "forecasting_rare_behavior_2025",
+   "title": "Forecasting Rare LLM Behaviors",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "N/A",
+   "experience": "Mixed",
+   "contribution": "Forecasting rare behaviors",
+   "code": ""
+  },
+  {
+   "bibkey": "secure_agentic_web_2025",
+   "title": "From Secure Agentic AI to Secure Agentic Web",
+   "link": "https://arxiv.org/html/2603.01564v1",
+   "year": 2025,
+   "venue": "arXiv 2603.01564",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Mixed",
+   "experience": "Mixed",
+   "contribution": "Security framework",
+   "code": ""
+  },
+  {
+   "bibkey": "gae_retriever_2025",
+   "title": "GAE-Retriever / WebRAGent: RAG for Multimodal Web Agent Planning",
+   "link": "https://openreview.net/forum?id=L1VPZFbAcu",
+   "year": 2025,
+   "venue": "OpenReview",
+   "stages": [
+    3
+   ],
+   "kind": "system",
+   "updated": "External + ICL",
+   "experience": "Web trajectories",
+   "contribution": "+15% gain via retrieved knowledge",
+   "code": ""
+  },
+  {
+   "bibkey": "agentrr_2025",
+   "title": "Get Experience from Practice: AgentRR (Record & Replay)",
+   "link": "https://arxiv.org/abs/2505.17716",
+   "year": 2025,
+   "venue": "arXiv 2505.17716",
+   "stages": [
+    2,
+    3
+   ],
+   "kind": "system",
+   "updated": "External record",
+   "experience": "Trajectories",
+   "contribution": "Record-replay paradigm",
+   "code": ""
+  },
+  {
+   "bibkey": "grpo2025",
+   "title": "GRPO: Group Relative Policy Optimization",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Verifiable rewards",
+   "contribution": "Practical RL algorithm",
+   "code": ""
+  },
+  {
+   "bibkey": "hermes_skills_2025",
+   "title": "Hermes Agent: Persistent Skills for Personal AI",
+   "link": "https://www.turingpost.com/p/hermes",
+   "year": 2025,
+   "venue": "Industry blog",
+   "stages": [
+    5,
+    8
+   ],
+   "kind": "system",
+   "updated": "Skill files",
+   "experience": "Trajectories",
+   "contribution": "Persistent personal-agent skills",
+   "code": ""
+  },
+  {
+   "bibkey": "her2025relabel",
+   "title": "Hindsight Experience Replay for LLM Agent Trajectory Relabeling",
+   "link": "https://arxiv.org/abs/2603.21357v1",
+   "year": 2025,
+   "venue": "arXiv 2603.21357",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Replay buffer",
+   "experience": "Trajectories",
+   "contribution": "Goal relabeling for LM agents",
+   "code": ""
+  },
+  {
+   "bibkey": "xu2025internalizing",
+   "title": "Internalizing Agency from Reflective Experience",
+   "link": "https://arxiv.org/html/2603.16843v1",
+   "year": 2025,
+   "venue": "arXiv 2603.16843",
+   "stages": [
+    4,
+    5,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights + memory",
+   "experience": "Reflective trajectories",
+   "contribution": "Reflection-driven internalization",
+   "code": ""
+  },
+  {
+   "bibkey": "lm2_2025",
+   "title": "Large Memory Models LM2",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    2
+   ],
+   "kind": "system",
+   "updated": "Architecture + memory",
+   "experience": "Mixed",
+   "contribution": "+37% over recurrent memory transformers",
+   "code": ""
+  },
+  {
+   "bibkey": "leaky_thoughts_2025",
+   "title": "Leaky Thoughts: Reasoning Traces Leak Private Data",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Trace",
+   "experience": "Trajectories",
+   "contribution": "Reasoning traces leak data",
+   "code": ""
+  },
+  {
+   "bibkey": "zheng2025lifelong",
+   "title": "Lifelong Learning of Large Language Model based Agents: A Roadmap",
+   "link": "https://arxiv.org/abs/2501.07278v1",
+   "year": 2025,
+   "venue": "arXiv 2501.07278",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Mixed",
+   "experience": "Mixed",
+   "contribution": "Module-centric roadmap",
+   "code": "https://github.com/qianlimalab/awesome-lifelong-llm-agent"
+  },
+  {
+   "bibkey": "lifelongagentbench_2025",
+   "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+   "link": "https://openreview.net/forum?id=MYqAKKsjF9",
+   "year": 2025,
+   "venue": "arXiv 2505.11942 OpenReview",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Trajectories",
+   "contribution": "First lifelong-agent benchmark",
+   "code": ""
+  },
+  {
+   "bibkey": "lightthinker_2025",
+   "title": "LightThinker: Reasoning Compression",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    4
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Reasoning",
+   "contribution": "70% memory reduction",
+   "code": ""
+  },
+  {
+   "bibkey": "limo2025",
+   "title": "LIMO: Less Is More for Reasoning",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    5,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Curated trajectories",
+   "contribution": "817 trajectories unlock reasoning",
+   "code": ""
+  },
+  {
+   "bibkey": "locabench_2025",
+   "title": "LOCA-bench: Benchmarking Language Agents Under Controllable Context Growth",
+   "link": "https://arxiv.org/html/2602.07962",
+   "year": 2025,
+   "venue": "arXiv 2602.07962",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Mixed",
+   "contribution": "Tests context-management strategies",
+   "code": ""
+  },
+  {
+   "bibkey": "maas_2025",
+   "title": "MaAS: Agentic Supernet",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    5
+   ],
+   "kind": "system",
+   "updated": "Architecture",
+   "experience": "Trajectories",
+   "contribution": "6-45% cost of baselines",
+   "code": ""
+  },
+  {
+   "bibkey": "mars2025",
+   "title": "MaRS: A Cognitive Memory Architecture and Benchmark for Privacy-Aware Generative Agents",
+   "link": "https://arxiv.org/html/2512.12856v1",
+   "year": 2025,
+   "venue": "arXiv 2512.12856",
+   "stages": [
+    2,
+    8
+   ],
+   "kind": "system",
+   "updated": "External memory + provenance",
+   "experience": "Mixed",
+   "contribution": "Privacy + provenance + retention schema",
+   "code": ""
+  },
+  {
+   "bibkey": "mem0_2025",
+   "title": "Mem0/Mem0g: Production-grade memory for agents",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    2
+   ],
+   "kind": "system",
+   "updated": "External memory",
+   "experience": "Conversation memory",
+   "contribution": "91% latency reduction",
+   "code": ""
+  },
+  {
+   "bibkey": "mem1_2025",
+   "title": "MEM1: RL-Trained Memory Consolidation",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    4
+   ],
+   "kind": "system",
+   "updated": "External memory",
+   "experience": "Conversation memory",
+   "contribution": "3.7× less memory; 1.78× faster",
+   "code": ""
+  },
+  {
+   "bibkey": "meminsight2025",
+   "title": "MemInsight: Structured Memory Augmentation for Agents",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    2,
+    3
+   ],
+   "kind": "system",
+   "updated": "External memory",
+   "experience": "Conversation memory",
+   "contribution": "+34% recall over RAG",
+   "code": ""
+  },
+  {
+   "bibkey": "liu2025memoryage",
+   "title": "Memory in the Age of AI Agents",
+   "link": "https://arxiv.org/abs/2512.13564",
+   "year": 2025,
+   "venue": "arXiv 2512.13564",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Memory",
+   "experience": "Memory",
+   "contribution": "Industry coverage",
+   "code": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List"
+  },
+  {
+   "bibkey": "memos2025",
+   "title": "MemOS: An Operating System for Memory",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    2,
+    7
+   ],
+   "kind": "system",
+   "updated": "External memory",
+   "experience": "Mixed",
+   "contribution": "Memory OS abstraction",
+   "code": ""
+  },
+  {
+   "bibkey": "metareflex_2025",
+   "title": "Meta-Reflexion",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    4
+   ],
+   "kind": "system",
+   "updated": "External meta-memory",
+   "experience": "Reflections",
+   "contribution": "Hierarchical reflection",
+   "code": ""
+  },
+  {
+   "bibkey": "minja_2025",
+   "title": "MINJA: Memory Injection Attack",
+   "link": "https://arxiv.org/html/2601.05504v1",
+   "year": 2025,
+   "venue": "arXiv 2601.05504",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Adversarial inputs",
+   "contribution": ">95% injection success",
+   "code": ""
+  },
+  {
+   "bibkey": "mctrl_2025",
+   "title": "Multi-Agent Continual Evaluation Network MACEval",
+   "link": "https://arxiv.org/html/2511.09139",
+   "year": 2025,
+   "venue": "arXiv 2511.09139",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Trajectories",
+   "contribution": "Multi-agent continual evaluation",
+   "code": "https://github.com/zijianchen98/MACEval"
+  },
+  {
+   "bibkey": "mae_2025",
+   "title": "Multi-Agent Evolve (MAE)",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    1,
+    6,
+    8
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Self-generated",
+   "contribution": "Co-evolution dynamics",
+   "code": ""
+  },
+  {
+   "bibkey": "nemotron_tool_n1_2025",
+   "title": "Nemotron Tool-N1",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Tool rewards",
+   "contribution": "Outperforms GPT-4o on tool-use",
+   "code": ""
+  },
+  {
+   "bibkey": "openreasonerzero2025",
+   "title": "Open-Reasoner-Zero",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Verifiable rewards",
+   "contribution": "1/30 training steps of R1-Zero",
+   "code": ""
+  },
+  {
+   "bibkey": "openclaw_skills_2025",
+   "title": "OpenClaw Agent Skills (SKILL.md)",
+   "link": "https://skywork.ai/blog/ai-bot/claude-example-skills-library-ultimate-guide/",
+   "year": 2025,
+   "venue": "Industry blog",
+   "stages": [
+    5
+   ],
+   "kind": "system",
+   "updated": "Skill files",
+   "experience": "N/A",
+   "contribution": "Modular skill library",
+   "code": ""
+  },
+  {
+   "bibkey": "nebius2025rft",
+   "title": "OpenHands trajectories with Qwen3-Coder",
+   "link": "https://nebius.com/blog/posts/openhands-trajectories-with-qwen3-coder-480b",
+   "year": 2025,
+   "venue": "Industry blog",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Trajectories",
+   "contribution": "Production RFT recipe",
+   "code": ""
+  },
+  {
+   "bibkey": "optima_2025",
+   "title": "Optima: Multi-Agent RL for Communication Efficiency",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6,
+    8
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Inter-agent feedback",
+   "contribution": "2.8x performance with <10% tokens",
+   "code": ""
+  },
+  {
+   "bibkey": "multiagent_rag_self_train_2025",
+   "title": "Optimizing Multi-Agent RAG through Self-Training",
+   "link": "https://arxiv.org/html/2506.10844",
+   "year": 2025,
+   "venue": "arXiv 2506.10844",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Trajectories",
+   "contribution": "Self-training MA-RAG",
+   "code": ""
+  },
+  {
+   "bibkey": "poisoned_experience_retrieval_2025",
+   "title": "Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
+   "link": "https://arxiv.org/html/2512.16962",
+   "year": 2025,
+   "venue": "arXiv 2512.16962",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Experience store",
+   "experience": "Adversarial",
+   "contribution": "Persistent compromise via retrieval",
+   "code": ""
+  },
+  {
+   "bibkey": "play2prompt_2025",
+   "title": "Play2Prompt: Zero-Shot Tool Discovery",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    1,
+    5
+   ],
+   "kind": "system",
+   "updated": "Prompt + memory",
+   "experience": "Trial trajectories",
+   "contribution": "Discover tools without docs",
+   "code": ""
+  },
+  {
+   "bibkey": "procedural_isnotallyouneed_2025",
+   "title": "Procedural Memory Is Not All You Need",
+   "link": "https://arxiv.org/abs/2505.03434",
+   "year": 2025,
+   "venue": "arXiv 2505.03434",
+   "stages": [
+    2
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Mixed",
+   "contribution": "Argues against pure procedural memory",
+   "code": ""
+  },
+  {
+   "bibkey": "qwenlong_l1_2025",
+   "title": "QwenLong-L1: Progressive Context Scaling",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights + context",
+   "experience": "Mixed",
+   "contribution": "Scaling to 120K tokens",
+   "code": ""
+  },
+  {
+   "bibkey": "rlt2025",
+   "title": "Reinforcement-Learned Teachers",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    5,
+    6
+   ],
+   "kind": "system",
+   "updated": "Teacher weights",
+   "experience": "Student outcomes",
+   "contribution": "Teacher quality decoupled from solver capability",
+   "code": ""
+  },
+  {
+   "bibkey": "rl_search_efficient_2025",
+   "title": "RL for Search-Efficient LLMs",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Outcomes",
+   "contribution": "Learn when to search",
+   "code": ""
+  },
+  {
+   "bibkey": "seal2025",
+   "title": "SEAL: Self-Adapting Language Models",
+   "link": "https://arxiv.org/html/2506.10943v1",
+   "year": 2025,
+   "venue": "arXiv 2506.10943",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Self-generated edits",
+   "contribution": "Persistent self-edits via RL",
+   "code": "https://github.com/Continual-Intelligence/SEAL"
+  },
+  {
+   "bibkey": "seal2025coevolution",
+   "title": "SEAL: Synergistic Co-Evolution of Agents and Learning Environments",
+   "link": "https://huggingface.co/papers/2605.24426",
+   "year": 2025,
+   "venue": "HuggingFace papers 2605.24426",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Policy + environment",
+   "experience": "Co-evolved tasks",
+   "contribution": "Curriculum co-evolution",
+   "code": ""
+  },
+  {
+   "bibkey": "ell_stulife_2025",
+   "title": "Self-Evolving Agent via Experience-Driven Lifelong Learning (ELL-StuLife)",
+   "link": "https://github.com/ECNU-ICALK/ELL-StuLife",
+   "year": 2025,
+   "venue": "GitHub",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "kind": "crosscut",
+   "updated": "Mixed",
+   "experience": "Trajectories",
+   "contribution": "Lifelong agent dataset",
+   "code": "https://github.com/ECNU-ICALK/ELL-StuLife"
+  },
+  {
+   "bibkey": "strategic_planning_catan_2025",
+   "title": "Self-Evolving LLM Agents for Strategic Planning",
+   "link": "https://arxiv.org/html/2506.04651",
+   "year": 2025,
+   "venue": "arXiv 2506.04651",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "kind": "crosscut",
+   "updated": "Memory + weights",
+   "experience": "Trajectories",
+   "contribution": "Long-horizon strategic eval",
+   "code": ""
+  },
+  {
+   "bibkey": "selfevolving_strategic_planning_2025",
+   "title": "Self-Evolving LLM Agents for Strategic Planning",
+   "link": "https://arxiv.org/html/2506.04651",
+   "year": 2025,
+   "venue": "arXiv 2506.04651",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "kind": "crosscut",
+   "updated": "Memory + weights",
+   "experience": "Trajectories",
+   "contribution": "Long-horizon strategic eval",
+   "code": ""
+  },
+  {
+   "bibkey": "self_questioning_2025",
+   "title": "Self-Questioning Agents (AgentEvolver self-questioning component)",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    1
+   ],
+   "kind": "system",
+   "updated": "Tasks",
+   "experience": "Self-generated",
+   "contribution": "Self-generated curricula",
+   "code": ""
+  },
+  {
+   "bibkey": "self_taught_evaluators_2025",
+   "title": "Self-Taught Evaluators",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    1,
+    6,
+    8
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Generated traces",
+   "contribution": "Match GPT-4 as judge",
+   "code": ""
+  },
+  {
+   "bibkey": "shade_arena_2025",
+   "title": "SHADE-Arena: Saboteur vs. Monitor",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Adversarial",
+   "contribution": "27% undetected sabotage",
+   "code": ""
+  },
+  {
+   "bibkey": "sleeper_memory_2025",
+   "title": "Sleeper Memory Poisoning in LLM Agents",
+   "link": "https://arxiv.org/abs/2605.15338",
+   "year": 2025,
+   "venue": "arXiv 2605.15338",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Adversarial",
+   "contribution": "60-89% attack success on retrieved memories",
+   "code": ""
+  },
+  {
+   "bibkey": "synthesizing_trajectories_2025",
+   "title": "Synthesizing Agent Trajectories via Test-Time Exploration under Validate-by-Reproduce",
+   "link": "https://arxiv.org/html/2510.00415v1",
+   "year": 2025,
+   "venue": "arXiv 2510.00415",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "External + weights",
+   "experience": "Synthesized",
+   "contribution": "Synthetic trajectories",
+   "code": ""
+  },
+  {
+   "bibkey": "test_time_learning_2025",
+   "title": "Test-Time Learning for Large Language Models",
+   "link": "https://arxiv.org/abs/2505.20633",
+   "year": 2025,
+   "venue": "arXiv 2505.20633",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Test inputs",
+   "contribution": "Self-supervised TTT",
+   "code": ""
+  },
+  {
+   "bibkey": "texttolora2025",
+   "title": "Text-to-LoRA",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Adapter weights",
+   "experience": "Task description",
+   "contribution": "Generated adapters",
+   "code": ""
+  },
+  {
+   "bibkey": "zhang2025agenticrl",
+   "title": "The Landscape of Agentic Reinforcement Learning for LLMs",
+   "link": "https://arxiv.org/abs/2509.02547",
+   "year": 2025,
+   "venue": "arXiv 2509.02547",
+   "stages": [],
+   "kind": "framing",
+   "updated": "Weights",
+   "experience": "Mixed",
+   "contribution": "N/A",
+   "code": ""
+  },
+  {
+   "bibkey": "ttt2025fewshot",
+   "title": "The Surprising Effectiveness of Test-Time Training for Few-Shot Learning",
+   "link": "https://icml.cc/virtual/2025/poster/44773",
+   "year": 2025,
+   "venue": "ICML 2025",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights at test time",
+   "experience": "Test inputs",
+   "contribution": "TTT works for LM few-shot",
+   "code": ""
+  },
+  {
+   "bibkey": "toolgen_2025",
+   "title": "ToolGen: Tools as Tokens",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    2
+   ],
+   "kind": "system",
+   "updated": "Vocabulary",
+   "experience": "Tool calls",
+   "contribution": "Vocabulary-level tool fusion",
+   "code": ""
+  },
+  {
+   "bibkey": "tba_replay_2025",
+   "title": "Trajectory Balance with Asynchrony (TBA)",
+   "link": "https://arxiv.org/html/2503.18929v1",
+   "year": 2025,
+   "venue": "arXiv 2503.18929",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Replay",
+   "contribution": "Scalable replay-buffer RL",
+   "code": ""
+  },
+  {
+   "bibkey": "transformer2_2025",
+   "title": "Transformer²: Self-Adaptive LLMs",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Architecture (expert routing)",
+   "experience": "Per-query signal",
+   "contribution": "Architectural runtime adaptation",
+   "code": ""
+  },
+  {
+   "bibkey": "ttrl2025",
+   "title": "TTRL: Test-Time Reinforcement Learning",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights at test time",
+   "experience": "Pseudo-labels at test time",
+   "contribution": "Test-time RL surpassing own supervision ceiling",
+   "code": ""
+  },
+  {
+   "bibkey": "weaponizing_memory_2025",
+   "title": "Weaponizing Agent Memory for Data Exfiltration",
+   "link": "https://arxiv.org/html/2605.01970v2",
+   "year": 2025,
+   "venue": "arXiv 2605.01970",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Adversarial",
+   "contribution": "Memory as exfil channel",
+   "code": ""
+  },
+  {
+   "bibkey": "silver2025era",
+   "title": "Welcome to the Era of Experience",
+   "link": "https://theaiinnovator.com/welcome-to-the-era-of-experience/",
+   "year": 2025,
+   "venue": "DeepMind position paper",
+   "stages": [],
+   "kind": "framing",
+   "updated": "Conceptual frame",
+   "experience": "Experience streams",
+   "contribution": "Names the paradigm we survey",
+   "code": ""
+  },
+  {
+   "bibkey": "when_memory_poisoning_2025",
+   "title": "When Memory Poisoning Looks Like Model Failure in Agentic AI",
+   "link": "https://arxiv.org/abs/2605.22842",
+   "year": 2025,
+   "venue": "arXiv 2605.22842",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Memory",
+   "experience": "Adversarial",
+   "contribution": "87.5% causal entry detection accuracy",
+   "code": ""
+  },
+  {
+   "bibkey": "zerosearch_2025",
+   "title": "ZeroSearch",
+   "link": null,
+   "year": 2025,
+   "venue": "arXiv",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Outcomes",
+   "contribution": "RL without real search",
+   "code": ""
+  },
+  {
+   "bibkey": "tao2024selfevolution",
+   "title": "A Survey on Self-Evolution of Large Language Models",
+   "link": "https://arxiv.org/html/2404.14387v1",
+   "year": 2024,
+   "venue": "arXiv 2404.14387",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Mixed",
+   "experience": "Mixed",
+   "contribution": "Pre-agent precursor to ours",
+   "code": ""
+  },
+  {
+   "bibkey": "zhang2024memorymech",
+   "title": "A Survey on the Memory Mechanism of LLM-based Agents",
+   "link": null,
+   "year": 2024,
+   "venue": "arXiv",
+   "stages": [],
+   "kind": "survey",
+   "updated": "Memory",
+   "experience": "Memory",
+   "contribution": "Foundational memory survey",
+   "code": "https://github.com/nuster1128/LLM_Agent_Memory_Survey"
+  },
+  {
+   "bibkey": "babilong_2024",
+   "title": "BABILong",
+   "link": null,
+   "year": 2024,
+   "venue": "arXiv",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Trajectories",
+   "contribution": "BABILong benchmark",
+   "code": ""
+  },
+  {
+   "bibkey": "multimodal_continual_2024",
+   "title": "Continual Learning of Multimodal Agents by Transforming Trajectories into Actionable Insights",
+   "link": "https://arxiv.org/abs/2406.14596v1",
+   "year": 2024,
+   "venue": "arXiv 2406.14596",
+   "stages": [
+    3,
+    4,
+    5
+   ],
+   "kind": "system",
+   "updated": "External insights",
+   "experience": "Trajectories",
+   "contribution": "Trajectory-to-insight pipeline",
+   "code": ""
+  },
+  {
+   "bibkey": "dynamic_conv_bench_2024",
+   "title": "Dynamic Conversational Benchmarking",
+   "link": "https://arxiv.org/html/2409.20222v1",
+   "year": 2024,
+   "venue": "arXiv 2409.20222",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Conversation",
+   "contribution": "Highlights LTM benefit",
+   "code": ""
+  },
+  {
+   "bibkey": "echo2024hindsight",
+   "title": "ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting",
+   "link": "https://arxiv.org/html/2510.10304v1",
+   "year": 2024,
+   "venue": "arXiv 2510.10304",
+   "stages": [
+    1,
+    4,
+    6
+   ],
+   "kind": "system",
+   "updated": "External demonstration store + ICL",
+   "experience": "Trajectories",
+   "contribution": "HER-for-LM-agents formulation",
+   "code": ""
+  },
+  {
+   "bibkey": "locomo_2024",
+   "title": "LOCOMO: Long Conversational Memory Benchmark",
+   "link": null,
+   "year": 2024,
+   "venue": "arXiv",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Evaluation",
+   "experience": "Conversation",
+   "contribution": "LOCOMO benchmark",
+   "code": ""
+  },
+  {
+   "bibkey": "rahl2024",
+   "title": "RAHL: Retrieval-Augmented Hierarchical In-Context RL",
+   "link": "https://arxiv.org/abs/2408.06520",
+   "year": 2024,
+   "venue": "arXiv 2408.06520",
+   "stages": [
+    3,
+    4
+   ],
+   "kind": "system",
+   "updated": "ICL + retrieval",
+   "experience": "Trajectories",
+   "contribution": "9-42% improvement via retrieval",
+   "code": ""
+  },
+  {
+   "bibkey": "regent2024",
+   "title": "REGENT: A Retrieval-Augmented Generalist Agent That Can Act In-Context",
+   "link": "https://arxiv.org/abs/2412.04759",
+   "year": 2024,
+   "venue": "arXiv 2412.04759",
+   "stages": [
+    3
+   ],
+   "kind": "system",
+   "updated": "External + ICL",
+   "experience": "Trajectories",
+   "contribution": "3x fewer parameters via retrieval",
+   "code": ""
+  },
+  {
+   "bibkey": "zhao2023expel",
+   "title": "ExpeL: LLM Agents Are Experiential Learners",
+   "link": "https://arxiv.org/abs/2308.10144",
+   "year": 2023,
+   "venue": "arXiv 2308.10144",
+   "stages": [
+    1,
+    4,
+    5
+   ],
+   "kind": "system",
+   "updated": "External insight library",
+   "experience": "Trajectories",
+   "contribution": "Insight extraction across tasks",
+   "code": "https://github.com/LeapLabTHU/ExpeL"
+  },
+  {
+   "bibkey": "park2023generativeagents",
+   "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+   "link": "https://dl.acm.org/doi/10.1145/3586183.3606763",
+   "year": 2023,
+   "venue": "UIST 2023",
+   "stages": [
+    2,
+    3,
+    4
+   ],
+   "kind": "system",
+   "updated": "External memory stream",
+   "experience": "Observations + reflections",
+   "contribution": "Architecture: memory stream + reflection + planning",
+   "code": ""
+  },
+  {
+   "bibkey": "yao2023react",
+   "title": "ReAct: Synergizing Reasoning and Acting",
+   "link": null,
+   "year": 2023,
+   "venue": "ICLR",
+   "stages": [
+    1,
+    3
+   ],
+   "kind": "system",
+   "updated": "Prompt",
+   "experience": "Outcomes",
+   "contribution": "ReAct paradigm",
+   "code": ""
+  },
+  {
+   "bibkey": "shinn2023reflexion",
+   "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+   "link": "https://arxiv.org/abs/2303.11366",
+   "year": 2023,
+   "venue": "NeurIPS 2023",
+   "stages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "kind": "system",
+   "updated": "External episodic notes",
+   "experience": "Self-generated reflection",
+   "contribution": "Verbal RL substitute for parameter updates",
+   "code": ""
+  },
+  {
+   "bibkey": "schick2023toolformer",
+   "title": "Toolformer",
+   "link": null,
+   "year": 2023,
+   "venue": "NeurIPS",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Self-generated",
+   "contribution": "Self-supervised tool learning",
+   "code": ""
+  },
+  {
+   "bibkey": "voyager2023",
+   "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+   "link": "https://arxiv.org/abs/2305.16291",
+   "year": 2023,
+   "venue": "NeurIPS 2023 / arXiv 2305.16291",
+   "stages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "kind": "crosscut",
+   "updated": "External skill library",
+   "experience": "Trajectories + outcomes",
+   "contribution": "First lifelong agent with reusable skill library",
+   "code": "https://voyager.minedojo.org/"
+  },
+  {
+   "bibkey": "hu2022lora",
+   "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+   "link": null,
+   "year": 2022,
+   "venue": "ICLR",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Mixed",
+   "contribution": "Foundational PEFT",
+   "code": ""
+  },
+  {
+   "bibkey": "ouyang2022rlhf",
+   "title": "RLHF: Training Language Models to Follow Instructions with Human Feedback",
+   "link": null,
+   "year": 2022,
+   "venue": "NeurIPS",
+   "stages": [
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Human feedback",
+   "contribution": "Foundational RLHF",
+   "code": ""
+  },
+  {
+   "bibkey": "brown2020fewshot",
+   "title": "Language Models Are Few-Shot Learners",
+   "link": null,
+   "year": 2020,
+   "venue": "NeurIPS",
+   "stages": [],
+   "kind": "framing",
+   "updated": "N/A",
+   "experience": "N/A",
+   "contribution": "Emergent ICL",
+   "code": ""
+  },
+  {
+   "bibkey": "lewis2020rag",
+   "title": "Retrieval-Augmented Generation",
+   "link": null,
+   "year": 2020,
+   "venue": "NeurIPS",
+   "stages": [
+    3
+   ],
+   "kind": "system",
+   "updated": "External + ICL",
+   "experience": "Mixed",
+   "contribution": "Foundational RAG",
+   "code": ""
+  },
+  {
+   "bibkey": "clune2019aiga",
+   "title": "AI-Generating Algorithms",
+   "link": null,
+   "year": 2019,
+   "venue": "arXiv",
+   "stages": [],
+   "kind": "framing",
+   "updated": "N/A",
+   "experience": "Conceptual",
+   "contribution": "Foundational AI-GA framework",
+   "code": ""
+  },
+  {
+   "bibkey": "rolnick2019replay",
+   "title": "Experience Replay for Continual Learning",
+   "link": null,
+   "year": 2019,
+   "venue": "NeurIPS",
+   "stages": [
+    1,
+    7
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Trajectories",
+   "contribution": "Replay for continual learning",
+   "code": ""
+  },
+  {
+   "bibkey": "silver2017alphagozero",
+   "title": "Mastering the Game of Go without Human Knowledge",
+   "link": null,
+   "year": 2017,
+   "venue": "Nature",
+   "stages": [
+    1,
+    6
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Self-play",
+   "contribution": "Self-play to superhuman",
+   "code": ""
+  },
+  {
+   "bibkey": "finn2017maml",
+   "title": "Model-Agnostic Meta-Learning",
+   "link": null,
+   "year": 2017,
+   "venue": "ICML",
+   "stages": [],
+   "kind": "framing",
+   "updated": "Weights",
+   "experience": "Conceptual",
+   "contribution": "Foundational meta-learning",
+   "code": ""
+  },
+  {
+   "bibkey": "foerster2016emergent",
+   "title": "Emergent Communication in Multi-Agent RL",
+   "link": null,
+   "year": 2016,
+   "venue": "NeurIPS",
+   "stages": [
+    8
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Inter-agent",
+   "contribution": "Emergent communication",
+   "code": ""
+  },
+  {
+   "bibkey": "stanley2015whygreatness",
+   "title": "Why Greatness Cannot Be Planned",
+   "link": null,
+   "year": 2015,
+   "venue": "Springer book",
+   "stages": [],
+   "kind": "framing",
+   "updated": "N/A",
+   "experience": "Conceptual",
+   "contribution": "Foundational open-ended evolution",
+   "code": ""
+  },
+  {
+   "bibkey": "schmidhuber2003godel",
+   "title": "Gödel Machines",
+   "link": null,
+   "year": 2003,
+   "venue": "Schmidhuber lab",
+   "stages": [],
+   "kind": "framing",
+   "updated": "Code",
+   "experience": "Conceptual",
+   "contribution": "Theoretical foundation",
+   "code": ""
+  },
+  {
+   "bibkey": "mccloskey1989forgetting",
+   "title": "Catastrophic Interference in Connectionist Networks",
+   "link": null,
+   "year": 1989,
+   "venue": "Psychology of Learning",
+   "stages": [
+    7
+   ],
+   "kind": "system",
+   "updated": "Weights",
+   "experience": "Conceptual",
+   "contribution": "Foundational forgetting",
+   "code": ""
+  }
+ ]
+}
