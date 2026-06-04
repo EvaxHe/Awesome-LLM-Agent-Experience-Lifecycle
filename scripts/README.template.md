@@ -25,16 +25,12 @@ _generated_
 > organizes that literature by the **lifecycle of an experience signal** — the path it takes
 > from acquisition to persistent change — rather than by which artifact gets updated.
 
-<!-- Replace this Mermaid placeholder with Figure 1 (the lifecycle ring) once the figure is ready:
-     ![The Experience Lifecycle](assets/lifecycle.png) -->
+<p align="center">
+  <img src="assets/lifecycle.png" width="640"
+       alt="The Experience Lifecycle: eight stages — Acquisition, Representation, Retrieval, Consolidation, Abstraction, Internalization, Revision, Distribution — arranged as a closed loop, with a loop-closure arrow from Distribution back to Acquisition. An inner band names the artifact produced at each stage (raw traces, typed memory, surfaced cases, compressed memory, skills/tools, model weights, pruned artifacts, shared registries). An outer Governance overlay ring spans every stage with five primitives: provenance, attestation, revocation, quarantine, audit.">
+</p>
 
-```mermaid
-flowchart LR
-  S1["①&nbsp;Acquisition"] --> S2["②&nbsp;Representation"] --> S3["③&nbsp;Retrieval"] --> S4["④&nbsp;Consolidation"]
-  S4 --> S5["⑤&nbsp;Abstraction"] --> S6["⑥&nbsp;Internalization"] --> S7["⑦&nbsp;Revision"] --> S8["⑧&nbsp;Distribution"]
-  S8 -. "loop closure: revised, distributed agent → new experience" .-> S1
-  G(["Governance overlay · provenance · attestation · revocation · quarantine · audit"]) -.-> S2
-```
+<p align="center"><sub>Eight stages, one loop. The inner band is the artifact transformed at each stage; the outer ring is the Governance overlay. Regenerate with <code>scripts/make_lifecycle_figure.py</code>.</sub></p>
 
 ---
 
