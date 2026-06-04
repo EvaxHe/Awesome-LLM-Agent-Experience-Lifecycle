@@ -14,7 +14,7 @@ from raw interaction to persistent memory, abstracted skills, internalized weigh
 [![License](https://img.shields.io/github/license/EvaxHe/Awesome-LLM-Agent-Experience-Lifecycle)](LICENSE)
 
 <!-- BEGIN:STATS -->
-**84 systems** across the 8 stages (6 cross-cutting) · **12 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-04**
+**84 systems** across the 8 stages (6 cross-cutting) · **11 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-04**
 
 <sub>Per-stage counts (systems may appear under more than one stage): S1 19 · S2 14 · S3 12 · S4 18 · S5 24 · S6 39 · S7 1 · S8 11</sub>
 <!-- END:STATS -->
@@ -366,8 +366,8 @@ A `rollback-and-rerun` delta is the recommended default BEC probe.
 <!-- BEGIN:BENCHMARKS -->
 | Year | Benchmark | Venue | What it measures |
 | :---: | --- | --- | --- |
-| 2026 | [Benchmarking Language Agents Under Controllable and Extreme Context Growth](https://arxiv.org/html/2602.07962) | arXiv 2602.07962 | Tests context-management |
 | 2026 | [Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory](https://arxiv.org/abs/2511.20857) | arXiv 2511.20857 | Test-time learning + memory benchmark |
+| 2026 | [LOCA-bench: Benchmarking Language Agents Under Controllable and Extreme Context Growth](https://arxiv.org/abs/2602.07962) | arXiv 2602.07962 | Tests context-management |
 | 2025 | [Continuous Benchmark Generation for Enterprise LLM Agents](https://arxiv.org/html/2511.10049v1) | arXiv 2511.10049 | Continuous benchmark generation |
 | 2025 | [Evaluating LLM Agents on Long-Horizon Office Workflows](https://arxiv.org/abs/2508.09124) | arXiv 2508.09124 | Long-horizon office benchmark |
 | 2025 | [LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners](https://openreview.net/forum?id=MYqAKKsjF9) | arXiv 2505.11942 OpenReview | First lifelong-agent benchmark |

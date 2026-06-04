@@ -48,20 +48,6 @@
    "code": ""
   },
   {
-   "bibkey": "loca_bench_2026",
-   "title": "Benchmarking Language Agents Under Controllable and Extreme Context Growth",
-   "link": "https://arxiv.org/html/2602.07962",
-   "direct": true,
-   "year": 2026,
-   "venue": "arXiv 2602.07962",
-   "stages": [],
-   "kind": "benchmark",
-   "updated": "Evaluation",
-   "experience": "Mixed",
-   "contribution": "Tests context-management",
-   "code": ""
-  },
-  {
    "bibkey": "benchmark_self_evolving_memory_2026",
    "title": "Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory",
    "link": "https://arxiv.org/abs/2511.20857",
@@ -201,6 +187,20 @@
    "updated": "Retriever weights",
    "experience": "Trajectories",
    "contribution": "Trajectory-aware retrieval",
+   "code": ""
+  },
+  {
+   "bibkey": "loca_bench_2026",
+   "title": "LOCA-bench: Benchmarking Language Agents Under Controllable and Extreme Context Growth",
+   "link": "https://arxiv.org/abs/2602.07962",
+   "direct": true,
+   "year": 2026,
+   "venue": "arXiv 2602.07962",
+   "stages": [],
+   "kind": "benchmark",
+   "updated": "Evaluation",
+   "experience": "Mixed",
+   "contribution": "Tests context-management",
    "code": ""
   },
   {
@@ -1030,20 +1030,6 @@
    "updated": "Weights",
    "experience": "Curated trajectories",
    "contribution": "817 trajectories unlock reasoning",
-   "code": ""
-  },
-  {
-   "bibkey": "locabench_2025",
-   "title": "LOCA-bench: Benchmarking Language Agents Under Controllable Context Growth",
-   "link": "https://arxiv.org/html/2602.07962",
-   "direct": true,
-   "year": 2025,
-   "venue": "arXiv 2602.07962",
-   "stages": [],
-   "kind": "benchmark",
-   "updated": "Evaluation",
-   "experience": "Mixed",
-   "contribution": "Tests context-management strategies",
    "code": ""
   },
   {
