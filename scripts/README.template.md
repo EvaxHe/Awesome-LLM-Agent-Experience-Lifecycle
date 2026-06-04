@@ -26,11 +26,9 @@ _generated_
 > from acquisition to persistent change — rather than by which artifact gets updated.
 
 <p align="center">
-  <img src="assets/lifecycle.png" width="640"
-       alt="The Experience Lifecycle: eight stages — Acquisition, Representation, Retrieval, Consolidation, Abstraction, Internalization, Revision, Distribution — arranged as a closed loop, with a loop-closure arrow from Distribution back to Acquisition. An inner band names the artifact produced at each stage (raw traces, typed memory, surfaced cases, compressed memory, skills/tools, model weights, pruned artifacts, shared registries). An outer Governance overlay ring spans every stage with five primitives: provenance, attestation, revocation, quarantine, audit.">
+  <img src="assets/lifecycle.png" width="820"
+       alt="The Experience Lifecycle: eight stages — 1 Acquisition, 2 Representation, 3 Retrieval, 4 Consolidation, 5 Abstraction, 6 Internalization, 7 Revision & Forgetting, 8 Distribution — arranged as a closed loop (Distribution loops back to Acquisition). Each stage produces an artifact (raw traces, typed memory, surfaced cases, compressed memory, skills/workflows/tools, model weights/adapters, pruned/amended artifacts, shared registries), and a cross-cutting Governance overlay (provenance, attestation, revocation, quarantine, audit) spans every stage.">
 </p>
-
-<p align="center"><sub>Eight stages, one loop. The inner band is the artifact transformed at each stage; the outer ring is the Governance overlay. Regenerate with <code>scripts/make_lifecycle_figure.py</code>.</sub></p>
 
 ---
 
@@ -66,12 +64,6 @@ cross-cutting **Governance / threat** layer that the others omit.
 ---
 
 ## The eight stages
-
-<p align="center">
-  <img src="assets/lifecycle_cycle.png" width="430"
-       alt="The eight Experience Lifecycle stages arranged as a closed loop: Acquisition → Representation → Retrieval → Consolidation → Abstraction → Internalization → Revision → Distribution, then back to Acquisition. Wrapped by a Governance overlay (provenance, attestation, revocation, quarantine, audit).">
-</p>
-<p align="center"><sub>The same eight stages as the closed loop they form — a revised, distributed agent generates new experience that re-enters at Acquisition.</sub></p>
 
 > Each paper appears under **every stage it touches** (so the same system can show up in more than
 > one table — exactly how the survey reads it). Systems spanning ≥5 stages are gathered under
