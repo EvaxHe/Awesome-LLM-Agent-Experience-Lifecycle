@@ -65,10 +65,17 @@ cross-cutting **Governance / threat** layer that the others omit.
 
 ## The eight stages
 
-> Each paper appears under **every stage it touches** (so the same system can show up in more than
-> one table — exactly how the survey reads it). Systems spanning ≥5 stages are gathered under
-> [Cross-cutting frameworks](#cross-cutting-frameworks). Tables are generated from
-> [`data/literature_matrix.csv`](data/literature_matrix.csv); **edit the CSV, not this file.**
+<p align="center">
+  <img src="assets/Taxonomy.jpg" width="860"
+       alt="Taxonomy of experience-driven agent methods: the eight lifecycle stages (Acquisition, Representation, Retrieval, Consolidation, Abstraction, Internalization, Revision & Forgetting, Distribution), each with three method families and one canonical system — for example, Acquisition has outcome/reward (DeepSeek-R1), trajectory (Voyager), and reflection (Reflexion). A cross-cutting Governance overlay (provenance, attestation, revocation, quarantine, audit) spans all stages.">
+</p>
+<p align="center"><sub>Each stage's method families, with one canonical system each — a visual index to the per-stage tables below.</sub></p>
+
+> A system can appear under **every stage it touches**, so the same paper may show up in more than
+> one table. Systems that span five or more stages are grouped under
+> [Cross-cutting frameworks](#cross-cutting-frameworks). All tables are generated from
+> [`data/literature_matrix.csv`](data/literature_matrix.csv) — to add or correct an entry, edit the
+> CSV (see [Contributing](CONTRIBUTING.md)).
 
 <!-- BEGIN:STAGES -->
 _generated_

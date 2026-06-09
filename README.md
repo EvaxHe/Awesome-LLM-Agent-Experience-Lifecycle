@@ -14,7 +14,7 @@ from raw interaction to persistent memory, abstracted skills, internalized weigh
 [![License](https://img.shields.io/github/license/EvaxHe/Awesome-LLM-Agent-Experience-Lifecycle)](LICENSE)
 
 <!-- BEGIN:STATS -->
-**84 systems** across the 8 stages (6 cross-cutting) · **11 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-08**
+**84 systems** across the 8 stages (6 cross-cutting) · **11 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-09**
 
 <sub>Per-stage counts (systems may appear under more than one stage): S1 19 · S2 14 · S3 12 · S4 18 · S5 24 · S6 39 · S7 1 · S8 11</sub>
 <!-- END:STATS -->
@@ -67,10 +67,17 @@ cross-cutting **Governance / threat** layer that the others omit.
 
 ## The eight stages
 
-> Each paper appears under **every stage it touches** (so the same system can show up in more than
-> one table — exactly how the survey reads it). Systems spanning ≥5 stages are gathered under
-> [Cross-cutting frameworks](#cross-cutting-frameworks). Tables are generated from
-> [`data/literature_matrix.csv`](data/literature_matrix.csv); **edit the CSV, not this file.**
+<p align="center">
+  <img src="assets/Taxonomy.jpg" width="860"
+       alt="Taxonomy of experience-driven agent methods: the eight lifecycle stages (Acquisition, Representation, Retrieval, Consolidation, Abstraction, Internalization, Revision & Forgetting, Distribution), each with three method families and one canonical system — for example, Acquisition has outcome/reward (DeepSeek-R1), trajectory (Voyager), and reflection (Reflexion). A cross-cutting Governance overlay (provenance, attestation, revocation, quarantine, audit) spans all stages.">
+</p>
+<p align="center"><sub>Each stage's method families, with one canonical system each — a visual index to the per-stage tables below.</sub></p>
+
+> A system can appear under **every stage it touches**, so the same paper may show up in more than
+> one table. Systems that span five or more stages are grouped under
+> [Cross-cutting frameworks](#cross-cutting-frameworks). All tables are generated from
+> [`data/literature_matrix.csv`](data/literature_matrix.csv) — to add or correct an entry, edit the
+> CSV (see [Contributing](CONTRIBUTING.md)).
 
 <!-- BEGIN:STAGES -->
 ### <a id="s1"></a>S1 — Acquisition  ·  `19 systems`
@@ -485,5 +492,5 @@ date refresh automatically each week.
 ---
 
 <div align="center">
-<sub>Last verified 2026-06-08 · built from <code>data/literature_matrix.csv</code> by <code>scripts/build_readme.py</code></sub>
+<sub>Last verified 2026-06-09 · built from <code>data/literature_matrix.csv</code> by <code>scripts/build_readme.py</code></sub>
 </div>
