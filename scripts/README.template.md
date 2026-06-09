@@ -66,7 +66,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 ## The eight stages
 
 <p align="center">
-  <img src="assets/Taxonomy.jpg" width="860"
+  <img src="assets/Taxonomy.png" width="860"
        alt="Taxonomy of experience-driven agent methods: the eight lifecycle stages (Acquisition, Representation, Retrieval, Consolidation, Abstraction, Internalization, Revision & Forgetting, Distribution), each with three method families and one canonical system — for example, Acquisition has outcome/reward (DeepSeek-R1), trajectory (Voyager), and reflection (Reflexion). A cross-cutting Governance overlay (provenance, attestation, revocation, quarantine, audit) spans all stages.">
 </p>
 <p align="center"><sub>Each stage's method families, with one canonical system each — a visual index to the per-stage tables below.</sub></p>
