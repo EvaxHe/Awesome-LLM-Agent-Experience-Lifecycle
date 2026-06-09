@@ -78,24 +78,6 @@
    "code": ""
   },
   {
-   "bibkey": "cowork_x_2026",
-   "title": "CoWork-X: Experience-Optimized Multi-Agent Co-Evolution",
-   "link": "https://scholar.google.com/scholar?q=CoWork-X%3A+Experience-Optimized+Multi-Agent+Co-Evolution",
-   "direct": false,
-   "year": 2026,
-   "venue": "arXiv",
-   "stages": [
-    4,
-    6,
-    8
-   ],
-   "kind": "system",
-   "updated": "Memory + weights",
-   "experience": "Trajectories",
-   "contribution": "Fast-slow co-evolution",
-   "code": ""
-  },
-  {
    "bibkey": "evotool_2026",
    "title": "EvoTool",
    "link": "https://arxiv.org/abs/2603.04900",
@@ -1148,8 +1130,8 @@
   {
    "bibkey": "metareflex_2025",
    "title": "Meta-Reflexion",
-   "link": "https://scholar.google.com/scholar?q=Meta-Reflexion",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2405.13009",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [
@@ -1475,8 +1457,8 @@
   {
    "bibkey": "self_questioning_2025",
    "title": "Self-Questioning Agents (AgentEvolver self-questioning component)",
-   "link": "https://scholar.google.com/scholar?q=Self-Questioning+Agents+%28AgentEvolver+self-questioning+component%29",
-   "direct": false,
+   "link": "https://arxiv.org/abs/2508.03682",
+   "direct": true,
    "year": 2025,
    "venue": "arXiv",
    "stages": [

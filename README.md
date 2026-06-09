@@ -14,9 +14,9 @@ from raw interaction to persistent memory, abstracted skills, internalized weigh
 [![License](https://img.shields.io/github/license/EvaxHe/Awesome-LLM-Agent-Experience-Lifecycle)](LICENSE)
 
 <!-- BEGIN:STATS -->
-**84 systems** across the 8 stages (6 cross-cutting) · **11 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-09**
+**83 systems** across the 8 stages (6 cross-cutting) · **11 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-06-09**
 
-<sub>Per-stage counts (systems may appear under more than one stage): S1 19 · S2 14 · S3 12 · S4 18 · S5 24 · S6 39 · S7 1 · S8 11</sub>
+<sub>Per-stage counts (systems may appear under more than one stage): S1 19 · S2 14 · S3 12 · S4 17 · S5 24 · S6 38 · S7 1 · S8 10</sub>
 <!-- END:STATS -->
 
 </div>
@@ -98,7 +98,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [Play2Prompt: Zero-Shot Tool Discovery](https://arxiv.org/abs/2503.14432) | arXiv | Prompt + memory | Discover tools without docs |  |
 | 2025 | [SEAL: Self-Adapting Language Models](https://arxiv.org/html/2506.10943v1) | arXiv 2506.10943 | Weights | Persistent self-edits via RL | [![stars](https://img.shields.io/github/stars/Continual-Intelligence/SEAL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/Continual-Intelligence/SEAL) |
 | 2025 | [SEAL: Synergistic Co-Evolution of Agents and Learning Environments](https://huggingface.co/papers/2605.24426) | HuggingFace papers 2605.24426 | Policy + environment | Curriculum co-evolution |  |
-| 2025 | [Self-Questioning Agents (AgentEvolver self-questioning component)](https://scholar.google.com/scholar?q=Self-Questioning+Agents+%28AgentEvolver+self-questioning+component%29) 🔎 | arXiv | Tasks | Self-generated curricula |  |
+| 2025 | [Self-Questioning Agents (AgentEvolver self-questioning component)](https://arxiv.org/abs/2508.03682) | arXiv | Tasks | Self-generated curricula |  |
 | 2025 | [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666) | arXiv | Weights | Match GPT-4 as judge |  |
 | 2025 | [Synthesizing Agent Trajectories via Test-Time Exploration under Validate-by-Reproduce](https://arxiv.org/html/2510.00415v1) | arXiv 2510.00415 | External + weights | Synthetic trajectories |  |
 | 2025 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | arXiv | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
@@ -146,13 +146,12 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2023 | [Generative Agents: Interactive Simulacra of Human Behavior](https://dl.acm.org/doi/10.1145/3586183.3606763) | UIST 2023 | External memory stream | Architecture: memory stream + reflection + planning |  |
 | 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | NeurIPS 2023 | External episodic notes | Verbal RL substitute for parameter updates |  |
 
-### <a id="s4"></a>S4 — Consolidation  ·  `18 systems`
+### <a id="s4"></a>S4 — Consolidation  ·  `17 systems`
 
 > How transient memories become durable — summarization, reflection, salience scoring, note-linking, RL-driven consolidation, compression.
 
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
-| 2026 | [CoWork-X: Experience-Optimized Multi-Agent Co-Evolution](https://scholar.google.com/scholar?q=CoWork-X%3A+Experience-Optimized+Multi-Agent+Co-Evolution) 🔎 | arXiv | Memory + weights | Fast-slow co-evolution |  |
 | 2026 | [Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification](https://arxiv.org/abs/2601.15808) | arXiv 2601.15808 | Memory + prompts | Plug-and-play test-time self-evolution |  |
 | 2026 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/html/2603.10600) | arXiv 2603.10600 | External tip memory | Sub-task vs task-level memory comparison |  |
 | 2025 | [A Self-Optimizing Agent with Dynamic Hierarchical Workflow](https://arxiv.org/html/2508.02959) | arXiv 2508.02959 | Workflow | Workflow self-optimization |  |
@@ -163,7 +162,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [Internalizing Agency from Reflective Experience](https://arxiv.org/html/2603.16843v1) | arXiv 2603.16843 | Weights + memory | Reflection-driven internalization |  |
 | 2025 | [LightThinker: Reasoning Compression](https://arxiv.org/abs/2502.15589) | arXiv | Memory | 70% memory reduction |  |
 | 2025 | [MEM1: RL-Trained Memory Consolidation](https://arxiv.org/abs/2506.15841) | arXiv | External memory | 3.7× less memory; 1.78× faster |  |
-| 2025 | [Meta-Reflexion](https://scholar.google.com/scholar?q=Meta-Reflexion) 🔎 | arXiv | External meta-memory | Hierarchical reflection |  |
+| 2025 | [Meta-Reflexion](https://arxiv.org/abs/2405.13009) | arXiv | External meta-memory | Hierarchical reflection |  |
 | 2024 | [Continual Learning of Multimodal Agents by Transforming Trajectories into Actionable Insights](https://arxiv.org/abs/2406.14596v1) | arXiv 2406.14596 | External insights | Trajectory-to-insight pipeline |  |
 | 2024 | [ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting](https://arxiv.org/html/2510.10304v1) | arXiv 2510.10304 | External demonstration store + ICL | HER-for-LM-agents formulation |  |
 | 2024 | [RAHL: Retrieval-Augmented Hierarchical In-Context RL](https://arxiv.org/abs/2408.06520) | arXiv 2408.06520 | ICL + retrieval | 9-42% improvement via retrieval |  |
@@ -202,14 +201,13 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2024 | [Continual Learning of Multimodal Agents by Transforming Trajectories into Actionable Insights](https://arxiv.org/abs/2406.14596v1) | arXiv 2406.14596 | External insights | Trajectory-to-insight pipeline |  |
 | 2023 | [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) | arXiv 2308.10144 | External insight library | Insight extraction across tasks | [![stars](https://img.shields.io/github/stars/LeapLabTHU/ExpeL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/LeapLabTHU/ExpeL) |
 
-### <a id="s6"></a>S6 — Internalization  ·  `39 systems`
+### <a id="s6"></a>S6 — Internalization  ·  `38 systems`
 
 > How experience becomes parameters — trajectory-SFT, RL with verifiable rewards, self-edits, test-time training, adapter selection, distillation.
 
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
 | 2026 | [Adaptive Compute Allocation for Code Generation via Test-Time Training](https://arxiv.org/html/2601.00894) | arXiv 2601.00894 | Weights | Training-free gating for TTT |  |
-| 2026 | [CoWork-X: Experience-Optimized Multi-Agent Co-Evolution](https://scholar.google.com/scholar?q=CoWork-X%3A+Experience-Optimized+Multi-Agent+Co-Evolution) 🔎 | arXiv | Memory + weights | Fast-slow co-evolution |  |
 | 2026 | [SECL: Self-Calibrating LMs via Test-Time Discriminative Distillation](https://arxiv.org/abs/2604.09624) | arXiv 2604.09624 | Weights | Selective test-time adaptation |  |
 | 2026 | [Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification](https://arxiv.org/abs/2601.15808) | arXiv 2601.15808 | Memory + prompts | Plug-and-play test-time self-evolution |  |
 | 2026 | [The Single-Multi Evolution Loop](https://arxiv.org/abs/2602.05182) | arXiv | Weights | Single-multi loop |  |
@@ -256,14 +254,13 @@ cross-cutting **Governance / threat** layer that the others omit.
 | :---: | --- | --- | --- | --- | :---: |
 | 2025 | [MemOS: An Operating System for Memory](https://arxiv.org/abs/2505.22101) | arXiv | External memory | Memory OS abstraction |  |
 
-### <a id="s8"></a>S8 — Distribution  ·  `11 systems`
+### <a id="s8"></a>S8 — Distribution  ·  `10 systems`
 
 > How experience moves across agents, users, teams, and repositories — multi-agent sharing, federated pools, protocols, skill registries.
 
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
 | 2026 | [Characterizing an Emergent Learning Community at Scale](https://arxiv.org/html/2602.18832v1) | arXiv 2602.18832 | Mixed | 2.8M agents in 3 weeks |  |
-| 2026 | [CoWork-X: Experience-Optimized Multi-Agent Co-Evolution](https://scholar.google.com/scholar?q=CoWork-X%3A+Experience-Optimized+Multi-Agent+Co-Evolution) 🔎 | arXiv | Memory + weights | Fast-slow co-evolution |  |
 | 2026 | [EvoTool](https://arxiv.org/abs/2603.04900) | arXiv | Tool registry | Tools-from-experience |  |
 | 2026 | [The Single-Multi Evolution Loop](https://arxiv.org/abs/2602.05182) | arXiv | Weights | Single-multi loop |  |
 | 2025 | [AgentRxiv: Parallel AI Research Labs](https://arxiv.org/abs/2503.18102) | arXiv | Memory + skills | +13.7% via shared research |  |
