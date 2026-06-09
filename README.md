@@ -421,7 +421,6 @@ How the prior surveys map onto the lifecycle (this is the companion to the surve
 | 2017 | [Mastering the Game of Go without Human Knowledge](https://www.nature.com/articles/nature24270) | Nature | Self-play to superhuman |
 | 2017 | [Model-Agnostic Meta-Learning](https://arxiv.org/abs/1703.03400) | ICML | Foundational meta-learning |
 | 2016 | [Emergent Communication in Multi-Agent RL](https://arxiv.org/abs/1605.06676) | NeurIPS | Emergent communication |
-| 1989 | [Catastrophic Interference in Connectionist Networks](https://scholar.google.com/scholar?q=Catastrophic+Interference+in+Connectionist+Networks) 🔎 | Psychology of Learning | Foundational forgetting |
 <!-- END:FOUNDATIONS -->
 
 ## Framing & position pieces
@@ -430,7 +429,6 @@ How the prior surveys map onto the lifecycle (this is the companion to the surve
 - [Active Inference in the Era of Experience](https://arxiv.org/abs/2508.05619) — *Theoretical complement to era of experience*
 - [Welcome to the Era of Experience](https://theaiinnovator.com/welcome-to-the-era-of-experience/) — *Names the paradigm we survey*
 - [AI-Generating Algorithms](https://arxiv.org/abs/1905.10985) — *Foundational AI-GA framework*
-- [Why Greatness Cannot Be Planned](https://scholar.google.com/scholar?q=Why+Greatness+Cannot+Be+Planned) 🔎 — *Foundational open-ended evolution*
 - [Gödel Machines](https://arxiv.org/abs/cs/0309048) — *Theoretical foundation*
 <!-- END:FRAMING -->
 

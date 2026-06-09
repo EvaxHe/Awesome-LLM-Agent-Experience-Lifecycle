@@ -2087,20 +2087,6 @@
    "code": ""
   },
   {
-   "bibkey": "stanley2015whygreatness",
-   "title": "Why Greatness Cannot Be Planned",
-   "link": "https://scholar.google.com/scholar?q=Why+Greatness+Cannot+Be+Planned",
-   "direct": false,
-   "year": 2015,
-   "venue": "Springer book",
-   "stages": [],
-   "kind": "framing",
-   "updated": "N/A",
-   "experience": "Conceptual",
-   "contribution": "Foundational open-ended evolution",
-   "code": ""
-  },
-  {
    "bibkey": "schmidhuber2003godel",
    "title": "Gödel Machines",
    "link": "https://arxiv.org/abs/cs/0309048",
@@ -2112,20 +2098,6 @@
    "updated": "Code",
    "experience": "Conceptual",
    "contribution": "Theoretical foundation",
-   "code": ""
-  },
-  {
-   "bibkey": "mccloskey1989forgetting",
-   "title": "Catastrophic Interference in Connectionist Networks",
-   "link": "https://scholar.google.com/scholar?q=Catastrophic+Interference+in+Connectionist+Networks",
-   "direct": false,
-   "year": 1989,
-   "venue": "Psychology of Learning",
-   "stages": [],
-   "kind": "foundation",
-   "updated": "Weights",
-   "experience": "Conceptual",
-   "contribution": "Foundational forgetting",
    "code": ""
   }
  ]
