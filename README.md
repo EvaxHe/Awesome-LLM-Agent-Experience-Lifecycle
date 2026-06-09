@@ -95,11 +95,11 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [Hindsight Experience Replay for LLM Agent Trajectory Relabeling](https://arxiv.org/abs/2603.21357v1) | arXiv 2603.21357 | Replay buffer | Goal relabeling for LM agents |  |
 | 2025 | [Multi-Agent Evolve (MAE)](https://arxiv.org/abs/2510.23595) | arXiv | Weights | Co-evolution dynamics |  |
 | 2025 | [Optimizing Multi-Agent RAG through Self-Training](https://arxiv.org/html/2506.10844) | arXiv 2506.10844 | Weights | Self-training MA-RAG |  |
-| 2025 | [Play2Prompt: Zero-Shot Tool Discovery](https://scholar.google.com/scholar?q=Play2Prompt%3A+Zero-Shot+Tool+Discovery) 🔎 | arXiv | Prompt + memory | Discover tools without docs |  |
+| 2025 | [Play2Prompt: Zero-Shot Tool Discovery](https://arxiv.org/abs/2503.14432) | arXiv | Prompt + memory | Discover tools without docs |  |
 | 2025 | [SEAL: Self-Adapting Language Models](https://arxiv.org/html/2506.10943v1) | arXiv 2506.10943 | Weights | Persistent self-edits via RL | [![stars](https://img.shields.io/github/stars/Continual-Intelligence/SEAL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/Continual-Intelligence/SEAL) |
 | 2025 | [SEAL: Synergistic Co-Evolution of Agents and Learning Environments](https://huggingface.co/papers/2605.24426) | HuggingFace papers 2605.24426 | Policy + environment | Curriculum co-evolution |  |
 | 2025 | [Self-Questioning Agents (AgentEvolver self-questioning component)](https://scholar.google.com/scholar?q=Self-Questioning+Agents+%28AgentEvolver+self-questioning+component%29) 🔎 | arXiv | Tasks | Self-generated curricula |  |
-| 2025 | [Self-Taught Evaluators](https://scholar.google.com/scholar?q=Self-Taught+Evaluators) 🔎 | arXiv | Weights | Match GPT-4 as judge |  |
+| 2025 | [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666) | arXiv | Weights | Match GPT-4 as judge |  |
 | 2025 | [Synthesizing Agent Trajectories via Test-Time Exploration under Validate-by-Reproduce](https://arxiv.org/html/2510.00415v1) | arXiv 2510.00415 | External + weights | Synthetic trajectories |  |
 | 2025 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | arXiv | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
 | 2024 | [ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting](https://arxiv.org/html/2510.10304v1) | arXiv 2510.10304 | External demonstration store + ICL | HER-for-LM-agents formulation |  |
@@ -117,7 +117,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [ENGRAM: Lightweight Memory Orchestration for Conversational Agents](https://arxiv.org/html/2511.12960v1) | arXiv 2511.12960 | External memory | Lightweight typed memory router |  |
 | 2025 | [Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents](https://arxiv.org/html/2605.17625v1) | arXiv 2605.17625 | External memory | Episodic+semantic split for science |  |
 | 2025 | [Get Experience from Practice: AgentRR (Record & Replay)](https://arxiv.org/abs/2505.17716) | arXiv 2505.17716 | External record | Record-replay paradigm |  |
-| 2025 | [Large Memory Models LM2](https://scholar.google.com/scholar?q=Large+Memory+Models+LM2) 🔎 | arXiv | Architecture + memory | +37% over recurrent memory transformers |  |
+| 2025 | [Large Memory Models LM2](https://arxiv.org/abs/2502.06049) | arXiv | Architecture + memory | +37% over recurrent memory transformers |  |
 | 2025 | [MaRS: A Cognitive Memory Architecture and Benchmark for Privacy-Aware Generative Agents](https://arxiv.org/html/2512.12856v1) | arXiv 2512.12856 | External memory + provenance | Privacy + provenance + retention schema |  |
 | 2025 | [Mem0/Mem0g: Production-grade memory for agents](https://arxiv.org/abs/2504.19413) | arXiv | External memory | 91% latency reduction |  |
 | 2025 | [MemInsight: Structured Memory Augmentation for Agents](https://arxiv.org/abs/2503.21760) | arXiv | External memory | +34% recall over RAG |  |
@@ -135,7 +135,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | :---: | --- | --- | --- | --- | :---: |
 | 2026 | [Learning to Retrieve from Agent Trajectories](https://arxiv.org/html/2604.04949v1) | arXiv 2604.04949 | Retriever weights | Trajectory-aware retrieval |  |
 | 2026 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/html/2603.10600) | arXiv 2603.10600 | External tip memory | Sub-task vs task-level memory comparison |  |
-| 2025 | [Chain-of-Tools: Frozen LLM with Tool Retrieval](https://scholar.google.com/scholar?q=Chain-of-Tools%3A+Frozen+LLM+with+Tool+Retrieval) 🔎 | arXiv | External tool retriever | Frozen LM with retrieval |  |
+| 2025 | [Chain-of-Tools: Frozen LLM with Tool Retrieval](https://arxiv.org/abs/2503.16779) | arXiv | External tool retriever | Frozen LM with retrieval |  |
 | 2025 | [ENGRAM: Lightweight Memory Orchestration for Conversational Agents](https://arxiv.org/html/2511.12960v1) | arXiv 2511.12960 | External memory | Lightweight typed memory router |  |
 | 2025 | [GAE-Retriever / WebRAGent: RAG for Multimodal Web Agent Planning](https://openreview.net/forum?id=L1VPZFbAcu) | OpenReview | External + ICL | +15% gain via retrieved knowledge |  |
 | 2025 | [Get Experience from Practice: AgentRR (Record & Replay)](https://arxiv.org/abs/2505.17716) | arXiv 2505.17716 | External record | Record-replay paradigm |  |
@@ -161,7 +161,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents](https://arxiv.org/html/2605.17625v1) | arXiv 2605.17625 | External memory | Episodic+semantic split for science |  |
 | 2025 | [Experiential Reflective Learning for Self-Improving LLM Agents (ERL)](https://arxiv.org/html/2603.24639) | arXiv 2603.24639 | External heuristic store | Lightweight task adaptation via heuristics |  |
 | 2025 | [Internalizing Agency from Reflective Experience](https://arxiv.org/html/2603.16843v1) | arXiv 2603.16843 | Weights + memory | Reflection-driven internalization |  |
-| 2025 | [LightThinker: Reasoning Compression](https://scholar.google.com/scholar?q=LightThinker%3A+Reasoning+Compression) 🔎 | arXiv | Memory | 70% memory reduction |  |
+| 2025 | [LightThinker: Reasoning Compression](https://arxiv.org/abs/2502.15589) | arXiv | Memory | 70% memory reduction |  |
 | 2025 | [MEM1: RL-Trained Memory Consolidation](https://arxiv.org/abs/2506.15841) | arXiv | External memory | 3.7× less memory; 1.78× faster |  |
 | 2025 | [Meta-Reflexion](https://scholar.google.com/scholar?q=Meta-Reflexion) 🔎 | arXiv | External meta-memory | Hierarchical reflection |  |
 | 2024 | [Continual Learning of Multimodal Agents by Transforming Trajectories into Actionable Insights](https://arxiv.org/abs/2406.14596v1) | arXiv 2406.14596 | External insights | Trajectory-to-insight pipeline |  |
@@ -177,8 +177,8 @@ cross-cutting **Governance / threat** layer that the others omit.
 
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
-| 2026 | [EvoTool](https://scholar.google.com/scholar?q=EvoTool) 🔎 | arXiv | Tool registry | Tools-from-experience |  |
-| 2026 | [FactorMiner](https://scholar.google.com/scholar?q=FactorMiner) 🔎 | arXiv | External factor library | Reusable factor abstraction |  |
+| 2026 | [EvoTool](https://arxiv.org/abs/2603.04900) | arXiv | Tool registry | Tools-from-experience |  |
+| 2026 | [FactorMiner](https://arxiv.org/abs/2602.14670) | arXiv | External factor library | Reusable factor abstraction |  |
 | 2026 | [GeoEvolver: Experience-Driven Multi-Agent Earth Observation](https://arxiv.org/html/2602.02559) | arXiv 2602.02559 | Memory + tools | Domain-specific multi-agent experience |  |
 | 2026 | [The Single-Multi Evolution Loop](https://arxiv.org/abs/2602.05182) | arXiv | Weights | Single-multi loop |  |
 | 2026 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/html/2603.10600) | arXiv 2603.10600 | External tip memory | Sub-task vs task-level memory comparison |  |
@@ -197,8 +197,8 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [LIMO: Less Is More for Reasoning](https://arxiv.org/abs/2502.03387) | arXiv | Weights | 817 trajectories unlock reasoning |  |
 | 2025 | [MaAS: Agentic Supernet](https://arxiv.org/abs/2502.04180) | arXiv | Architecture | 6-45% cost of baselines |  |
 | 2025 | [OpenClaw Agent Skills (SKILL.md)](https://skywork.ai/blog/ai-bot/claude-example-skills-library-ultimate-guide/) | Industry blog | Skill files | Modular skill library |  |
-| 2025 | [Play2Prompt: Zero-Shot Tool Discovery](https://scholar.google.com/scholar?q=Play2Prompt%3A+Zero-Shot+Tool+Discovery) 🔎 | arXiv | Prompt + memory | Discover tools without docs |  |
-| 2025 | [Reinforcement-Learned Teachers](https://scholar.google.com/scholar?q=Reinforcement-Learned+Teachers) 🔎 | arXiv | Teacher weights | Teacher quality decoupled from solver capability |  |
+| 2025 | [Play2Prompt: Zero-Shot Tool Discovery](https://arxiv.org/abs/2503.14432) | arXiv | Prompt + memory | Discover tools without docs |  |
+| 2025 | [Reinforcement-Learned Teachers](https://arxiv.org/abs/2506.08388) | arXiv | Teacher weights | Teacher quality decoupled from solver capability |  |
 | 2024 | [Continual Learning of Multimodal Agents by Transforming Trajectories into Actionable Insights](https://arxiv.org/abs/2406.14596v1) | arXiv 2406.14596 | External insights | Trajectory-to-insight pipeline |  |
 | 2023 | [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) | arXiv 2308.10144 | External insight library | Insight extraction across tasks | [![stars](https://img.shields.io/github/stars/LeapLabTHU/ExpeL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/LeapLabTHU/ExpeL) |
 
@@ -227,25 +227,25 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [Internalizing Agency from Reflective Experience](https://arxiv.org/html/2603.16843v1) | arXiv 2603.16843 | Weights + memory | Reflection-driven internalization |  |
 | 2025 | [LIMO: Less Is More for Reasoning](https://arxiv.org/abs/2502.03387) | arXiv | Weights | 817 trajectories unlock reasoning |  |
 | 2025 | [Multi-Agent Evolve (MAE)](https://arxiv.org/abs/2510.23595) | arXiv | Weights | Co-evolution dynamics |  |
-| 2025 | [Nemotron Tool-N1](https://scholar.google.com/scholar?q=Nemotron+Tool-N1) 🔎 | arXiv | Weights | Outperforms GPT-4o on tool-use |  |
+| 2025 | [Nemotron Tool-N1](https://arxiv.org/abs/2505.00024) | arXiv | Weights | Outperforms GPT-4o on tool-use |  |
 | 2025 | [Open-Reasoner-Zero](https://arxiv.org/abs/2503.24290) | arXiv | Weights | 1/30 training steps of R1-Zero |  |
 | 2025 | [OpenHands trajectories with Qwen3-Coder](https://nebius.com/blog/posts/openhands-trajectories-with-qwen3-coder-480b) | Industry blog | Weights | Production RFT recipe |  |
 | 2025 | [Optima: Multi-Agent RL for Communication Efficiency](https://arxiv.org/abs/2410.08115) | arXiv | Weights | 2.8x performance with <10% tokens |  |
 | 2025 | [Optimizing Multi-Agent RAG through Self-Training](https://arxiv.org/html/2506.10844) | arXiv 2506.10844 | Weights | Self-training MA-RAG |  |
-| 2025 | [QwenLong-L1: Progressive Context Scaling](https://scholar.google.com/scholar?q=QwenLong-L1%3A+Progressive+Context+Scaling) 🔎 | arXiv | Weights + context | Scaling to 120K tokens |  |
-| 2025 | [Reinforcement-Learned Teachers](https://scholar.google.com/scholar?q=Reinforcement-Learned+Teachers) 🔎 | arXiv | Teacher weights | Teacher quality decoupled from solver capability |  |
-| 2025 | [RL for Search-Efficient LLMs](https://scholar.google.com/scholar?q=RL+for+Search-Efficient+LLMs) 🔎 | arXiv | Weights | Learn when to search |  |
+| 2025 | [QwenLong-L1: Progressive Context Scaling](https://arxiv.org/abs/2505.17667) | arXiv | Weights + context | Scaling to 120K tokens |  |
+| 2025 | [Reinforcement-Learned Teachers](https://arxiv.org/abs/2506.08388) | arXiv | Teacher weights | Teacher quality decoupled from solver capability |  |
+| 2025 | [RL for Search-Efficient LLMs](https://arxiv.org/abs/2505.07903) | arXiv | Weights | Learn when to search |  |
 | 2025 | [SEAL: Self-Adapting Language Models](https://arxiv.org/html/2506.10943v1) | arXiv 2506.10943 | Weights | Persistent self-edits via RL | [![stars](https://img.shields.io/github/stars/Continual-Intelligence/SEAL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/Continual-Intelligence/SEAL) |
 | 2025 | [SEAL: Synergistic Co-Evolution of Agents and Learning Environments](https://huggingface.co/papers/2605.24426) | HuggingFace papers 2605.24426 | Policy + environment | Curriculum co-evolution |  |
-| 2025 | [Self-Taught Evaluators](https://scholar.google.com/scholar?q=Self-Taught+Evaluators) 🔎 | arXiv | Weights | Match GPT-4 as judge |  |
+| 2025 | [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666) | arXiv | Weights | Match GPT-4 as judge |  |
 | 2025 | [Synthesizing Agent Trajectories via Test-Time Exploration under Validate-by-Reproduce](https://arxiv.org/html/2510.00415v1) | arXiv 2510.00415 | External + weights | Synthetic trajectories |  |
 | 2025 | [Test-Time Learning for Large Language Models](https://arxiv.org/abs/2505.20633) | arXiv 2505.20633 | Weights | Self-supervised TTT |  |
-| 2025 | [Text-to-LoRA](https://scholar.google.com/scholar?q=Text-to-LoRA) 🔎 | arXiv | Adapter weights | Generated adapters |  |
+| 2025 | [Text-to-LoRA](https://arxiv.org/abs/2506.06105) | arXiv | Adapter weights | Generated adapters |  |
 | 2025 | [The Surprising Effectiveness of Test-Time Training for Few-Shot Learning](https://icml.cc/virtual/2025/poster/44773) | ICML 2025 | Weights at test time | TTT works for LM few-shot |  |
 | 2025 | [Trajectory Balance with Asynchrony (TBA)](https://arxiv.org/html/2503.18929v1) | arXiv 2503.18929 | Weights | Scalable replay-buffer RL |  |
 | 2025 | [Transformer²: Self-Adaptive LLMs](https://arxiv.org/abs/2501.06252) | arXiv | Architecture (expert routing) | Architectural runtime adaptation |  |
 | 2025 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | arXiv | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
-| 2025 | [ZeroSearch](https://scholar.google.com/scholar?q=ZeroSearch) 🔎 | arXiv | Weights | RL without real search |  |
+| 2025 | [ZeroSearch](https://arxiv.org/abs/2505.04588) | arXiv | Weights | RL without real search |  |
 | 2024 | [ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting](https://arxiv.org/html/2510.10304v1) | arXiv 2510.10304 | External demonstration store + ICL | HER-for-LM-agents formulation |  |
 
 ### <a id="s7"></a>S7 — Revision & Forgetting  ·  `1 systems`
@@ -264,7 +264,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | :---: | --- | --- | --- | --- | :---: |
 | 2026 | [Characterizing an Emergent Learning Community at Scale](https://arxiv.org/html/2602.18832v1) | arXiv 2602.18832 | Mixed | 2.8M agents in 3 weeks |  |
 | 2026 | [CoWork-X: Experience-Optimized Multi-Agent Co-Evolution](https://scholar.google.com/scholar?q=CoWork-X%3A+Experience-Optimized+Multi-Agent+Co-Evolution) 🔎 | arXiv | Memory + weights | Fast-slow co-evolution |  |
-| 2026 | [EvoTool](https://scholar.google.com/scholar?q=EvoTool) 🔎 | arXiv | Tool registry | Tools-from-experience |  |
+| 2026 | [EvoTool](https://arxiv.org/abs/2603.04900) | arXiv | Tool registry | Tools-from-experience |  |
 | 2026 | [The Single-Multi Evolution Loop](https://arxiv.org/abs/2602.05182) | arXiv | Weights | Single-multi loop |  |
 | 2025 | [AgentRxiv: Parallel AI Research Labs](https://arxiv.org/abs/2503.18102) | arXiv | Memory + skills | +13.7% via shared research |  |
 | 2025 | [Alita: Autonomous MCP Construction](https://arxiv.org/abs/2505.20286) | arXiv | Tool registry | Autonomous tool creation |  |
@@ -272,7 +272,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [MaRS: A Cognitive Memory Architecture and Benchmark for Privacy-Aware Generative Agents](https://arxiv.org/html/2512.12856v1) | arXiv 2512.12856 | External memory + provenance | Privacy + provenance + retention schema |  |
 | 2025 | [Multi-Agent Evolve (MAE)](https://arxiv.org/abs/2510.23595) | arXiv | Weights | Co-evolution dynamics |  |
 | 2025 | [Optima: Multi-Agent RL for Communication Efficiency](https://arxiv.org/abs/2410.08115) | arXiv | Weights | 2.8x performance with <10% tokens |  |
-| 2025 | [Self-Taught Evaluators](https://scholar.google.com/scholar?q=Self-Taught+Evaluators) 🔎 | arXiv | Weights | Match GPT-4 as judge |  |
+| 2025 | [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666) | arXiv | Weights | Match GPT-4 as judge |  |
 
 <!-- END:STAGES -->
 
@@ -374,7 +374,7 @@ A `rollback-and-rerun` delta is the recommended default BEC probe.
 | 2025 | [LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners](https://openreview.net/forum?id=MYqAKKsjF9) | arXiv 2505.11942 OpenReview | First lifelong-agent benchmark |
 | 2025 | [Multi-Agent Continual Evaluation Network MACEval](https://arxiv.org/html/2511.09139) | arXiv 2511.09139 | Multi-agent continual evaluation |
 | 2025 | [Self-Evolving LLM Agents for Strategic Planning](https://arxiv.org/html/2506.04651) | arXiv 2506.04651 | Long-horizon strategic eval |
-| 2025 | [SHADE-Arena: Saboteur vs. Monitor](https://scholar.google.com/scholar?q=SHADE-Arena%3A+Saboteur+vs.+Monitor) 🔎 | arXiv | 27% undetected sabotage |
+| 2025 | [SHADE-Arena: Saboteur vs. Monitor](https://arxiv.org/abs/2506.15740) | arXiv | 27% undetected sabotage |
 | 2024 | [BABILong](https://arxiv.org/abs/2406.10149) | arXiv | BABILong benchmark |
 | 2024 | [Dynamic Conversational Benchmarking](https://arxiv.org/html/2409.20222v1) | arXiv 2409.20222 | Highlights LTM benefit |
 | 2024 | [LOCOMO: Long Conversational Memory Benchmark](https://arxiv.org/abs/2402.17753) | arXiv | LOCOMO benchmark |
@@ -402,7 +402,7 @@ How the prior surveys map onto the lifecycle (this is the companion to the surve
 | 2025 | [Memory in the Age of AI Agents](https://arxiv.org/abs/2512.13564) | arXiv 2512.13564 | Cross-reference for stage 2 evaluation |
 | 2025 | [The Landscape of Agentic Reinforcement Learning for LLMs](https://arxiv.org/abs/2509.02547) | arXiv 2509.02547 | Cross-reference for stage 6 RL methods |
 | 2024 | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/html/2404.14387v1) | arXiv 2404.14387 | Predecessor; we extend to agents and to 2025-26 literature |
-| 2024 | [A Survey on the Memory Mechanism of LLM-based Agents](https://scholar.google.com/scholar?q=A+Survey+on+the+Memory+Mechanism+of+LLM-based+Agents) 🔎 | arXiv | Foundational; cited heavily for stage 2 vocabulary |
+| 2024 | [A Survey on the Memory Mechanism of LLM-based Agents](https://arxiv.org/abs/2404.13501) | arXiv | Foundational; cited heavily for stage 2 vocabulary |
 <!-- END:RELATED -->
 
 ## Foundations & background
@@ -420,10 +420,10 @@ How the prior surveys map onto the lifecycle (this is the companion to the surve
 | 2022 | [RLHF: Training Language Models to Follow Instructions with Human Feedback](https://arxiv.org/abs/2203.02155) | NeurIPS | Foundational RLHF |
 | 2020 | [Language Models Are Few-Shot Learners](https://arxiv.org/abs/2005.14165) | NeurIPS | Emergent ICL |
 | 2020 | [Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) | NeurIPS | Foundational RAG |
-| 2019 | [Experience Replay for Continual Learning](https://scholar.google.com/scholar?q=Experience+Replay+for+Continual+Learning) 🔎 | NeurIPS | Replay for continual learning |
-| 2017 | [Mastering the Game of Go without Human Knowledge](https://scholar.google.com/scholar?q=Mastering+the+Game+of+Go+without+Human+Knowledge) 🔎 | Nature | Self-play to superhuman |
+| 2019 | [Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682) | NeurIPS | Replay for continual learning |
+| 2017 | [Mastering the Game of Go without Human Knowledge](https://www.nature.com/articles/nature24270) | Nature | Self-play to superhuman |
 | 2017 | [Model-Agnostic Meta-Learning](https://arxiv.org/abs/1703.03400) | ICML | Foundational meta-learning |
-| 2016 | [Emergent Communication in Multi-Agent RL](https://scholar.google.com/scholar?q=Emergent+Communication+in+Multi-Agent+RL) 🔎 | NeurIPS | Emergent communication |
+| 2016 | [Emergent Communication in Multi-Agent RL](https://arxiv.org/abs/1605.06676) | NeurIPS | Emergent communication |
 | 1989 | [Catastrophic Interference in Connectionist Networks](https://scholar.google.com/scholar?q=Catastrophic+Interference+in+Connectionist+Networks) 🔎 | Psychology of Learning | Foundational forgetting |
 <!-- END:FOUNDATIONS -->
 
@@ -434,7 +434,7 @@ How the prior surveys map onto the lifecycle (this is the companion to the surve
 - [Welcome to the Era of Experience](https://theaiinnovator.com/welcome-to-the-era-of-experience/) — *Names the paradigm we survey*
 - [AI-Generating Algorithms](https://arxiv.org/abs/1905.10985) — *Foundational AI-GA framework*
 - [Why Greatness Cannot Be Planned](https://scholar.google.com/scholar?q=Why+Greatness+Cannot+Be+Planned) 🔎 — *Foundational open-ended evolution*
-- [Gödel Machines](https://scholar.google.com/scholar?q=G%C3%B6del+Machines) 🔎 — *Theoretical foundation*
+- [Gödel Machines](https://arxiv.org/abs/cs/0309048) — *Theoretical foundation*
 <!-- END:FRAMING -->
 
 ---
