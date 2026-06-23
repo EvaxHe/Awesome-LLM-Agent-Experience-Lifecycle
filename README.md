@@ -54,6 +54,7 @@ cross-cutting **Governance / threat** layer that the others omit.
   - [S1 — Acquisition](#s1) · [S2 — Representation](#s2) · [S3 — Retrieval & Use](#s3) · [S4 — Consolidation](#s4)
   - [S5 — Abstraction](#s5) · [S6 — Internalization](#s6) · [S7 — Revision & Forgetting](#s7) · [S8 — Distribution](#s8)
 - [Cross-cutting frameworks](#cross-cutting-frameworks)
+- [What the field actually updates](#-what-the-field-actually-updates)
 - [Governance & the Experience-Pipeline Threat Model (EPTM)](#-governance--the-experience-pipeline-threat-model-eptm)
 - [Routing: where should an experience signal live?](#-routing-where-should-an-experience-signal-live)
 - [Evaluating change over time](#-evaluating-change-over-time)
@@ -286,6 +287,24 @@ cross-cutting **Governance / threat** layer that the others omit.
 - [Self-Evolving Agent via Experience-Driven Lifelong Learning (ELL-StuLife)](https://github.com/ECNU-ICALK/ELL-StuLife) — *Lifelong agent dataset* <sub>(S1, S2, S3, S4, S5, S6, S7, S8)</sub>
 - [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) — *First lifelong agent with reusable skill library* <sub>(S1, S2, S3, S4, S5)</sub>
 <!-- END:CROSSCUT -->
+
+---
+
+## 🗺 What the field actually updates
+
+Stepping back from the per-stage lists: read as a **stage × update-surface** grid, the whole corpus
+shows a sharp two-pole pattern. Experience is overwhelmingly written to **external memory** (stages
+1–5, peaking at Consolidation) or **internalized into weights** (a pronounced spike at
+Internalization) — while **skills, workflows, tools, and adapters are rarely the _unit_ of update**:
+systems _use_ tools and _enact_ skills far more than they _update_ them. And the far right of the
+lifecycle — **Revision & Forgetting** — is nearly empty, an empirical echo of the gap the survey
+argues is most under-served.
+
+<p align="center">
+  <img src="assets/mapped_corpus.png" width="820"
+       alt="Heatmap of update surfaces across the experience lifecycle. Rows are the eight lifecycle stages (Acquisition, Representation, Retrieval & Use, Consolidation, Abstraction, Internalization, Revision & Forgetting, Distribution); columns are six update surfaces (Memory, Skills, Workflow, Tools, Adapter, Weights). Each cell counts how many of 83 systems update that surface at that stage. Memory dominates stages 1–5 and peaks at Consolidation (19); Weights is bimodal — a small bump at Acquisition (14) and a large spike at Internalization (34, the densest cell); Skills, Workflow, Tools and Adapter stay thin throughout; Revision & Forgetting is the thinnest stage.">
+</p>
+<p align="center"><sub>Each cell = number of the 83 systems whose <code>what_is_updated</code> maps to that surface, counted at every stage the system spans — built from <a href="data/literature_matrix.csv"><code>data/literature_matrix.csv</code></a>. The matrix is multi-hot, so columns need not sum to 83; 3 systems with unspecified ("mixed") targets are omitted.</sub></p>
 
 ---
 
