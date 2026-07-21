@@ -1,0 +1,15 @@
+benchmark,year,domain,stream_length,change_axis,key_signal,bec_discipline,bibkey,forward_transfer,backward_transfer,plasticity_stability,memory_cost,skill_reuse,shortcutting,adversarial_robustness
+LifelongAgentBench,2025,Tool-using agents,Long,Sequential task stream,Group self-consistency,Limited,zheng2026lifelongagentbench,partial,partial,none,partial,none,none,none
+LOCA-Bench,2026,Language agents,Variable,Controllable context growth,Context-management strategies,Limited,zeng2026loca,none,none,none,full,none,none,none
+BABILong,2024,Long-context reasoning,Long context,Document length,Memory-augmented retrieval,Static-style only,kuratov2024babilong,none,none,none,partial,none,none,none
+LOCOMO,2024,Conversational,Multi-session,Long-term memory,Multi-session conversation,Static-style only,maharana2024evaluating,none,none,none,partial,none,none,none
+LongMemEval,2024,Conversational (chat assistants),Multi-session,Long-term memory with knowledge updates,Interactive long-term memory across sessions,Static-style only,wu2024longmemeval,partial,none,none,partial,none,none,none
+Dynamic Conversational Benchmarking,2024,Conversational,Interleaved,Task interleaving,LTM benefit,Limited,castillo-bolado2024beyond,none,none,none,partial,none,none,none
+MACEval,2025,Multi-LLM eval,Continuous,Continual eval,Multi-agent role-assigned eval,Some (continuous design),chen2025maceval,none,none,none,none,none,none,none
+Continuous Benchmark Generation,2025,Enterprise agents,Continuous,Dynamic benchmarks,Enterprise-scale,Strong (generates per-agent),saxena2025continuous,none,none,none,none,none,none,none
+Long-Horizon Office Workflows,2025,Office agents,Long,End-to-end workflow,Long-horizon tasks,Limited,wang2025odysseybench,none,none,none,none,none,none,none
+Strategic Catan,2025,Strategic planning,Long-horizon,Adversarial stochastic,Long-horizon strategy,Some (stochastic env reduces direct memorization),belle2025agents,partial,none,none,none,none,none,none
+Continual Coding,2025,Coding agents,Streaming issues,Issue stream,Continual code-fix,Some (issues evolve naturally),joshi2025swe,full,full,full,none,none,none,none
+Self-Evolving Memory Benchmark,2025,Test-time learning + memory,Streaming,Test-time learning,Self-evolving memory,Limited,wei2025evo,partial,none,none,partial,none,none,none
+GeoEvolver,2026,Earth observation (multi-agent),Domain stream,Domain shift,Domain-specific MA experience,Some (natural domain drift),dai2026experience,partial,none,none,none,none,none,none
+SHADE-Arena (adversarial),2025,Multi-agent,Per-task,Adversarial,Saboteur vs. monitor,Strong (adversarial structure resists memorization),kutasov2025shade,none,none,none,none,none,none,full

@@ -107,7 +107,7 @@ empirical echo of the gap the survey argues is most under-served.
   <img src="assets/mapped_corpus.png" width="820"
        alt="Heatmap of update surfaces across the experience lifecycle. Rows are the eight lifecycle stages (Acquisition, Representation, Retrieval & Use, Consolidation, Abstraction, Internalization, Revision & Forgetting, Distribution); columns are five update surfaces (Memory, Skills, Workflow, Tools, Weights). Each cell counts how many of the 90 systems in the survey's §2.8 corpus update that surface at that stage. External memory (44 systems) and model weights (43) dominate; weights spike at Internalization (39, the densest cell); Skills, Workflow and Tools stay thin throughout; Revision & Forgetting is nearly empty.">
 </p>
-<p align="center"><sub>The survey's frozen <strong>§2.8</strong> corpus (Table C2): 90 hand-verified systems, each cell counting a system in every stage it spans (so columns need not sum to 90). Reproduce with <a href="reproducibility/"><code>reproducibility/corpus_coding.py</code></a>. The stage tables above are the repository's <em>living</em> index and apply a slightly broader curation (with separate Benchmark/Governance/Foundation sections), so their counts differ from this frozen analysis by design.</sub></p>
+<p align="center"><sub>The survey's <strong>§2.8</strong> corpus (Table C2): the same 90 systems the stage tables are built from, each cell counting a system in every stage it spans (so columns need not sum to 90). Fully reproducible — see <a href="reproducibility/"><code>reproducibility/corpus_coding.py</code></a>.</sub></p>
 
 ---
 

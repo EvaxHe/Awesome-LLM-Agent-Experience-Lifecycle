@@ -16,6 +16,7 @@ import csv
 import datetime
 import json
 import re
+import sys
 import urllib.parse
 from pathlib import Path
 
@@ -24,6 +25,8 @@ CSV = ROOT / "data" / "literature_matrix.csv"
 TEMPLATE = ROOT / "scripts" / "README.template.md"
 OUT = ROOT / "README.md"
 DOCS_JSON = ROOT / "docs" / "papers.json"
+REPRO = ROOT / "reproducibility"
+BENCH_CSV = REPRO / "benchmarks.csv"
 
 STAGE_NAMES = {
     1: "Acquisition",
@@ -50,6 +53,26 @@ STAGE_BLURB = {
 # CSV labels that are not lifecycle systems but related surveys / position pieces.
 COMPARISON_LABELS = {"comparison"}
 CROSSCUT_MIN_STAGES = 5  # papers touching this many stages go in their own section
+
+# --- corpus classification: single source of truth = the paper's coding -------
+sys.path.insert(0, str(REPRO))
+import corpus_coding as cc  # noqa: E402  (reuse EXCLUDE / GOVERNANCE / parse_stages)
+
+# The paper's EXCLUDE set, split: foundational classics stay (Foundations
+# section); the excluded benchmarks are superseded by the editorial benchmarks.csv.
+EXCLUDE_BENCH = {"mctrl_2025", "office_long_horizon_2025", "shade_arena_2025",
+                 "benchmarking_continuous_2025", "ell_stulife_2025"}
+EXCLUDE_FOUND = cc.EXCLUDE - EXCLUDE_BENCH
+SURVEY_TYPES = {"survey"}
+FRAMING_TYPES = {"position", "conceptual", "theoretical"}
+BENCH_TYPES = {"benchmark", "evaluation framework", "eval framework"}
+
+
+def is_system(r: dict) -> bool:
+    """A retained system per the survey's §2.8 inclusion rule (corpus_coding)."""
+    return (r.get("bibkey", "").strip() not in cc.EXCLUDE
+            and r.get("agent_type", "").strip() not in ("Survey", "Position", "Benchmark", "Conceptual")
+            and r.get("lifecycle_stage", "").strip() not in ("Comparison", "Framing"))
 
 
 def parse_stages(raw: str) -> list[int]:
@@ -173,6 +196,7 @@ def _year(r: dict) -> int:
 
 def main() -> None:
     rows = list(csv.DictReader(CSV.open(encoding="utf-8")))
+    bench_rows = list(csv.DictReader(BENCH_CSV.open(encoding="utf-8")))
 
     stage_buckets: dict[int, list[dict]] = {n: [] for n in STAGE_NAMES}
     crosscut: list[dict] = []
@@ -186,24 +210,24 @@ def main() -> None:
         raw = r.get("lifecycle_stage", "").strip()
         label = raw.lower()
         atype = r.get("agent_type", "").strip().lower()
-        stages = parse_stages(raw)
-        if not stages:
-            if label == "benchmark":
-                benchmarks.append(r)
-            elif label == "governance":
-                governance.append(r)
-            elif label == "foundation":
-                foundations.append(r)
-            elif atype == "survey" or label in COMPARISON_LABELS:
-                comparison.append(r)
-            else:
-                framing.append(r)
-        elif len(stages) >= CROSSCUT_MIN_STAGES:
+        bk = r.get("bibkey", "").strip()
+        if is_system(r):
+            stages = cc.parse_stages(raw)
             r["_stages"] = stages
-            crosscut.append(r)
-        else:
-            for s in stages:
+            for s in stages:                       # a system appears in every stage it touches
                 stage_buckets[s].append(r)
+            if len(stages) >= CROSSCUT_MIN_STAGES:
+                crosscut.append(r)
+            if bk in cc.GOVERNANCE:                # governance papers ARE systems; also listed below
+                governance.append(r)
+        elif bk in EXCLUDE_BENCH or atype in BENCH_TYPES:
+            continue                               # benchmark-type: superseded by editorial benchmarks.csv
+        elif atype in SURVEY_TYPES or label in COMPARISON_LABELS:
+            comparison.append(r)
+        elif bk in EXCLUDE_FOUND:
+            foundations.append(r)
+        else:
+            framing.append(r)
 
     # ---- STAGES block ----
     parts: list[str] = []
@@ -249,20 +273,40 @@ def main() -> None:
         )
     framing_md = "\n".join(fr_lines) if fr_lines else "_None yet._"
 
-    # ---- BENCHMARKS block (evaluation, survey §10) ----
-    bm_lines = [
-        "| Year | Benchmark | Venue | What it measures |",
-        "| :---: | --- | --- | --- |",
+    # ---- BENCHMARKS block (editorial §10 list; reproducibility/benchmarks.csv) ----
+    SYM = {"full": "●", "partial": "◐", "none": "○"}
+    murl = {r.get("bibkey", "").strip(): arxiv_link(r) for r in rows}
+
+    def blink(b: dict) -> str:
+        title = md_escape(b["benchmark"])
+        url = murl.get(b["bibkey"].strip())
+        if url:
+            return f"[{title}]({url})"
+        q = urllib.parse.quote_plus(b["benchmark"] + " lifelong agent benchmark")
+        return f"[{title}](https://scholar.google.com/scholar?q={q}) 🔎"
+
+    bench_sorted = sorted(bench_rows, key=lambda b: (-int(b["year"]), b["benchmark"].lower()))
+    bm = [
+        "| Year | Benchmark | Domain | Change axis | Key signal | BEC discipline |",
+        "| :---: | --- | --- | --- | --- | --- |",
     ]
-    for r in _dedup(sorted(benchmarks, key=lambda r: (-_year(r), r.get("title", "").lower()))):
-        bm_lines.append(
-            "| {y} | {t} | {v} | {c} |".format(
-                y=r.get("year", "").strip(), t=title_cell(r),
-                v=md_escape(r.get("venue", "")),
-                c=md_escape(r.get("key_contribution", "")),
-            )
-        )
-    benchmarks_md = "\n".join(bm_lines)
+    for b in bench_sorted:
+        bm.append("| {y} | {t} | {d} | {c} | {k} | {disc} |".format(
+            y=b["year"], t=blink(b), d=md_escape(b["domain"]),
+            c=md_escape(b["change_axis"]), k=md_escape(b["key_signal"]),
+            disc=md_escape(b["bec_discipline"])))
+    props = ["forward_transfer", "backward_transfer", "plasticity_stability",
+             "memory_cost", "skill_reuse", "shortcutting", "adversarial_robustness"]
+    phead = ["Fwd xfer", "Bwd xfer", "Plast/Stab", "Mem cost", "Skill reuse", "Shortcut", "Adv-rob"]
+    bm += ["",
+           "**Seven-property coverage** (Table 15b) — ● full · ◐ partial · ○ none:",
+           "",
+           "| Benchmark | " + " | ".join(phead) + " |",
+           "| --- | " + " | ".join([":---:"] * len(phead)) + " |"]
+    for b in bench_sorted:
+        cells = " | ".join(SYM.get(b[p].strip(), "○") for p in props)
+        bm.append(f"| {md_escape(b['benchmark'])} | {cells} |")
+    benchmarks_md = "\n".join(bm)
 
     # ---- GOVERNANCE block (threats + defenses, survey §9) ----
     gov_lines = [
@@ -295,9 +339,8 @@ def main() -> None:
     foundations_md = "\n".join(fo_lines)
 
     # ---- STATS ----
-    total = len(rows)
-    n_systems = (total - len(comparison) - len(framing) - len(benchmarks)
-                 - len(governance) - len(foundations))
+    n_systems = sum(1 for r in rows if is_system(r))
+    n_benchmarks = len(bench_rows)
     today = datetime.date.today().isoformat()
     counts = " · ".join(
         f"S{n} {len(stage_buckets[n])}" for n in STAGE_NAMES
@@ -305,7 +348,7 @@ def main() -> None:
     stats_md = (
         f"**{n_systems} systems** across the 8 stages "
         f"({len(crosscut)} cross-cutting) · "
-        f"**{len(benchmarks)} benchmarks** · "
+        f"**{n_benchmarks} benchmarks** · "
         f"**{len(governance)} governance/threat papers** · "
         f"**{len(comparison)} related surveys** · "
         f"last verified **{today}**\n\n"
@@ -339,19 +382,18 @@ def main() -> None:
 
     # ---- emit docs/papers.json for the interactive site ----
     def kind_of(r: dict, stages: list[int]) -> str:
-        label = r.get("lifecycle_stage", "").strip().lower()
+        bk = r.get("bibkey", "").strip()
         atype = r.get("agent_type", "").strip().lower()
-        if not stages:
-            if label == "benchmark":
-                return "benchmark"
-            if label == "governance":
-                return "governance"
-            if label == "foundation":
-                return "foundation"
-            if atype == "survey" or label in COMPARISON_LABELS:
-                return "survey"
-            return "framing"
-        return "crosscut" if len(stages) >= CROSSCUT_MIN_STAGES else "system"
+        label = r.get("lifecycle_stage", "").strip().lower()
+        if is_system(r):
+            return "crosscut" if len(stages) >= CROSSCUT_MIN_STAGES else "system"
+        if bk in EXCLUDE_BENCH or atype in BENCH_TYPES:
+            return "benchmark"
+        if atype in SURVEY_TYPES or label in COMPARISON_LABELS:
+            return "survey"
+        if bk in EXCLUDE_FOUND:
+            return "foundation"
+        return "framing"
 
     papers = []
     for r in rows:
