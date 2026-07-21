@@ -429,20 +429,20 @@ A `rollback-and-rerun` delta is the recommended default BEC probe.
 <!-- BEGIN:BENCHMARKS -->
 | Year | Benchmark | Domain | Change axis | Key signal | BEC discipline |
 | :---: | --- | --- | --- | --- | --- |
-| 2026 | [GeoEvolver](https://scholar.google.com/scholar?q=GeoEvolver+lifelong+agent+benchmark) 🔎 | Earth observation (multi-agent) | Domain shift | Domain-specific MA experience | Some (natural domain drift) |
-| 2026 | [LOCA-Bench](https://scholar.google.com/scholar?q=LOCA-Bench+lifelong+agent+benchmark) 🔎 | Language agents | Controllable context growth | Context-management strategies | Limited |
-| 2025 | [Continual Coding](https://scholar.google.com/scholar?q=Continual+Coding+lifelong+agent+benchmark) 🔎 | Coding agents | Issue stream | Continual code-fix | Some (issues evolve naturally) |
-| 2025 | [Continuous Benchmark Generation](https://scholar.google.com/scholar?q=Continuous+Benchmark+Generation+lifelong+agent+benchmark) 🔎 | Enterprise agents | Dynamic benchmarks | Enterprise-scale | Strong (generates per-agent) |
-| 2025 | [LifelongAgentBench](https://scholar.google.com/scholar?q=LifelongAgentBench+lifelong+agent+benchmark) 🔎 | Tool-using agents | Sequential task stream | Group self-consistency | Limited |
-| 2025 | [Long-Horizon Office Workflows](https://scholar.google.com/scholar?q=Long-Horizon+Office+Workflows+lifelong+agent+benchmark) 🔎 | Office agents | End-to-end workflow | Long-horizon tasks | Limited |
-| 2025 | [MACEval](https://scholar.google.com/scholar?q=MACEval+lifelong+agent+benchmark) 🔎 | Multi-LLM eval | Continual eval | Multi-agent role-assigned eval | Some (continuous design) |
-| 2025 | [Self-Evolving Memory Benchmark](https://scholar.google.com/scholar?q=Self-Evolving+Memory+Benchmark+lifelong+agent+benchmark) 🔎 | Test-time learning + memory | Test-time learning | Self-evolving memory | Limited |
-| 2025 | [SHADE-Arena (adversarial)](https://scholar.google.com/scholar?q=SHADE-Arena+%28adversarial%29+lifelong+agent+benchmark) 🔎 | Multi-agent | Adversarial | Saboteur vs. monitor | Strong (adversarial structure resists memorization) |
-| 2025 | [Strategic Catan](https://scholar.google.com/scholar?q=Strategic+Catan+lifelong+agent+benchmark) 🔎 | Strategic planning | Adversarial stochastic | Long-horizon strategy | Some (stochastic env reduces direct memorization) |
+| 2026 | [GeoEvolver](https://arxiv.org/abs/2602.02559) | Earth observation (multi-agent) | Domain shift | Domain-specific MA experience | Some (natural domain drift) |
+| 2026 | [LOCA-Bench](https://arxiv.org/abs/2602.07962) | Language agents | Controllable context growth | Context-management strategies | Limited |
+| 2025 | [Continual Coding](https://arxiv.org/abs/2507.00014) | Coding agents | Issue stream | Continual code-fix | Some (issues evolve naturally) |
+| 2025 | [Continuous Benchmark Generation](https://arxiv.org/abs/2511.10049) | Enterprise agents | Dynamic benchmarks | Enterprise-scale | Strong (generates per-agent) |
+| 2025 | [LifelongAgentBench](https://arxiv.org/abs/2505.11942) | Tool-using agents | Sequential task stream | Group self-consistency | Limited |
+| 2025 | [Long-Horizon Office Workflows](https://arxiv.org/abs/2508.09124) | Office agents | End-to-end workflow | Long-horizon tasks | Limited |
+| 2025 | [MACEval](https://arxiv.org/abs/2511.09139) | Multi-LLM eval | Continual eval | Multi-agent role-assigned eval | Some (continuous design) |
+| 2025 | [Self-Evolving Memory Benchmark](https://arxiv.org/abs/2511.20857) | Test-time learning + memory | Test-time learning | Self-evolving memory | Limited |
+| 2025 | [SHADE-Arena (adversarial)](https://arxiv.org/abs/2506.15740) | Multi-agent | Adversarial | Saboteur vs. monitor | Strong (adversarial structure resists memorization) |
+| 2025 | [Strategic Catan](https://arxiv.org/abs/2506.04651) | Strategic planning | Adversarial stochastic | Long-horizon strategy | Some (stochastic env reduces direct memorization) |
 | 2024 | [BABILong](https://proceedings.neurips.cc/paper_files/paper/2024/file/c0d62e70dbc659cc9bd44cbcf1cb652f-Paper-Datasets_and_Benchmarks_Track.pdf) | Long-context reasoning | Document length | Memory-augmented retrieval | Static-style only |
 | 2024 | [Dynamic Conversational Benchmarking](https://doi.org/10.52202/079017-1347) | Conversational | Task interleaving | LTM benefit | Limited |
-| 2024 | [LOCOMO](https://scholar.google.com/scholar?q=LOCOMO+lifelong+agent+benchmark) 🔎 | Conversational | Long-term memory | Multi-session conversation | Static-style only |
-| 2024 | [LongMemEval](https://scholar.google.com/scholar?q=LongMemEval+lifelong+agent+benchmark) 🔎 | Conversational (chat assistants) | Long-term memory with knowledge updates | Interactive long-term memory across sessions | Static-style only |
+| 2024 | [LOCOMO](https://arxiv.org/abs/2402.17753) | Conversational | Long-term memory | Multi-session conversation | Static-style only |
+| 2024 | [LongMemEval](https://arxiv.org/abs/2410.10813) | Conversational (chat assistants) | Long-term memory with knowledge updates | Interactive long-term memory across sessions | Static-style only |
 
 **Seven-property coverage** (Table 15b) — ● full · ◐ partial · ○ none:
 

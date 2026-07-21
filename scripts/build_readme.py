@@ -75,6 +75,24 @@ def is_system(r: dict) -> bool:
             and r.get("lifecycle_stage", "").strip() not in ("Comparison", "Framing"))
 
 
+# Web-verified canonical links for the §10 benchmarks whose bibkeys aren't in the
+# matrix or citation_audit (benchmarks.csv ships no URLs). Verified by name+author+year.
+BENCH_LINKS = {
+    "maharana2024evaluating": "https://arxiv.org/abs/2402.17753",       # LoCoMo
+    "wu2024longmemeval": "https://arxiv.org/abs/2410.10813",            # LongMemEval
+    "kutasov2025shade": "https://arxiv.org/abs/2506.15740",             # SHADE-Arena
+    "zheng2026lifelongagentbench": "https://arxiv.org/abs/2505.11942",  # LifelongAgentBench
+    "wang2025odysseybench": "https://arxiv.org/abs/2508.09124",         # OdysseyBench (Long-Horizon Office)
+    "chen2025maceval": "https://arxiv.org/abs/2511.09139",              # MACEval
+    "dai2026experience": "https://arxiv.org/abs/2602.02559",            # GeoEvolver (not GeoEvolve)
+    "zeng2026loca": "https://arxiv.org/abs/2602.07962",                 # LOCA-bench
+    "joshi2025swe": "https://arxiv.org/abs/2507.00014",                 # Continual Coding (SWE-Bench-CL)
+    "saxena2025continuous": "https://arxiv.org/abs/2511.10049",         # Continuous Benchmark Generation
+    "wei2025evo": "https://arxiv.org/abs/2511.20857",                   # Self-Evolving Memory (Evo-Memory)
+    "belle2025agents": "https://arxiv.org/abs/2506.04651",             # Strategic Catan (Agents of Change)
+}
+
+
 def parse_stages(raw: str) -> list[int]:
     """Extract stage numbers 1-8 from free-text like 'Stage 6', 'Stages 1 6',
     'Stages 1-8', 'Stages 4 5 3'. Returns sorted unique list (possibly empty)."""
@@ -279,7 +297,7 @@ def main() -> None:
 
     def blink(b: dict) -> str:
         title = md_escape(b["benchmark"])
-        url = murl.get(b["bibkey"].strip())
+        url = BENCH_LINKS.get(b["bibkey"].strip()) or murl.get(b["bibkey"].strip())
         if url:
             return f"[{title}]({url})"
         q = urllib.parse.quote_plus(b["benchmark"] + " lifelong agent benchmark")
