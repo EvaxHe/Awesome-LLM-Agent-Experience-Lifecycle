@@ -1,0 +1,91 @@
+bibkey,stages,surfaces,timing,topology,governance
+voyager2023,1 2 3 4 5,Skill,online,single,none
+park2023generativeagents,2 3 4,Memory,online,population,none
+shinn2023reflexion,1 2 3 4,Memory,online,single,none
+zhao2023expel,1 4 5,Memory|Skill,train,single,none
+marc2026experiential,4 5,Skill,online,single,none
+fang2026trajectory,3 4 5,Memory,online,single,none
+xu2025internalizing,4 5 6,Memory|Weights,train,single,none
+echo2024hindsight,1 4 6,Memory,online,single,none
+her2025relabel,1 6,Memory,train,single,none
+seal2025,1 6,Weights,train,single,none
+seal2025coevolution,1 6,Weights,train,single,none
+zhao2026absolute,1 6,Weights,train,single,none
+zuo2026ttrl,1 6,Weights,test,single,none
+ttt2025fewshot,6,Weights,test,single,none
+transformer2_2025,6,Weights,test,single,none
+texttolora2025,6,Weights,test,single,none
+cetin2025reinforcement,5 6,Weights,train,single,none
+limo2025,5 6,Weights,train,single,none
+guo2025deepseek,6,Weights,train,single,none
+hu2025open,6,Weights,train,single,none
+piperesearch2026,6,Weights,train,single,none
+trofimova2025openhandstrajs,6,Weights,train,single,none
+selfevol_gui_2025,1 6,Weights,train,single,none
+evolver2025,1 2 3 4 5 6,Memory|Weights,train,single,none
+agentevolver2025,1 5 6,Weights,train,single,none
+e2e_self_evolve_2025,1 2 3 4 5 6,Memory|Weights,train,single,none
+mem0_2025,2,Memory,online,single,none
+amem2025,2 4 5,Memory,online,single,none
+meminsight2025,2 3,Memory,online,single,none
+mem1_2025,4,Memory,online,single,none
+memos2025,2 7,Memory,online,single,defense
+lm2_2025,2,Memory|Weights,train,single,none
+qwenlong_l1_2025,6,Weights,train,single,none
+engram2025,2 3,Memory,online,single,none
+mars2025,2 8,Memory,online,single,defense
+episode_semantic_2025,2 4,Memory,online,single,none
+sridhar2025regent,3,Memory,test,single,none
+rahl2024,3 4,Memory,online,single,none
+gae_retriever_2025,3,Memory,test,single,none
+learn_to_retrieve_2026,3,Weights,train,single,none
+evolving_open_ended_2026,1 2 3 4 5,Memory|Tool,online,single,none
+factorminer_2026,5,Memory|Skill,online,single,none
+metareflex_2025,4,Memory,online,single,none
+evotool_2026,5 8,Tool,online,single,none
+alita2025,5 8,Tool,online,single,none
+toolgen_2025,2,Weights,train,single,none
+play2prompt_2025,1 5,Memory|Skill,online,single,none
+nemotron_tool_n1_2025,6,Weights,train,single,none
+chain_of_tools_2025,3,Tool,test,single,none
+aflow_2025,5 6,Workflow,train,single,none
+maas_2025,5,Workflow,train,team,none
+adaptflow_2025,5 6,Workflow,train,single,none
+self_optim_dynamic_workflow_2025,4 5,Workflow,online,single,none
+agentdebate_workflow_2025,1 5,Workflow,train,team,none
+agentrr_2025,2 3,Memory,online,single,none
+strategic_planning_catan_2025,1 2 3 4 5 6 7 8,Memory|Weights,online,single,none
+wan2026inference,4 6,Memory,test,single,none
+continual_coding_2025,1 2 3 4 5 6 7,Memory|Weights,online,single,none
+minja_2025,8,Memory,online,single,threat
+sleeper_memory_2025,8,Memory,online,single,threat
+when_memory_poisoning_2025,8,Memory,online,single,defense
+weaponizing_memory_2025,8,Memory,online,single,threat
+poisoned_experience_retrieval_2025,8,Memory,online,single,threat
+leaky_thoughts_2025,8,Memory,online,single,threat
+privacy_multi_agent_2026,8,Memory,online,team,defense
+agentrxiv_2025,8,Memory|Skill,online,team,none
+mae_2025,1 6 8,Weights,train,team,none
+chen2025optima,6 8,Weights,train,team,none
+single_multi_loop_2026,5 6 8,Weights,train,team,none
+cowork_x_2026,4 6 8,Memory|Weights,online,team,none
+sarch2024ical,3 4 5,Memory,online,single,none
+multiagent_rag_self_train_2025,1 6,Weights,train,team,none
+abductive_rag_2025,1 6,Weights,train,single,none
+beyond_one_shot_med_2025,2 4 5,Memory,online,single,none
+geoevolver_2026,1 5,Memory|Tool,online,team,none
+self_calibrating_test_time_2026,6,Weights,test,single,none
+adaptive_compute_test_time_2026,6,Weights,test,single,none
+test_time_learning_2025,6,Weights,test,single,none
+rl_search_efficient_2025,6,Weights,train,single,none
+zerosearch_2025,6,Weights,train,single,none
+self_taught_evaluators_2025,1 6 8,Weights,train,single,none
+self_questioning_2025,1,Weights,train,single,none
+schick2023toolformer,1 6,Weights,train,single,none
+lightthinker_2025,4,Memory,online,single,none
+hermes_skills_2025,5 8,Skill,online,single,none
+openclaw_skills_2025,5,Skill,online,single,none
+unified_evolution_skill_rl_2026,5 6,Skill|Weights,online,single,none
+synthesizing_trajectories_2025,1 6,Memory|Weights,test,single,none
+bartoldson2025trajectory,6,Weights,train,single,none
+selfevolving_strategic_planning_2025,1 2 3 4 5 6 7 8,Memory|Weights,online,single,none

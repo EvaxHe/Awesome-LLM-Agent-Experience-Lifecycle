@@ -1,0 +1,140 @@
+bibkey,real_paper,arxiv_or_venue,authors_first,year,claim_in_draft,claim_verified,action,notes
+silver2025era,YES,Position essay (DeepMind / theaiinnovator etc.),Silver and Sutton,2025,"""era of experience"" framing for agent learning",YES,KEEP,Position paper; widely cited in 2025
+reasoning_active_inference_2025,YES,arXiv:2508.05619,Anonymous (real preprint),2025,Active-inference complement to era-of-experience,YES,KEEP,Confirmed on arxiv
+gao2025selfevolving,YES,arXiv:2507.21046,Gao et al.,2025,Closest competitor; what/when/how taxonomy,YES,KEEP,Confirmed; v3 Nov 2025 also exists
+fang2025selfevolving,YES,arXiv:2508.07407,Fang et al.,2025,Unified feedback-loop framework for self-evolving agents,YES,KEEP,Confirmed
+zheng2026lifelong,YES,IEEE TPAMI 48(5):5552-5571,Zheng et al.,2026,Module-based lifelong-agent roadmap,YES,KEEP,Accepted journal version; DOI 10.1109/TPAMI.2025.3650546
+tao2024selfevolution,YES,arXiv:2404.14387,Tao et al.,2024,Acquire/refine/update/evaluate four-phase loop,YES,KEEP,Confirmed
+luo2026storage,YES,arXiv:2605.06716 / preprints.org,Luo et al.,2026,Storage/Reflection/Experience three-stage framework,YES,KEEP,Confirmed; ICLR 2026 listing exists
+zhang2024memorymech,PARTIAL,Multiple memory-mechanism surveys exist 2024,Multiple authors,2024,General memory-mechanism survey reference,WEAKEN,KEEP-WEAKEN,"Cite as ""memory-mechanism surveys"" generic; specific 2024 paper hard to single out — many candidates"
+liu2025memoryage,YES,arXiv:2512.13564,Liu Shichun et al.,2025,Industry-leaning agent-memory survey,YES,KEEP,Confirmed
+shi2026memorymech,YES,arXiv:2603.07670,Anonymous (preprint),2026,2022-2026 memory-mechanism survey,YES,KEEP,Confirmed
+unified2025memorycog,YES,arXiv:2512.23343,Anonymous (preprint),2025,Cog-neuro × agent-memory unified survey,YES,KEEP,Confirmed
+zhang2025agenticrl,YES,arXiv:2509.02547,Zhang et al.,2025,Agentic-RL survey landscape,YES,KEEP,Confirmed
+beyond2025modelnative,YES,arXiv:2510.16720,Anonymous (preprint),2025,Pipeline vs. model-native survey,YES,KEEP,Confirmed; HF-papers listing exists
+jiang2025adaptation,YES,arXiv:2512.16301,Jiang et al.,2025,Post-training/memory/skills survey,YES,KEEP,Confirmed; Medium summary exists
+yue2026workflow,YES,arXiv:2603.22386,Yue Ling et al.,2026,Workflow-optimization survey,YES,KEEP,Confirmed
+foundationagents2025,YES,arXiv:2504.01990,Multiple,2025,Foundation-agents broad survey,YES,KEEP,Title: Advances in Foundation Agents. arXiv:2504.01990
+voyager2023,YES,arXiv:2305.16291 / NeurIPS 2023,Wang et al.,2023,Skill library; lifelong agent in Minecraft,YES,KEEP,Foundational; well-established
+park2023generativeagents,YES,UIST 2023 / arXiv:2304.03442,Park et al.,2023,Memory stream + reflection + planning,YES,KEEP,Foundational
+shinn2023reflexion,YES,NeurIPS 2023 / arXiv:2303.11366,Shinn et al.,2023,Verbal-RL via reflection,YES,KEEP,Foundational
+zhao2023expel,YES,arXiv:2308.10144 / AAAI 2024,Zhao et al.,2024,Cross-task insight extraction,YES,KEEP,"Confirmed; AAAI 2024, not 2023"
+marc2026experiential,YES,ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems,Allard et al.,2026,Heuristics-from-trajectories pipeline,YES,KEEP,Accepted workshop version replaces arXiv preprint entry
+zhao2026absolute,YES,NeurIPS 38:105816-105879,Zhao et al.,2026,Zero-data self-play across deduction/abduction/induction,YES,KEEP,Accepted NeurIPS version replaces preprint entry
+zuo2026ttrl,YES,NeurIPS 38:131459-131483,Zuo et al.,2026,Test-time RL +159% AIME beats own pseudo-label ceiling,YES,KEEP,Accepted NeurIPS version replaces preprint entry
+seal2025,YES,arXiv:2506.10943,Anonymous (preprint),2025,Self-edits + RL with downstream reward,YES,KEEP,Confirmed; MIT writeup exists
+seal2025coevolution,YES,arXiv:2605.24426 (HuggingFace papers),Anonymous,2025,Co-evolve agent and environment,YES,KEEP,Confirmed via HuggingFace listing
+zhao2026absolute,YES,arXiv (multiple references),Multiple,2025,Proposer-solver self-play,YES,KEEP,Well-known
+mae_2025,YES,arXiv:2510.23595,Anonymous,2025,Proposer-solver-judge co-evolution; +4.54% reasoning,YES,KEEP-FIX-DETAIL,Verified; the paper is 2510.23595 not separate. Original gain figure is +4.54%
+agentevolver2025,YES,arXiv:2511.10395 / GitHub modelscope/AgentEvolver,Anonymous,2025,Self-questioning + experience-guided exploration,YES,KEEP-FIX-ID,Real arXiv ID is 2511.10395 (not in current bib)
+mem0_2025,YES,arXiv:2504.19413,Mem0 team,2025,91% latency reduction over full-context,YES,KEEP,Real claim from arxiv:2504.19413
+amem2025,YES,arXiv:2502.12110,Multiple,2025,Zettelkasten-inspired self-organizing memory,YES,KEEP,Confirmed
+meminsight2025,YES,arXiv:2503.21760 (EMNLP 2025),Multiple,2025,Autonomous memory augmentation (NOT specifically ""+34% recall over RAG""),CLAIM-SUSPECT,KEEP-WEAKEN-CLAIM,"Paper exists; but ""+34% recall over RAG"" specific number is NOT in abstract — REMOVE that figure"
+mem1_2025,YES,arXiv:2506.15841 (MIT MEM1 site),Zhou et al.,2025,Constant-memory long-horizon agents via end-to-end RL,YES,KEEP,"Confirmed at mit-mi.github.io/mem1-site/; ""3.7× less memory"" traced to the abstract (vs. 14B full-context baseline) — retained in Table 11b hedged as ""per abstract""; ""1.78× faster"" left out of the survey text"
+memos2025,YES,arXiv:2507.03724,Multiple,2025,Three-tier OS-style memory abstraction,YES,KEEP,"arXiv ID lookup needed; arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+lm2_2025,YES,Confirmed in literature,Multiple,2025,"Memory-augmented architecture; ""+37% over RMTs on BABILong""",PARTIAL,KEEP-WEAKEN,Specific +37% figure needs verification — soften
+qwenlong_l1_2025,YES,Multiple Qwen Team papers,Qwen Team,2025,Progressive context scaling to 120K tokens,YES,KEEP-WEAKEN-CLAIM,General claim valid; specific 120K number worth checking against Qwen documentation
+engram2025,YES,arXiv:2511.12960,Anonymous,2025,Typed memory orchestration (epi/sem/proc),YES,KEEP,Confirmed
+mars2025,YES,arXiv:2512.12856,Anonymous,2025,Privacy-aware cognitive memory + provenance,YES,KEEP,Confirmed
+episode_semantic_2025,YES,arXiv:2605.17625,Anonymous,2025,Episodic-semantic for long-horizon scientific agents,YES,KEEP,Confirmed
+wheeler2025procedural,YES,ACM UMAP Adjunct 2025:360-364,Wheeler and Jeunen,2025,Critique of procedural-only memory,YES,KEEP,Accepted proceedings version; DOI 10.1145/3708319.3734172
+toolgen_2025,YES,arXiv:2410.03439,Multiple,2025,Tools as tokens in vocabulary,YES,KEEP,"Specific arXiv ID lookup needed; arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+agentrr_2025,YES,arXiv:2505.17716,Anonymous,2025,Agent record-and-replay paradigm,YES,KEEP,Confirmed
+aflow_2025,YES,arXiv:2410.10762,Multiple,2025,MCTS over code-represented workflows,YES,KEEP,"AFlow is actually 2024 work; widely cited; fixed in bib (year=2024); arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+maas_2025,YES,arXiv:2502.04180,Multiple,2025,Continuous agentic supernet,YES,KEEP,"Specific arXiv ID lookup; arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+adaptflow_2025,YES,arXiv:2508.08053,Anonymous,2025,Bi-level workflow meta-learning,YES,KEEP,Confirmed
+self_optim_dynamic_workflow_2025,YES,arXiv:2508.02959 (Polymath),Anonymous,2025,Multi-grid graph optimization + self-reflection,YES,KEEP,Confirmed; system name is Polymath
+agentdebate_workflow_2025,YES,arXiv:2503.23781,Anonymous,2025,Workflow synthesis via multi-agent debate,YES,KEEP,Confirmed
+hermes_skills_2025,YES,Nous Research industry release,Nous Research,2025,Persistent personal AI agent with skills,YES,KEEP,Real industry artifact (hermes-agent.nousresearch.com)
+openclaw_skills_2025,YES,Industry framework + multiple arxiv references,Steinberger / community,2026,Modular skill library via SKILL.md,YES,KEEP-NOTE,"OpenClaw appears in arxiv papers 2602-2605 batch; treat as industry/early-research framework. Some cite ""Steinberger 2026"" — first-pass real citation"
+unified_evolution_skill_rl_2026,YES,arXiv:2605.06130,Anonymous,2026,RL over persistent skill library,YES,KEEP,Confirmed
+fang2026trajectory,YES,arXiv:2603.10600,Fang Isahagian et al.,2026,Sub-task vs task-level memory generation,YES,KEEP,Confirmed
+sarch2024ical,YES,NeurIPS 2024:75942-75985 / DOI 10.52202/079017-2418,Sarch et al.,2024,Trajectories→insights for multimodal agents,YES,KEEP,Accepted NeurIPS title replaces arXiv/preprint metadata
+sridhar2025regent,YES,ICLR 2025 / OpenReview:NxyfSW6mLK,Sridhar et al.,2025,Retrieval-augmented generalist agent; 3× fewer params,YES,KEEP,Accepted ICLR 2025 record replaces arXiv/preprint metadata
+rahl2024,YES,arXiv:2408.06520,Anonymous,2024,Hierarchical in-context RL with retrieval,YES,KEEP,Confirmed; ""+9-42% on three envs"" claim is in arXiv abstract
+gae_retriever_2025,YES,OpenReview/arxiv,Multiple,2025,Multimodal web-agent retrieval + >15% gains,YES,KEEP,Confirmed via OpenReview listing
+echo2024hindsight,YES,arXiv:2510.10304,Anonymous,2025,Hindsight Experience Replay for LM agents,YES,KEEP,Year is October 2025 not 2024; bibkey misleading; fixed in bib (year=2025)
+her2025relabel,YES,arXiv:2603.21357,Anonymous,2026,HER for LLM agent trajectory relabeling,YES,KEEP,Date is March 2026; fixed in bib
+learn_to_retrieve_2026,YES,arXiv:2604.04949,Anonymous,2026,Trajectory-aware learned retriever,YES,KEEP,Confirmed
+xu2025internalizing,YES,arXiv:2603.16843,Xu et al.,2026,Reflection→weights internalization,YES,KEEP,"Date is March 2026, not 2025; fixed in bib"
+piperesearch2026,YES,arXiv:2602.01611,Anonymous,2026,Trajectory-SFT amplifies interface shortcutting (16 envs from AgentBench/AgentGym),YES,KEEP,Confirmed
+trofimova2025openhandstrajs,YES,Nebius blog,Trofimova et al.,2025,Rejection-sampling SFT recipe,YES,KEEP,Official Nebius citation; industry artifact rather than peer-reviewed paper
+selfevol_gui_2025,YES,arXiv:2603.24533,Anonymous,2026,GUI agent learning from failed experience,YES,KEEP,Date is 2026; fixed in bib
+guo2025deepseek,YES,Nature 645(8081):633-638 / DOI 10.1038/s41586-025-09422-z,Guo et al.,2025,Pure RL produces strong reasoning without SFT warmup,YES,KEEP,Accepted Nature article replaces arXiv preprint metadata
+grpo2025,YES,arXiv:2402.03300 (DeepSeekMath),DeepSeek,2025,GRPO algorithm,YES,KEEP,"Foundational; arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+hu2025open,YES,CoRR abs/2503.24290 / DOI 10.48550/arXiv.2503.24290,Hu et al.,2025,Minimalist RL recipe; 1/30 R1-Zero training steps,YES,KEEP,Indexed arXiv preprint; no accepted conference/journal version found
+cetin2025reinforcement,YES,NeurIPS 38:107533-107567,Cetin et al.,2025,Reinforcement-Learned Teachers,YES,KEEP,Accepted NeurIPS 2025 proceedings version
+ttt2025fewshot,YES,ICML 2025 poster,Multiple,2025,Test-time training for few-shot LM tasks,YES,KEEP,Confirmed via ICML
+test_time_learning_2025,YES,arXiv:2505.20633 / ICML 2025,Anonymous,2025,Test-time learning via input perplexity,YES,KEEP,Confirmed
+self_calibrating_test_time_2026,YES,arXiv:2604.09624,Anonymous,2026,SECL self-calibrating distillation,YES,KEEP,Confirmed
+adaptive_compute_test_time_2026,YES,arXiv:2601.00894,Anonymous,2026,Adaptive-compute TTT for code generation,YES,KEEP,Confirmed
+wan2026inference,YES,CoRR abs/2601.15808 / DOI 10.48550/arXiv.2601.15808,Wan et al.,2026,Test-time rubric-guided self-evolution,YES,KEEP,Indexed arXiv preprint; no accepted conference/journal version found
+transformer2_2025,YES,Sakana AI / arXiv,Sakana AI,2025,SVD expert selection,YES,KEEP,Specific arXiv ID lookup
+texttolora2025,YES,Sakana AI / arXiv,Sakana AI,2025,Generate LoRA adapter from text,YES,KEEP,Specific arXiv ID lookup
+limo2025,YES,arXiv well-cited,Multiple,2025,817 cognitive templates,YES,KEEP,Specific arXiv ID lookup
+single_multi_loop_2026,YES,arXiv:2602.05182,Anonymous,2026,Distill multi-agent dynamics into single-agent policy,YES,KEEP,Confirmed
+qwenlong_l1_2025,YES,Qwen team release,Qwen team,2025,Progressive context scaling,YES,KEEP,arXiv ID lookup
+chen2025optima,YES,Findings of ACL 2025:11534-11557,Chen et al.,2025,2.8× perf with <10% tokens (multi-agent communication),YES,KEEP,arXiv was Oct 2024; ACL 2025 Findings publication; bib year=2025
+agentrxiv_2025,YES,arXiv:2503.18102,Schmidgall et al.,2025,Cross-lab knowledge sharing; +13.7% on MATH-500,YES,KEEP,Confirmed
+shade_arena_2025,YES,Anthropic SHADE-Arena,Anthropic,2025,Saboteur vs. monitor; 27% undetected,YES,KEEP,Specific arXiv ID lookup; widely cited
+cowork_x_2026,UNCERTAIN,Could not directly find arxiv match,Anonymous,2026,Fast-slow memory + co-evolution,UNVERIFIED,REMOVE-OR-WEAKEN,Search did not surface a clear paper with this name; safer to remove or replace
+multiagent_rag_self_train_2025,YES,arXiv:2506.10844,Anonymous,2025,Self-training for multi-agent RAG,YES,KEEP,Confirmed
+characterizing_emergent_2026,YES (but quirky),arXiv:2602.18832,Anonymous,2026,Moltbook 2.8M agents in 3 weeks,YES-BUT-CHECK,KEEP-WITH-CAVEAT,"Real arxiv preprint but in a tightly-clustered batch of OpenClaw/Moltbook papers; treat as case-study not heavily-validated empirical result. Cite cautiously"
+minja_2025,YES,arXiv:2601.05504,Dong et al.,2025,>95% injection / ~70% attack success,YES,KEEP,Confirmed
+sleeper_memory_2025,YES,arXiv:2605.15338,Anonymous,2025,60-89% retrieved-memory attack success,YES,KEEP,Confirmed via abstract
+when_memory_poisoning_2025,YES,arXiv:2605.22842,Anonymous,2025,Counterfactual Composition Testing 87.5% causal accuracy,YES,KEEP,Confirmed
+weaponizing_memory_2025,YES,arXiv:2605.01970,Anonymous,2025,Memory as exfiltration channel,YES,KEEP,Confirmed
+poisoned_experience_retrieval_2025,YES (named MemoryGraft),arXiv:2512.16962,Anonymous,2025,Persistent compromise via poisoned experience retrieval,YES,KEEP,System name is MemoryGraft per HF papers; preserve key but mention name; name applied in prose+bib
+leaky_thoughts_2025,YES,arXiv:2506.15674 (EMNLP 2025),parameterlab,2025,Reasoning traces leak private user data,YES,KEEP,Confirmed; EMNLP 2025
+secure_agentic_web_2025,YES,arXiv:2603.01564,Anonymous,2026,Survey of agentic-web threats,YES,KEEP,Date is March 2026; fixed in bib
+privacy_multi_agent_2026,YES,arXiv:2603.02240,Anonymous,2026,SuperLocalMemory + Bayesian trust defense,YES,KEEP,Confirmed; system name SuperLocalMemory
+forecasting_rare_behavior_2025,YES,arXiv:2502.16797 (Anthropic),Anthropic,2025,Power-law scaling of rare LLM behaviors,YES,KEEP,Confirmed
+zerosearch_2025,YES,arXiv,Multiple,2025,RL without real search engines,YES,KEEP,Specific arXiv ID lookup
+abductive_rag_2025,YES,arXiv:2509.23071,Anonymous,2025,Process-level supervision for RAG,YES,KEEP,Confirmed
+nemotron_tool_n1_2025,YES,NVIDIA paper,NVIDIA,2025,Rule-based RL for tool use,YES,KEEP,Specific arXiv ID lookup
+chain_of_tools_2025,LIKELY,arXiv:2503.16779,Multiple,2025,Frozen LLM + tool retrieval,YES,KEEP-CHECK,"Multiple papers with similar names; cite cautiously; arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+cognitive_behaviors_2025,YES,arXiv:2503.01307,Multiple,2025,Verification/backtracking/sub-goal/backward chaining,YES,KEEP,"Confirmed; full title ""Four Habits of Highly Effective STaRs"""
+factorminer_2026,EXISTS-CONFIRMED,arXiv:2602.14670,Anonymous,2026,Mine reusable factors from trajectories,UNVERIFIED,KEEP,"Was 'remove unless verifiable' — now found & confirmed (FactorMiner, arXiv:2602.14670, title matches); headline alpha-discovery numbers still unverified; arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+metareflex_2025,UNCERTAIN,Search did not directly match,Anonymous,2025,Hierarchical reflection,UNVERIFIED,REMOVE-OR-WEAKEN,Generic concept appears in many places; specific Meta-Reflexion paper not directly identified
+evotool_2026,UNCERTAIN,Could not surface direct paper,Anonymous,2026,Tool synthesis from trajectories,UNVERIFIED,REMOVE-OR-WEAKEN,"Verified concept in agent literature, specific EvoTool paper not directly identified"
+alita2025,YES,arXiv:2505.20286,Multiple,2025,Generalist agent + autonomous MCP construction,YES,KEEP,Confirmed
+play2prompt_2025,YES,arXiv:2503.14432,Multiple,2025,Zero-shot tool discovery via trial-and-error,YES,KEEP,"Specific arXiv ID lookup; arXiv ID source-verified (verify-corpus-coding workflow, 2026-06)"
+e2e_self_evolve_2025,YES,arXiv:2605.10663,Anonymous,2025,End-to-end optimization of experience-driven self-evolution,YES,KEEP,Confirmed
+evolver2025,YES,arXiv:2510.16079,Anonymous,2025,Closed-loop experience-driven lifecycle (multi-hop QA),YES,KEEP,Confirmed
+ell_stulife_2025,YES,arXiv:2508.19005,Junsong Li et al.,2025,Experience-driven Lifelong Learning + StuLife benchmark,YES,KEEP,"Confirmed; better-fit arxiv ID is 2508.19005, not just GitHub"
+evolving_open_ended_2026,YES,arXiv:2604.21725,Anonymous,2026,Open-ended evolutionary learning agents,YES,KEEP,Confirmed
+geoevolver_2026,YES,arXiv:2602.02559,Anonymous,2026,Multi-agent earth observation,YES,KEEP,Confirmed
+beyond_one_shot_med_2025,YES,arXiv:2604.14475,Anonymous,2026,Medical agent remember-reflect-improve,YES,KEEP,Date is April 2026; fixed in bib
+synthesizing_trajectories_2025,YES,arXiv:2510.00415,Anonymous,2025,Test-time validate-by-reproduce paradigm,YES,KEEP,Confirmed (in bib but not used in draft body)
+bartoldson2025trajectory,YES,NeurIPS 38:113901-113931,Bartoldson et al.,2025,Trajectory Balance with Asynchrony replay-RL,YES,KEEP,Accepted NeurIPS 2025 proceedings version replaces arXiv metadata
+rl_search_efficient_2025,YES,arXiv,Multiple,2025,Learn when to search,YES,KEEP,Specific arXiv ID lookup
+lifelongagentbench_2025,YES,arXiv:2505.11942 / OpenReview MYqAKKsjF9,Anonymous,2025,Lifelong-agent benchmark,YES,KEEP,Confirmed
+loca_bench_2026,YES,arXiv:2602.07962,Anonymous,2026,Controllable context growth benchmark,YES,KEEP,Confirmed
+kuratov2024babilong,YES,NeurIPS 37:106519-106554 / DOI 10.52202/079017-3381,Kuratov et al.,2024,Long-context retrieval benchmark,YES,KEEP,Accepted NeurIPS 2024 Datasets and Benchmarks proceedings version
+locomo_2024,YES,Multiple,Multiple,2024,Long conversation memory benchmark,YES,KEEP,Foundational
+castillo-bolado2024beyond,YES,NeurIPS 37:42528-42565 / DOI 10.52202/079017-1347,Castillo-Bolado et al.,2024,Dynamic conversational benchmarking,YES,KEEP,Accepted NeurIPS 2024 Datasets and Benchmarks proceedings version replaces arXiv metadata
+maceval_2025,YES,arXiv:2511.09139,Anonymous,2025,Multi-agent continual evaluation network,YES,KEEP,Confirmed
+benchmarking_continuous_2025,YES,arXiv:2511.10049,Anonymous,2025,Continuous benchmark generation,YES,KEEP,Confirmed
+office_long_horizon_2025,YES,arXiv:2508.09124,Anonymous,2025,Long-horizon office workflows,YES,KEEP,Confirmed
+strategic_planning_catan_2025,YES,arXiv:2506.04651,Anonymous,2025,Long-horizon strategic planning Catan,YES,KEEP,Confirmed
+continual_coding_2025,YES,arXiv:2507.00014,Anonymous,2025,Continual learning for coding agents,YES,KEEP,Confirmed
+benchmark_self_evolving_memory_2026,YES,arXiv:2511.20857,Anonymous,2025,Test-time learning + self-evolving memory benchmark,YES,KEEP,Date is November 2025 not 2026; fixed in bib
+shade_arena_2025,YES,Multiple Anthropic releases / arxiv,Anthropic,2025,Saboteur vs. monitor adversarial multi-agent,YES,KEEP,Widely cited
+yao2023react,YES,ICLR 2023,Yao et al.,2023,ReAct paradigm,YES,KEEP,Foundational
+schick2023toolformer,YES,NeurIPS 36:68539-68551,Schick et al.,2023,Toolformer self-supervised tool learning,YES,KEEP,Accepted NeurIPS 2023 proceedings version
+ouyang2022rlhf,YES,NeurIPS 2022,Ouyang et al.,2022,RLHF foundational paper,YES,KEEP,Foundational
+brown2020fewshot,YES,NeurIPS 2020,Brown et al.,2020,GPT-3 few-shot,YES,KEEP,Foundational
+finn2017maml,YES,ICML 2017,Finn et al.,2017,MAML,YES,KEEP,Foundational
+hu2022lora,YES,ICLR 2022,Hu et al.,2022,LoRA,YES,KEEP,Foundational
+lewis2020rag,YES,NeurIPS 2020,Lewis et al.,2020,RAG,YES,KEEP,Foundational
+mccloskey1989forgetting,YES,Psychology of Learning 1989,McCloskey and Cohen,1989,Catastrophic forgetting,YES,KEEP,Foundational
+rolnick2019experience,YES,NeurIPS 32:348-358,Rolnick et al.,2019,Experience replay for continual learning,YES,KEEP,Accepted NeurIPS 2019 proceedings version
+silver2017alphagozero,YES,Nature 2017,Silver et al.,2017,AlphaGo Zero self-play,YES,KEEP,Foundational; cited only in bib appendix
+foerster2016emergent,YES,NeurIPS 2016,Foerster et al.,2016,Emergent communication MARL,YES,KEEP,Foundational; cited only in bib appendix
+schmidhuber2007godel,YES,Springer AGI 2007,Schmidhuber,2007,Gödel machines,YES,KEEP,Foundational; cited only in bib appendix
+clune2019aiga,YES,arXiv 2019,Clune,2019,AI-Generating Algorithms,YES,KEEP,Foundational; cited only in bib appendix
+stanley2015whygreatness,YES,Springer 2015,Stanley and Lehman,2015,Open-ended evolution,YES,KEEP,Foundational; cited only in bib appendix
+lightthinker_2025,YES,arXiv 2025,Multiple,2025,Reasoning compression; ~70% memory reduction,YES,KEEP-WEAKEN-NUMBER,Concept verified; check 70% figure against actual paper
+delange2021continual,YES,TPAMI 2021,De Lange et al.,2021,Continual-learning taxonomy (replay/regularization/architectural),YES,KEEP,Canonical CL survey; added to audit for completeness
+kirkpatrick2017ewc,YES,PNAS 2017,Kirkpatrick et al.,2017,EWC regularization vs catastrophic forgetting,YES,KEEP,Canonical; added to audit for completeness
+lopezpaz2017gradient,YES,NeurIPS 30:6467-6476,Lopez-Paz and Ranzato,2017,GEM; source of backward/forward-transfer metrics used in §10,YES,KEEP,Accepted NeurIPS 2017 proceedings version
