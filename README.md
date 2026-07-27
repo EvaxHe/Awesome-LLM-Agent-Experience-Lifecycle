@@ -14,7 +14,7 @@ from raw interaction to persistent memory, abstracted skills, internalized weigh
 [![License](https://img.shields.io/github/license/EvaxHe/Awesome-LLM-Agent-Experience-Lifecycle)](LICENSE)
 
 <!-- BEGIN:STATS -->
-**90 systems** across the 8 stages (7 cross-cutting) · **14 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-07-21**
+**90 systems** across the 8 stages (7 cross-cutting) · **14 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-07-27**
 
 <sub>Per-stage counts (systems may appear under more than one stage): S1 27 · S2 20 · S3 19 · S4 25 · S5 31 · S6 44 · S7 4 · S8 19</sub>
 <!-- END:STATS -->
@@ -580,5 +580,5 @@ date refresh automatically each week.
 ---
 
 <div align="center">
-<sub>Last verified 2026-07-21 · built from <code>data/literature_matrix.csv</code> by <code>scripts/build_readme.py</code></sub>
+<sub>Last verified 2026-07-27 · built from <code>data/literature_matrix.csv</code> by <code>scripts/build_readme.py</code></sub>
 </div>
