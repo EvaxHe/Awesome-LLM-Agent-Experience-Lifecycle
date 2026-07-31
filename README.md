@@ -90,10 +90,10 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2026 | [Absolute Zero: Reinforced Self-Play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335) | NeurIPS 38 | Weights | Zero-human-data RL training |  |
 | 2026 | [Agent Evolving Learning for Open-Ended Environments](https://arxiv.org/html/2604.21725v1) | arXiv 2604.21725 | Memory + tools | Open-ended evolutionary learning |  |
 | 2026 | [GeoEvolver: Experience-Driven Multi-Agent Earth Observation](https://arxiv.org/html/2602.02559) | arXiv 2602.02559 | Memory + tools | Domain-specific multi-agent experience |  |
-| 2026 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | NeurIPS 38 | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
 | 2026 | [SEAL: Synergistic Co-Evolution of Agents and Learning Environments](https://huggingface.co/papers/2605.24426) | HuggingFace papers 2605.24426 | Policy + environment | Curriculum co-evolution |  |
 | 2026 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2026 | [A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/html/2603.24533) | arXiv 2603.24533 | Weights | Learning from failure |  |
+| 2025 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | NeurIPS 38 | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
 | 2025 | [Abductive Reasoning Path Synthesis for Training RAG Agents](https://arxiv.org/html/2509.23071v1) | arXiv 2509.23071 | Weights | Process-level supervision |  |
 | 2025 | [AgentEvolver: Towards Efficient Self-Evolving Agent System](https://github.com/modelscope/AgentEvolver) | GitHub | Weights | Self-evolution framework | [![stars](https://img.shields.io/github/stars/modelscope/AgentEvolver?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/modelscope/AgentEvolver) |
 | 2025 | [Automating Agent Creation via Agent Debate](https://arxiv.org/html/2503.23781v1) | arXiv 2503.23781 | Workflow | Debate-driven workflow generation |  |
