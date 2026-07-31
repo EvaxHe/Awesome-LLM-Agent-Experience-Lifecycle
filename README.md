@@ -122,11 +122,11 @@ cross-cutting **Governance / threat** layer that the others omit.
 | :---: | --- | --- | --- | --- | :---: |
 | 2026 | [Agent Evolving Learning for Open-Ended Environments](https://arxiv.org/html/2604.21725v1) | arXiv 2604.21725 | Memory + tools | Open-ended evolutionary learning |  |
 | 2026 | [Beyond One-Shot Diagnosis with Agents That Remember, Reflect, and Improve](https://arxiv.org/html/2604.14475v1) | arXiv 2604.14475 | Memory | Memory-reflective med agent |  |
+| 2026 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
+| 2026 | [Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents](https://arxiv.org/html/2605.17625v1) | arXiv 2605.17625 | External memory | Episodic+semantic split for science |  |
 | 2025 | [A-MEM: Zettelkasten-Inspired Self-Organizing Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | arXiv | External memory | Self-organizing memory |  |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
-| 2025 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [ENGRAM: Lightweight Memory Orchestration for Conversational Agents](https://arxiv.org/html/2511.12960v1) | arXiv 2511.12960 | External memory | Lightweight typed memory router |  |
-| 2025 | [Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents](https://arxiv.org/html/2605.17625v1) | arXiv 2605.17625 | External memory | Episodic+semantic split for science |  |
 | 2025 | [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) | arXiv 2510.16079 | Memory + weights | Explicit experience-driven lifecycle | [code](https://huggingface.co/Edaizi/EvolveR) |
 | 2025 | [Get Experience from Practice: AgentRR (Record & Replay)](https://arxiv.org/abs/2505.17716) | arXiv 2505.17716 | External record | Record-replay paradigm |  |
 | 2025 | [Large Memory Models LM2](https://arxiv.org/abs/2502.06049) | arXiv | Architecture + memory | +37% over recurrent memory transformers |  |
