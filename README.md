@@ -121,8 +121,8 @@ cross-cutting **Governance / threat** layer that the others omit.
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
 | 2026 | [Agent Evolving Learning for Open-Ended Environments](https://arxiv.org/html/2604.21725v1) | arXiv 2604.21725 | Memory + tools | Open-ended evolutionary learning |  |
+| 2026 | [Beyond One-Shot Diagnosis with Agents That Remember, Reflect, and Improve](https://arxiv.org/html/2604.14475v1) | arXiv 2604.14475 | Memory | Memory-reflective med agent |  |
 | 2025 | [A-MEM: Zettelkasten-Inspired Self-Organizing Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | arXiv | External memory | Self-organizing memory |  |
-| 2025 | [Beyond One-Shot Diagnosis with Agents That Remember Reflect and Improve](https://arxiv.org/html/2604.14475v1) | arXiv 2604.14475 | Memory | Memory-reflective med agent |  |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
 | 2025 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [ENGRAM: Lightweight Memory Orchestration for Conversational Agents](https://arxiv.org/html/2511.12960v1) | arXiv 2511.12960 | External memory | Lightweight typed memory router |  |
