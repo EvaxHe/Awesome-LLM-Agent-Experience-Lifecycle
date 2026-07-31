@@ -149,9 +149,9 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2026 | [Agent Evolving Learning for Open-Ended Environments](https://arxiv.org/html/2604.21725v1) | arXiv 2604.21725 | Memory + tools | Open-ended evolutionary learning |  |
 | 2026 | [Learning to Retrieve from Agent Trajectories](https://arxiv.org/html/2604.04949v1) | arXiv 2604.04949 | Retriever weights | Trajectory-aware retrieval |  |
 | 2026 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/html/2603.10600) | arXiv 2603.10600 | External tip memory | Sub-task vs task-level memory comparison |  |
+| 2026 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [Chain-of-Tools: Frozen LLM with Tool Retrieval](https://arxiv.org/abs/2503.16779) | arXiv | External tool retriever | Frozen LM with retrieval |  |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
-| 2025 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [ENGRAM: Lightweight Memory Orchestration for Conversational Agents](https://arxiv.org/html/2511.12960v1) | arXiv 2511.12960 | External memory | Lightweight typed memory router |  |
 | 2025 | [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) | arXiv 2510.16079 | Memory + weights | Explicit experience-driven lifecycle | [code](https://huggingface.co/Edaizi/EvolveR) |
 | 2025 | [GAE-Retriever / WebRAGent: RAG for Multimodal Web Agent Planning](https://openreview.net/forum?id=L1VPZFbAcu) | OpenReview | External + ICL | +15% gain via retrieved knowledge |  |
@@ -176,11 +176,11 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2026 | [Experiential Reflective Learning for Self-Improving LLM Agents (ERL)](https://arxiv.org/html/2603.24639) | ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems | External heuristic store | Lightweight task adaptation via heuristics |  |
 | 2026 | [Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification](https://doi.org/10.48550/arXiv.2601.15808) | CoRR abs/2601.15808 | Memory + prompts | Plug-and-play test-time self-evolution |  |
 | 2026 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/html/2603.10600) | arXiv 2603.10600 | External tip memory | Sub-task vs task-level memory comparison |  |
+| 2026 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [A Self-Optimizing Agent with Dynamic Hierarchical Workflow](https://arxiv.org/html/2508.02959) | arXiv 2508.02959 | Workflow | Workflow self-optimization |  |
 | 2025 | [A-MEM: Zettelkasten-Inspired Self-Organizing Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | arXiv | External memory | Self-organizing memory |  |
 | 2025 | [Beyond One-Shot Diagnosis with Agents That Remember Reflect and Improve](https://arxiv.org/html/2604.14475v1) | arXiv 2604.14475 | Memory | Memory-reflective med agent |  |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
-| 2025 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents](https://arxiv.org/html/2605.17625v1) | arXiv 2605.17625 | External memory | Episodic+semantic split for science |  |
 | 2025 | [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) | arXiv 2510.16079 | Memory + weights | Explicit experience-driven lifecycle | [code](https://huggingface.co/Edaizi/EvolveR) |
 | 2025 | [Internalizing Agency from Reflective Experience](https://arxiv.org/html/2603.16843v1) | arXiv 2603.16843 | Weights + memory | Reflection-driven internalization |  |
@@ -210,6 +210,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2026 | [The Single-Multi Evolution Loop](https://arxiv.org/abs/2602.05182) | arXiv | Weights | Single-multi loop |  |
 | 2026 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/html/2603.10600) | arXiv 2603.10600 | External tip memory | Sub-task vs task-level memory comparison |  |
 | 2026 | [Unified Evolution of Skill-Augmented Agents via RL](https://arxiv.org/html/2605.06130v3) | arXiv 2605.06130 | Skills + weights | Skill+RL unified |  |
+| 2026 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [A Self-Optimizing Agent with Dynamic Hierarchical Workflow](https://arxiv.org/html/2508.02959) | arXiv 2508.02959 | Workflow | Workflow self-optimization |  |
 | 2025 | [A-MEM: Zettelkasten-Inspired Self-Organizing Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | arXiv | External memory | Self-organizing memory |  |
 | 2025 | [AdaptFlow: Adaptive Workflow Optimization via Meta-Learning](https://arxiv.org/html/2508.08053) | arXiv 2508.08053 | Workflow | Generalizable workflow init |  |
@@ -219,7 +220,6 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [Automating Agent Creation via Agent Debate](https://arxiv.org/html/2503.23781v1) | arXiv 2503.23781 | Workflow | Debate-driven workflow generation |  |
 | 2025 | [Beyond One-Shot Diagnosis with Agents That Remember Reflect and Improve](https://arxiv.org/html/2604.14475v1) | arXiv 2604.14475 | Memory | Memory-reflective med agent |  |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
-| 2025 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) | arXiv 2510.16079 | Memory + weights | Explicit experience-driven lifecycle | [code](https://huggingface.co/Edaizi/EvolveR) |
 | 2025 | [Hermes Agent: Persistent Skills for Personal AI](https://www.turingpost.com/p/hermes) | Industry blog | Skill files | Persistent personal-agent skills |  |
 | 2025 | [Internalizing Agency from Reflective Experience](https://arxiv.org/html/2603.16843v1) | arXiv 2603.16843 | Weights + memory | Reflection-driven internalization |  |
@@ -248,6 +248,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2026 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | NeurIPS 38 | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
 | 2026 | [Unified Evolution of Skill-Augmented Agents via RL](https://arxiv.org/html/2605.06130v3) | arXiv 2605.06130 | Skills + weights | Skill+RL unified |  |
 | 2026 | [What Do Agents Learn from Trajectory-SFT (PIPE)](https://arxiv.org/html/2602.01611v1) | arXiv 2602.01611 | Weights | Trajectory-SFT amplifies interface shortcutting |  |
+| 2026 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/html/2603.24533) | arXiv 2603.24533 | Weights | Learning from failure |  |
 | 2025 | [Abductive Reasoning Path Synthesis for Training RAG Agents](https://arxiv.org/html/2509.23071v1) | arXiv 2509.23071 | Weights | Process-level supervision |  |
 | 2025 | [AdaptFlow: Adaptive Workflow Optimization via Meta-Learning](https://arxiv.org/html/2508.08053) | arXiv 2508.08053 | Workflow | Generalizable workflow init |  |
@@ -255,7 +256,6 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [AgentEvolver: Towards Efficient Self-Evolving Agent System](https://github.com/modelscope/AgentEvolver) | GitHub | Weights | Self-evolution framework | [![stars](https://img.shields.io/github/stars/modelscope/AgentEvolver?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/modelscope/AgentEvolver) |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
 | 2025 | [DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning](https://doi.org/10.1038/s41586-025-09422-z) | Nature 645(8081):633-638 | Weights | Pure RL produces strong reasoning |  |
-| 2025 | [End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents](https://arxiv.org/abs/2605.10663) | arXiv 2605.10663 | Memory + weights | End-to-end self-evolution |  |
 | 2025 | [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) | arXiv 2510.16079 | Memory + weights | Explicit experience-driven lifecycle | [code](https://huggingface.co/Edaizi/EvolveR) |
 | 2025 | [Hindsight Experience Replay for LLM Agent Trajectory Relabeling](https://arxiv.org/abs/2603.21357v1) | arXiv 2603.21357 | Replay buffer | Goal relabeling for LM agents |  |
 | 2025 | [Internalizing Agency from Reflective Experience](https://arxiv.org/html/2603.16843v1) | arXiv 2603.16843 | Weights + memory | Reflection-driven internalization |  |
