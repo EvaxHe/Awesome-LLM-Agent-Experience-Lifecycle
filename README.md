@@ -106,9 +106,9 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2025 | [SEAL: Synergistic Co-Evolution of Agents and Learning Environments](https://huggingface.co/papers/2605.24426) | HuggingFace papers 2605.24426 | Policy + environment | Curriculum co-evolution |  |
 | 2025 | [Self-Evolving LLM Agents for Strategic Planning](https://arxiv.org/html/2506.04651) | arXiv 2506.04651 | Memory + weights | Long-horizon strategic eval |  |
 | 2025 | [Self-Questioning Agents (AgentEvolver self-questioning component)](https://arxiv.org/abs/2508.03682) | arXiv | Tasks | Self-generated curricula |  |
-| 2025 | [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666) | arXiv | Weights | Match GPT-4 as judge |  |
 | 2025 | [Synthesizing Agent Trajectories via Test-Time Exploration under Validate-by-Reproduce](https://arxiv.org/html/2510.00415v1) | arXiv 2510.00415 | External + weights | Synthetic trajectories |  |
 | 2025 | [ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting](https://arxiv.org/html/2510.10304v1) | arXiv 2510.10304 | External demonstration store + ICL | HER-for-LM-agents formulation |  |
+| 2024 | [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666) | arXiv | Weights | Match GPT-4 as judge |  |
 | 2023 | [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) | arXiv 2308.10144 | External insight library | Insight extraction across tasks | [![stars](https://img.shields.io/github/stars/LeapLabTHU/ExpeL?style=flat&logo=github&label=%E2%98%85&color=ffd700)](https://github.com/LeapLabTHU/ExpeL) |
 | 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | NeurIPS 2023 | External episodic notes | Verbal RL substitute for parameter updates |  |
 | 2023 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://proceedings.neurips.cc/paper_files/paper/2023/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf) | NeurIPS 2023:68539-68551 | Weights | Self-supervised tool learning |  |
