@@ -14,9 +14,9 @@ from raw interaction to persistent memory, abstracted skills, internalized weigh
 [![License](https://img.shields.io/github/license/EvaxHe/Awesome-LLM-Agent-Experience-Lifecycle)](LICENSE)
 
 <!-- BEGIN:STATS -->
-**90 systems** across the 8 stages (7 cross-cutting) · **14 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-08-03**
+**91 systems** across the 8 stages (7 cross-cutting) · **14 benchmarks** · **9 governance/threat papers** · **14 related surveys** · last verified **2026-08-10**
 
-<sub>Per-stage counts (systems may appear under more than one stage): S1 27 · S2 20 · S3 19 · S4 25 · S5 31 · S6 44 · S7 4 · S8 19</sub>
+<sub>Per-stage counts (systems may appear under more than one stage): S1 28 · S2 21 · S3 19 · S4 25 · S5 32 · S6 44 · S7 5 · S8 19</sub>
 <!-- END:STATS -->
 
 </div>
@@ -81,7 +81,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 > CSV (see [Contributing](CONTRIBUTING.md)).
 
 <!-- BEGIN:STAGES -->
-### <a id="s1"></a>S1 — Acquisition  ·  `27 systems`
+### <a id="s1"></a>S1 — Acquisition  ·  `28 systems`
 
 > What experience is collected — trajectories, outcomes, reflections, self-generated tasks, peer feedback, pseudo-labels.
 
@@ -90,6 +90,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2026 | [Absolute Zero: Reinforced Self-Play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335) | NeurIPS 38 | Weights | Zero-human-data RL training |  |
 | 2026 | [Agent Evolving Learning for Open-Ended Environments](https://arxiv.org/html/2604.21725v1) | arXiv 2604.21725 | Memory + tools | Open-ended evolutionary learning |  |
 | 2026 | [GeoEvolver: Experience-Driven Multi-Agent Earth Observation](https://arxiv.org/html/2602.02559) | arXiv 2602.02559 | Memory + tools | Domain-specific multi-agent experience |  |
+| 2026 | [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741) | arXiv 2606.06741 | Skills + verifier | Bootstraps transferable skills and verification without target-task supervision |  |
 | 2026 | [TTRL: Test-Time Reinforcement Learning](https://arxiv.org/abs/2504.16084) | NeurIPS 38 | Weights at test time | Test-time RL surpassing own supervision ceiling |  |
 | 2025 | [A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/html/2603.24533) | arXiv 2603.24533 | Weights | Learning from failure |  |
 | 2025 | [Abductive Reasoning Path Synthesis for Training RAG Agents](https://arxiv.org/html/2509.23071v1) | arXiv 2509.23071 | Weights | Process-level supervision |  |
@@ -114,13 +115,14 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2023 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://proceedings.neurips.cc/paper_files/paper/2023/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf) | NeurIPS 2023:68539-68551 | Weights | Self-supervised tool learning |  |
 | 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | NeurIPS 2023 / arXiv 2305.16291 | External skill library | First lifelong agent with reusable skill library | [code](https://voyager.minedojo.org/) |
 
-### <a id="s2"></a>S2 — Representation  ·  `20 systems`
+### <a id="s2"></a>S2 — Representation  ·  `21 systems`
 
 > How collected experience is stored — typed records, graph notes, skill files, workflow graphs, tool descriptors, parametric encodings.
 
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
 | 2026 | [Agent Evolving Learning for Open-Ended Environments](https://arxiv.org/html/2604.21725v1) | arXiv 2604.21725 | Memory + tools | Open-ended evolutionary learning |  |
+| 2026 | [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741) | arXiv 2606.06741 | Skills + verifier | Bootstraps transferable skills and verification without target-task supervision |  |
 | 2025 | [A-MEM: Zettelkasten-Inspired Self-Organizing Memory for LLM Agents](https://arxiv.org/abs/2502.12110) | arXiv | External memory | Self-organizing memory |  |
 | 2025 | [Beyond One-Shot Diagnosis with Agents That Remember Reflect and Improve](https://arxiv.org/html/2604.14475v1) | arXiv 2604.14475 | Memory | Memory-reflective med agent |  |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
@@ -196,7 +198,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2023 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | NeurIPS 2023 | External episodic notes | Verbal RL substitute for parameter updates |  |
 | 2023 | [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) | NeurIPS 2023 / arXiv 2305.16291 | External skill library | First lifelong agent with reusable skill library | [code](https://voyager.minedojo.org/) |
 
-### <a id="s5"></a>S5 — Abstraction  ·  `31 systems`
+### <a id="s5"></a>S5 — Abstraction  ·  `32 systems`
 
 > How experience becomes reusable capability — skills, heuristics, procedural templates, workflows, tools.
 
@@ -207,6 +209,7 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2026 | [Experiential Reflective Learning for Self-Improving LLM Agents (ERL)](https://arxiv.org/html/2603.24639) | ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems | External heuristic store | Lightweight task adaptation via heuristics |  |
 | 2026 | [FactorMiner](https://arxiv.org/abs/2602.14670) | arXiv | External factor library | Reusable factor abstraction |  |
 | 2026 | [GeoEvolver: Experience-Driven Multi-Agent Earth Observation](https://arxiv.org/html/2602.02559) | arXiv 2602.02559 | Memory + tools | Domain-specific multi-agent experience |  |
+| 2026 | [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741) | arXiv 2606.06741 | Skills + verifier | Bootstraps transferable skills and verification without target-task supervision |  |
 | 2026 | [The Single-Multi Evolution Loop](https://arxiv.org/abs/2602.05182) | arXiv | Weights | Single-multi loop |  |
 | 2026 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/html/2603.10600) | arXiv 2603.10600 | External tip memory | Sub-task vs task-level memory comparison |  |
 | 2026 | [Unified Evolution of Skill-Augmented Agents via RL](https://arxiv.org/html/2605.06130v3) | arXiv 2605.06130 | Skills + weights | Skill+RL unified |  |
@@ -283,12 +286,13 @@ cross-cutting **Governance / threat** layer that the others omit.
 | 2024 | [ECHO: Sample-Efficient Online Learning in LM Agents via Hindsight Trajectory Rewriting](https://arxiv.org/html/2510.10304v1) | arXiv 2510.10304 | External demonstration store + ICL | HER-for-LM-agents formulation |  |
 | 2023 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://proceedings.neurips.cc/paper_files/paper/2023/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf) | NeurIPS 2023:68539-68551 | Weights | Self-supervised tool learning |  |
 
-### <a id="s7"></a>S7 — Revision & Forgetting  ·  `4 systems`
+### <a id="s7"></a>S7 — Revision & Forgetting  ·  `5 systems`
 
 > How stale, wrong, or harmful experience is removed — memory editing, unlearning, drift correction.
 
 | Year | Title | Venue | What's updated | Key contribution | Code |
 | :---: | --- | --- | --- | --- | :---: |
+| 2026 | [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741) | arXiv 2606.06741 | Skills + verifier | Bootstraps transferable skills and verification without target-task supervision |  |
 | 2025 | [Continual Learning for Coding Agents](https://arxiv.org/html/2507.00014) | arXiv 2507.00014 | Memory + weights | Continual coding |  |
 | 2025 | [MemOS: An Operating System for Memory](https://arxiv.org/abs/2507.03724) | arXiv | External memory | Memory OS abstraction |  |
 | 2025 | [Self-Evolving LLM Agents for Strategic Planning](https://arxiv.org/html/2506.04651) | arXiv 2506.04651 | Memory + weights | Long-horizon strategic eval |  |
@@ -580,5 +584,5 @@ date refresh automatically each week.
 ---
 
 <div align="center">
-<sub>Last verified 2026-08-03 · built from <code>data/literature_matrix.csv</code> by <code>scripts/build_readme.py</code></sub>
+<sub>Last verified 2026-08-10 · built from <code>data/literature_matrix.csv</code> by <code>scripts/build_readme.py</code></sub>
 </div>

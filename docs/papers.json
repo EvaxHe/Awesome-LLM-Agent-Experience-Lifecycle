@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03",
+ "generated": "2026-08-10",
  "stage_names": {
   "1": "Acquisition",
   "2": "Representation",
@@ -284,6 +284,25 @@
    "updated": "Memory",
    "experience": "Memory",
    "contribution": "Detailed memory survey",
+   "code": ""
+  },
+  {
+   "bibkey": "yan2026openskill",
+   "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
+   "link": "https://arxiv.org/abs/2606.06741",
+   "direct": true,
+   "year": 2026,
+   "venue": "arXiv 2606.06741",
+   "stages": [
+    1,
+    2,
+    5,
+    7
+   ],
+   "kind": "system",
+   "updated": "Skills + verifier",
+   "experience": "Documents + self-built tasks",
+   "contribution": "Bootstraps transferable skills and verification without target-task supervision",
    "code": ""
   },
   {
